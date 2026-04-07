@@ -1,0 +1,322 @@
+[
+    {
+      "qid": "Q1",
+      "label": "partially_correct",
+      "hallucination_score": 0.4,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.6,
+      "explanation": "GPT-4o correctly identifies the four required documents but adds non-required items (financial proof, admission letter, appointment confirmation, additional documents) that are not federally mandated for entry, constituting advisory overreach beyond immigration requirements."
+    },
+    {
+      "qid": "Q2",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states F-1 students can enter up to 30 days before program start and that earlier arrival is not permitted, fully aligning with DHS regulations."
+    },
+    {
+      "qid": "Q3",
+      "label": "partially_correct",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.7,
+      "explanation": "GPT-4o correctly states no activation is needed and describes the entry process accurately, but uses confusing language saying the I-20 is 'activated' once you enter, when the gold answer clarifies this terminology is incorrect."
+    },
+    {
+      "qid": "Q4",
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.5,
+      "explanation": "GPT-4o provides general travel advice but dilutes the F-1-specific guidance; it correctly notes financial documents may be requested but lacks the specific F-1 context about nonimmigrant intent verification emphasized in the gold answer."
+    },
+    {
+      "qid": "Q5",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.8,
+      "explanation": "GPT-4o correctly explains that an expired visa does not affect status while in the U.S. and is only needed for reentry, accurately reflecting federal F-1 regulations despite providing additional cautionary context."
+    },
+    {
+      "qid": "Q6",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states F-1 students can bring dependents on F-2 visas and accurately describes the application requirements, work/study restrictions, and relationship to F-1 status per USCIS regulations."
+    },
+    {
+      "qid": "Q7",
+      "label": "partially_correct",
+      "hallucination_score": 0.1,
+      "correctness_score": 0.6,
+      "semantic_similarity": 0.3,
+      "explanation": "GPT-4o provides generic travel advice without addressing the F-1-specific regulatory answer that USCIS does not mandate health insurance for F-1 students, though it correctly notes some visas have insurance requirements."
+    },
+    {
+      "qid": "Q8",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly identifies that the SEVIS ID is on Form I-20, begins with 'N', and is located in the upper right corner, fully aligning with SEVP regulations."
+    },
+    {
+      "qid": "Q9",
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.6,
+      "explanation": "GPT-4o correctly states F-1 students can work on-campus immediately but need authorization for off-campus work, though it should clarify on-campus work is only permitted after the program start date per the gold answer."
+    },
+    {
+      "qid": "Q10",
+      "label": "incorrect",
+      "hallucination_score": 0.1,
+      "correctness_score": 0.3,
+      "semantic_similarity": 0.1,
+      "explanation": "GPT-4o provides generic relocation advice completely missing the immigration-specific requirement that schools must report registration in SEVIS and students must complete check-in to maintain F-1 status."
+    },
+    {
+      "qid": "Q11",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states the one full academic year requirement before CPT eligibility and notes the exception for graduate programs requiring immediate training, fully aligned with federal CPT regulations."
+    },
+    {
+      "qid": "Q12",
+      "label": "incorrect",
+      "hallucination_score": 0.8,
+      "correctness_score": 0.0,
+      "semantic_similarity": 0.0,
+      "explanation": "GPT-4o directly contradicts federal CPT requirements by stating internships don't need to be related to major and provides career advice, when DHS regulations explicitly require CPT be directly related to the major field of study."
+    },
+    {
+      "qid": "Q13",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly explains part-time CPT (20 hours or less) is permitted during academic terms with DSO authorization and curriculum requirement, accurately reflecting DHS regulations."
+    },
+    {
+      "qid": "Q14",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.8,
+      "explanation": "GPT-4o correctly identifies that CPT processing time varies by university and is an institutional decision (not USCIS), consistent with the regulatory framework where schools issue CPT authorization."
+    },
+    {
+      "qid": "Q15",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states a job offer is required for CPT because authorization is employer-specific and DSO must enter employer information, aligning with SEVIS requirements."
+    },
+    {
+      "qid": "Q16",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly explains multiple CPT employers are allowed with separate authorization for each position that meets curriculum requirements, consistent with federal CPT regulations."
+    },
+    {
+      "qid": "Q17",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o accurately states 12+ months of full-time CPT eliminates OPT eligibility while part-time CPT does not affect OPT, precisely matching federal regulations."
+    },
+    {
+      "qid": "Q18",
+      "label": "partially_correct",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.6,
+      "explanation": "GPT-4o lists many school-specific documents but misses the key regulatory point that CPT is school-issued (not USCIS-adjudicated), and the primary federal requirement is the I-20 with CPT authorization on page 2."
+    },
+    {
+      "qid": "Q19",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states students cannot work before CPT approval appears on I-20 and that unauthorized employment jeopardizes F-1 status, fully consistent with DHS regulations."
+    },
+    {
+      "qid": "Q20",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states no federal limit on total CPT duration but 12+ months full-time CPT eliminates OPT eligibility while part-time CPT doesn't count, matching federal regulations precisely."
+    },
+    {
+      "qid": "Q21",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states the 90-day window before program end date and recommends applying early, fully aligning with USCIS regulations despite including additional context about processing times and I-20 endorsement."
+    },
+    {
+      "qid": "Q22",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly identifies 90 days before program end date as the earliest application time, precisely matching the federal regulation for post-completion OPT."
+    },
+    {
+      "qid": "Q23",
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.8,
+      "semantic_similarity": 0.7,
+      "explanation": "GPT-4o correctly states no job offer is required to apply for OPT, but adds the fabricated requirement to find employment within 90 days of OPT start, when the actual unemployment limit applies differently under regulations."
+    },
+    {
+      "qid": "Q24",
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.7,
+      "explanation": "GPT-4o states 3-5 months processing time which is longer than the gold answer's 1-3 months typical range; while processing times vary, the specific range provided may not accurately reflect current USCIS timelines."
+    },
+    {
+      "qid": "Q25",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly explains travel while OPT pending is permitted but risky, noting reentry may be denied without EAD and job offer, consistent with USCIS guidance on the risks involved."
+    },
+    {
+      "qid": "Q26",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.8,
+      "explanation": "GPT-4o correctly identifies that OPT denial eliminates work eligibility and mentions the 60-day grace period for departure, aligning with SEVP guidance on post-denial options."
+    },
+    {
+      "qid": "Q27",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states that 12+ months of full-time CPT eliminates OPT eligibility and that part-time CPT does not affect OPT, precisely matching federal F-1 employment regulations."
+    },
+    {
+      "qid": "Q28",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly lists Form I-765, new I-20 with OPT recommendation, passport photos, and filing fee as required documents, consistent with USCIS Form I-765 requirements for OPT applications."
+    },
+    {
+      "qid": "Q29",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly advises using an address where mail can be reliably received and notes USCIS mail may not be forwarded, aligning with USCIS guidance that any valid mailing address is acceptable."
+    },
+    {
+      "qid": "Q30",
+      "label": "partially_correct",
+      "hallucination_score": 0.1,
+      "correctness_score": 0.9,
+      "semantic_similarity": 0.8,
+      "explanation": "GPT-4o correctly states freelance work is allowed if related to field of study, accurately reflecting the regulatory requirement, though the gold answer emphasizes irrelevant freelance work is prohibited."
+    },
+    {
+      "qid": "Q31",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly confirms Computer Science qualifies for STEM OPT because it appears on the DHS STEM Designated Degree Program List, fully consistent with federal STEM OPT eligibility requirements."
+    },
+    {
+      "qid": "Q32",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states students can apply up to 90 days before OPT ends and application must be received before current OPT expires, matching USCIS STEM OPT timing requirements."
+    },
+    {
+      "qid": "Q33",
+      "label": "incorrect",
+      "hallucination_score": 0.5,
+      "correctness_score": 0.3,
+      "semantic_similarity": 0.4,
+      "explanation": "GPT-4o incorrectly states employment is not required at time of application, contradicting DHS regulations that mandate students must be employed by an E-Verify employer to apply for STEM extension."
+    },
+    {
+      "qid": "Q34",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly describes Form I-983 as the training plan completed jointly by student and employer describing training goals and evaluations, consistent with DHS STEM OPT compliance requirements."
+    },
+    {
+      "qid": "Q35",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states students can change employers during STEM OPT if new employer is E-Verify enrolled and new Form I-983 is submitted, matching DHS requirements for employer changes."
+    },
+    {
+      "qid": "Q36",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly identifies 150 total days of unemployment across OPT and STEM OPT (90 days initial + 60 days STEM), precisely matching DHS unemployment limit policy."
+    },
+    {
+      "qid": "Q37",
+      "label": "partially_correct",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.6,
+      "semantic_similarity": 0.3,
+      "explanation": "GPT-4o provides general E-Verify information without clearly stating the specific STEM OPT requirement that all STEM employers must be E-Verify enrolled per DHS regulations, diluting the immigration-specific answer."
+    },
+    {
+      "qid": "Q38",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly identifies consulting is allowed only if employer is E-Verify enrolled, training plan completed, and work is directly related to field of study, consistent with DHS STEM OPT requirements."
+    },
+    {
+      "qid": "Q39",
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.8,
+      "semantic_similarity": 0.7,
+      "explanation": "GPT-4o correctly states one 24-month STEM extension is allowed, but adds confusing information about earning another degree at higher level that, while technically accurate, goes beyond the simple regulatory answer requested."
+    },
+    {
+      "qid": "Q40",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states job loss must be reported and unemployment days accrue with 150 total days allowed across OPT and STEM OPT, accurately reflecting DHS unemployment tracking requirements."
+    }
+  ]

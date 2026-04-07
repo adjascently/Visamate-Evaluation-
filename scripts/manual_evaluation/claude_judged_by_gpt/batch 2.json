@@ -1,0 +1,323 @@
+[
+    {
+      "qid": "Q41",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.97,
+      "explanation": "Claude's answer matches the gold: 90 days for OPT and 150 total with STEM. No fabrications."
+    },
+    {
+      "qid": "Q42",
+      "label": "incorrect",
+      "hallucination_score": 0.55,
+      "correctness_score": 0.45,
+      "semantic_similarity": 0.10,
+      "explanation": "Claude gives general job-loss advice with no immigration content; fails to mention SEVIS reporting or unemployment limits."
+    },
+    {
+      "qid": "Q43",
+      "label": "incorrect",
+      "hallucination_score": 0.55,
+      "correctness_score": 0.40,
+      "semantic_similarity": 0.15,
+      "explanation": "Claude says volunteer work generally does not count, contradicting DHS rules allowing unpaid OPT-related volunteer work."
+    },
+    {
+      "qid": "Q44",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.95,
+      "explanation": "Claude clearly states job searching does not count as employment, aligned with DHS guidance."
+    },
+    {
+      "qid": "Q45",
+      "label": "incorrect",
+      "hallucination_score": 0.50,
+      "correctness_score": 0.40,
+      "semantic_similarity": 0.20,
+      "explanation": "Claude wrongly claims students must provide documents and reasons; DHS only requires accurate SEVIS employment entries."
+    },
+    {
+      "qid": "Q46",
+      "label": "hallucination",
+      "hallucination_score": 0.95,
+      "correctness_score": 0.05,
+      "semantic_similarity": 0.05,
+      "explanation": "Claude gives unemployment-benefit info unrelated to F-1 status and ignores the loss-of-status rule, fabricating irrelevant processes."
+    },
+    {
+      "qid": "Q47",
+      "label": "hallucination",
+      "hallucination_score": 0.95,
+      "correctness_score": 0.05,
+      "semantic_similarity": 0.05,
+      "explanation": "Claude says gig work 'often' maintains status, which is fabricated; unauthorized gig work violates F-1 rules."
+    },
+    {
+      "qid": "Q48",
+      "label": "incorrect",
+      "hallucination_score": 0.50,
+      "correctness_score": 0.40,
+      "semantic_similarity": 0.25,
+      "explanation": "Claude gives generic career advice and ignores unemployment-day limits or required immigration actions."
+    },
+    {
+      "qid": "Q49",
+      "label": "incorrect",
+      "hallucination_score": 0.60,
+      "correctness_score": 0.35,
+      "semantic_similarity": 0.20,
+      "explanation": "Claude fabricates STEM OPT unemployment rules (claims fresh 90 days), contradicting DHS’s 150-day total cap."
+    },
+    {
+      "qid": "Q50",
+      "label": "incorrect",
+      "hallucination_score": 0.60,
+      "correctness_score": 0.35,
+      "semantic_similarity": 0.25,
+      "explanation": "Claude gives general visa info unrelated to F-1; fails to mention change-of-status deadlines and requirements."
+    },
+    {
+      "qid": "Q51",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.95,
+      "explanation": "Claude’s requirements match DHS travel rules for OPT, including EAD and job proof."
+    },
+    {
+      "qid": "Q52",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.94,
+      "explanation": "Accurately lists passport, visa, I-20, EAD, job proof; consistent with DHS guidance."
+    },
+    {
+      "qid": "Q53",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.90,
+      "semantic_similarity": 0.92,
+      "explanation": "Correctly explains need for valid F-1 visa except automatic revalidation."
+    },
+    {
+      "qid": "Q54",
+      "label": "partially_correct",
+      "hallucination_score": 0.25,
+      "correctness_score": 0.70,
+      "semantic_similarity": 0.75,
+      "explanation": "Correct that travel while EAD pending is risky; slightly overstated that reentry requires EAD absolutely."
+    },
+    {
+      "qid": "Q55",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.95,
+      "explanation": "Matches DHS guidance: expired visa ok inside U.S., needed only for reentry."
+    },
+    {
+      "qid": "Q56",
+      "label": "incorrect",
+      "hallucination_score": 0.40,
+      "correctness_score": 0.45,
+      "semantic_similarity": 0.35,
+      "explanation": "Claude claims travel signatures valid for one year; for OPT they are only valid 6 months."
+    },
+    {
+      "qid": "Q57",
+      "label": "incorrect",
+      "hallucination_score": 0.55,
+      "correctness_score": 0.40,
+      "semantic_similarity": 0.10,
+      "explanation": "Claude avoids answering F-1 rules and gives general visa talk; correct answer is 'No reentry during grace period'."
+    },
+    {
+      "qid": "Q58",
+      "label": "hallucination",
+      "hallucination_score": 0.95,
+      "correctness_score": 0.05,
+      "semantic_similarity": 0.00,
+      "explanation": "Claude describes the process for citizens returning to their home country, completely unrelated to F-1 admissions denial."
+    },
+    {
+      "qid": "Q59",
+      "label": "partially_correct",
+      "hallucination_score": 0.20,
+      "correctness_score": 0.75,
+      "semantic_similarity": 0.70,
+      "explanation": "General reasoning okay, but misses F-1 requirement that job proof is recommended specifically for OPT travel."
+    },
+    {
+      "qid": "Q60",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.95,
+      "explanation": "Accurately describes that multiple travel trips are allowed with proper OPT documentation."
+    },
+    {
+      "qid": "Q61",
+      "label": "partially_correct",
+      "hallucination_score": 0.20,
+      "correctness_score": 0.75,
+      "semantic_similarity": 0.80,
+      "explanation": "Generally correct timeline but gives specific dates not guaranteed; still aligned with April filing window."
+    },
+    {
+      "qid": "Q62",
+      "label": "partially_correct",
+      "hallucination_score": 0.25,
+      "correctness_score": 0.70,
+      "semantic_similarity": 0.75,
+      "explanation": "Correct that work stops when STEM expires, but claims no cap-gap coverage, which is inaccurate."
+    },
+    {
+      "qid": "Q63",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.95,
+      "explanation": "Claude explains eligibility, purpose, and effect accurately with no errors."
+    },
+    {
+      "qid": "Q64",
+      "label": "partially_correct",
+      "hallucination_score": 0.25,
+      "correctness_score": 0.70,
+      "semantic_similarity": 0.80,
+      "explanation": "Correct main idea but implies STEM/OPT employment can continue automatically; missing nuance on cap-gap conditions."
+    },
+    {
+      "qid": "Q65",
+      "label": "partially_correct",
+      "hallucination_score": 0.25,
+      "correctness_score": 0.70,
+      "semantic_similarity": 0.75,
+      "explanation": "Correct about portability but includes some incorrect requirements (e.g., approval before starting in some cases)."
+    },
+    {
+      "qid": "Q66",
+      "label": "partially_correct",
+      "hallucination_score": 0.30,
+      "correctness_score": 0.65,
+      "semantic_similarity": 0.70,
+      "explanation": "Some correct appeal info but lacks F-1 cap-gap implications and invents general visa scenarios."
+    },
+    {
+      "qid": "Q67",
+      "label": "incorrect",
+      "hallucination_score": 0.50,
+      "correctness_score": 0.45,
+      "semantic_similarity": 0.20,
+      "explanation": "Cap-gap ends on September 30, not October 1, and does not include 60-day extension after denial."
+    },
+    {
+      "qid": "Q68",
+      "label": "hallucination",
+      "hallucination_score": 0.95,
+      "correctness_score": 0.05,
+      "semantic_similarity": 0.10,
+      "explanation": "Claude fabricates that travel is allowed; USCIS clearly states travel abandons change-of-status during cap-gap."
+    },
+    {
+      "qid": "Q69",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.90,
+      "explanation": "Accurate: premium processing only accelerates timeline and is optional."
+    },
+    {
+      "qid": "Q70",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.92,
+      "explanation": "Lists all required H-1B stamping documents accurately."
+    },
+    {
+      "qid": "Q71",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.90,
+      "semantic_similarity": 0.88,
+      "explanation": "Claude correctly states remote CPT is allowed if CPT rules are met."
+    },
+    {
+      "qid": "Q72",
+      "label": "incorrect",
+      "hallucination_score": 0.45,
+      "correctness_score": 0.40,
+      "semantic_similarity": 0.30,
+      "explanation": "Claude gives general employment info; fails to mention SEVIS reporting and immigration relevance."
+    },
+    {
+      "qid": "Q73",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.90,
+      "semantic_similarity": 0.90,
+      "explanation": "Accurately describes remote OPT rules with correct DHS constraints."
+    },
+    {
+      "qid": "Q74",
+      "label": "partially_correct",
+      "hallucination_score": 0.30,
+      "correctness_score": 0.65,
+      "semantic_similarity": 0.75,
+      "explanation": "Correct that address updates required, but mixes general USCIS rules with nonimmigrant-specific timelines."
+    },
+    {
+      "qid": "Q75",
+      "label": "incorrect",
+      "hallucination_score": 0.50,
+      "correctness_score": 0.40,
+      "semantic_similarity": 0.20,
+      "explanation": "Claude ignores OPT/S E V I S maintenance rules and gives general remote-work tax guidance."
+    },
+    {
+      "qid": "Q76",
+      "label": "partially_correct",
+      "hallucination_score": 0.25,
+      "correctness_score": 0.70,
+      "semantic_similarity": 0.75,
+      "explanation": "Correct that the student must use reliable mailing address but incorrectly claims USCIS avoids PO boxes."
+    },
+    {
+      "qid": "Q77",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.90,
+      "semantic_similarity": 0.88,
+      "explanation": "Accurately states that remote STEM OPT is allowed with E-Verify and I-983 compliance."
+    },
+    {
+      "qid": "Q78",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.95,
+      "explanation": "Correctly states that F-1 students must report address changes within 10 days."
+    },
+    {
+      "qid": "Q79",
+      "label": "incorrect",
+      "hallucination_score": 0.45,
+      "correctness_score": 0.40,
+      "semantic_similarity": 0.30,
+      "explanation": "Claude focuses on general employment tax rules; fails to address OPT regulatory conditions."
+    },
+    {
+      "qid": "Q80",
+      "label": "incorrect",
+      "hallucination_score": 0.55,
+      "correctness_score": 0.35,
+      "semantic_similarity": 0.20,
+      "explanation": "Claude incorrectly states remote work may jeopardize F-1 status; DHS explicitly permits remote OPT/CPT if requirements are met."
+    }
+  ]
+  

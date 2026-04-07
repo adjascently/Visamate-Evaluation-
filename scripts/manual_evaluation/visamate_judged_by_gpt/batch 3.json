@@ -1,0 +1,323 @@
+[
+    {
+      "qid": 81,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Matches gold; multiple OPT employers allowed if related and reported."
+    },
+    {
+      "qid": 82,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Accurately states freelance self-employment is allowed if related and documented."
+    },
+    {
+      "qid": 83,
+      "label": "incorrect",
+      "hallucination_score": 0.6,
+      "correctness_score": 0.4,
+      "semantic_similarity": 0.3,
+      "explanation": "Gold says you MAY start a business if work is under OPT/CPT; model says not permitted."
+    },
+    {
+      "qid": 84,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Accurately states all employers must be reported in SEVIS."
+    },
+    {
+      "qid": 85,
+      "label": "partially_correct",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.7,
+      "explanation": "Correct STEM OPT conditions but incorrectly requires 20 hours for part-time contracting."
+    },
+    {
+      "qid": 86,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correct that passive income is allowed."
+    },
+    {
+      "qid": 87,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Matches gold; co-founding allowed if work is OPT-authorized."
+    },
+    {
+      "qid": 88,
+      "label": "partially_correct",
+      "hallucination_score": 0.4,
+      "correctness_score": 0.6,
+      "semantic_similarity": 0.5,
+      "explanation": "Correct warning but ignores that volunteer work CAN count if meets labor rules."
+    },
+    {
+      "qid": 89,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Paid speaking is allowed if related; matches gold."
+    },
+    {
+      "qid": 90,
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.8,
+      "semantic_similarity": 0.8,
+      "explanation": "Mostly correct but adds E-Verify requirement irrelevant unless STEM OPT."
+    },
+    {
+      "qid": 91,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Accurately reflects 60-day grace period rules."
+    },
+    {
+      "qid": 92,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correct that re-entry is not allowed during grace period."
+    },
+    {
+      "qid": 93,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Matches gold; new program allowed during grace period."
+    },
+    {
+      "qid": 94,
+      "label": "partially_correct",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.6,
+      "explanation": "Correct general rules but gold emphasizes grace period; model emphasizes unemployment limit."
+    },
+    {
+      "qid": 95,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "Accurate explanation of change of status to B-2."
+    },
+    {
+      "qid": 96,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "Matches gold; enrolling in new program extends status."
+    },
+    {
+      "qid": 97,
+      "label": "incorrect",
+      "hallucination_score": 0.6,
+      "correctness_score": 0.4,
+      "semantic_similarity": 0.3,
+      "explanation": "Gold clarifies marriage has no immigration effect; model gives misleading claim grace period is not lawful status."
+    },
+    {
+      "qid": 98,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Consistent with gold; personal belongings are not regulated."
+    },
+    {
+      "qid": 99,
+      "label": "incorrect",
+      "hallucination_score": 0.6,
+      "correctness_score": 0.4,
+      "semantic_similarity": 0.3,
+      "explanation": "Gold says volunteering is allowed but doesn’t stop unemployment; model says all volunteer work is not allowed."
+    },
+    {
+      "qid": 100,
+      "label": "partially_correct",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.7,
+      "explanation": "Correct form and process; adds warnings not in gold but not harmful."
+    },
+    {
+      "qid": 101,
+      "label": "partially_correct",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.7,
+      "explanation": "Correct that DSO handles it; adds unlawful presence which gold does not mention."
+    },
+    {
+      "qid": 102,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Accurate: DSO issues corrected I-20."
+    },
+    {
+      "qid": 103,
+      "label": "partially_correct",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.6,
+      "explanation": "Correct that correction goes through USCIS but fails to distinguish between USCIS error vs student error."
+    },
+    {
+      "qid": 104,
+      "label": "incorrect",
+      "hallucination_score": 0.6,
+      "correctness_score": 0.4,
+      "semantic_similarity": 0.4,
+      "explanation": "Gold lists clear expedite criteria; model incorrectly claims expedited processing is generally unavailable."
+    },
+    {
+      "qid": 105,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correct that student must request a new I-20 to re-enter."
+    },
+    {
+      "qid": 106,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Matches gold; new I-765 must be filed."
+    },
+    {
+      "qid": 107,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Consistent with gold on renewing passport."
+    },
+    {
+      "qid": 108,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correct: no revalidation inside U.S."
+    },
+    {
+      "qid": 109,
+      "label": "partially_correct",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.7,
+      "explanation": "Correct on contacting USCIS; missing rule about USCIS replacing card for free if fault is theirs."
+    },
+    {
+      "qid": 110,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "DSO handles SEVIS corrections; matches gold."
+    },
+    {
+      "qid": 111,
+      "label": "partially_correct",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.7,
+      "explanation": "Correct that CBP handles I-94 corrections but model directs student to USCIS resources unnecessarily."
+    },
+    {
+      "qid": 112,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Fully matches gold; no work allowed while replacement pending."
+    },
+    {
+      "qid": 113,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Accurately describes transfer to another SEVP-certified school."
+    },
+    {
+      "qid": 114,
+      "label": "incorrect",
+      "hallucination_score": 0.6,
+      "correctness_score": 0.4,
+      "semantic_similarity": 0.4,
+      "explanation": "Gold requires passport to be corrected first; model incorrectly starts with SEVIS correction."
+    },
+    {
+      "qid": 115,
+      "label": "partially_correct",
+      "hallucination_score": 0.4,
+      "correctness_score": 0.6,
+      "semantic_similarity": 0.6,
+      "explanation": "Correct that late OPT cannot be filed; model misstates 60-day window as OPT window."
+    },
+    {
+      "qid": 116,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Matches gold regarding general expedite criteria."
+    },
+    {
+      "qid": 117,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Fully consistent; no I-983 means no STEM OPT."
+    },
+    {
+      "qid": 118,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Accurately describes reinstatement requirements."
+    },
+    {
+      "qid": 119,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Matches gold: employer must follow I-9 rules and student must provide valid documents."
+    },
+    {
+      "qid": 120,
+      "label": "incorrect",
+      "hallucination_score": 0.5,
+      "correctness_score": 0.5,
+      "semantic_similarity": 0.5,
+      "explanation": "Gold says appeals ARE allowed via I-290B; model incorrectly says you cannot appeal."
+    }
+  ]
+  

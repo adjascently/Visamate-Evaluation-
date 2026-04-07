@@ -1,0 +1,322 @@
+[
+    {
+      "qid": "Q161",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states F-1 students must file Form 8843 regardless of income and Form 1040-NR if they earned income, accurately reflecting USCIS requirement for nonimmigrants to comply with tax obligations."
+    },
+    {
+      "qid": "Q162",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly explains the 5-year rule as F-1 students being exempt from substantial presence test for first five calendar years for tax residency determination, accurately reflecting IRS rules."
+    },
+    {
+      "qid": "Q163",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states F-1 students from treaty countries can claim tax treaty benefits if eligible and describes the process, accurately reflecting IRS and U.S. tax treaty provisions."
+    },
+    {
+      "qid": "Q164",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states F-1 students on OPT who are nonresident aliens are exempt from Social Security and Medicare taxes, accurately reflecting IRS exemption rules."
+    },
+    {
+      "qid": "Q165",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly explains SSN requires work authorization and employment documentation, though it provides general guidance rather than F-1-specific details about presenting job offer and I-20 with employment authorization."
+    },
+    {
+      "qid": "Q166",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states scholarships exceeding qualified educational expenses may be taxable income, accurately reflecting IRS rules while noting this doesn't affect USCIS status."
+    },
+    {
+      "qid": "Q167",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.8,
+      "explanation": "GPT-4o provides general guidance on claiming dependents but correctly implies nonresident aliens have limitations, consistent with IRS rules that nonresident aliens usually cannot claim dependents except under specific exceptions."
+    },
+    {
+      "qid": "Q168",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states state and federal taxes are filed separately with different agencies and forms, accurately reflecting that filing requirements depend on state tax laws, not USCIS rules."
+    },
+    {
+      "qid": "Q169",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.8,
+      "explanation": "GPT-4o correctly describes IRS penalties and consequences for not filing taxes, consistent with the principle that IRS noncompliance may impact future immigration benefits though not directly affecting current status."
+    },
+    {
+      "qid": "Q170",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states bank accounts can be opened without SSN using alternative identification like ITIN or passport, accurately reflecting that USCIS doesn't regulate banking eligibility."
+    },
+    {
+      "qid": "Q171",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states F-1 students may be eligible for tax refunds depending on withholding and treaty benefits, accurately reflecting that refunds are governed by IRS rules."
+    },
+    {
+      "qid": "Q172",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly explains tax obligations depend on residency status with nonresidents typically taxed only on U.S.-source income, accurately reflecting IRS rules unrelated to USCIS regulations."
+    },
+    {
+      "qid": "Q173",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states students on OPT can contribute to retirement accounts if they have employment income, accurately reflecting IRS eligibility with USCIS having no restrictions on saving or investing."
+    },
+    {
+      "qid": "Q174",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly describes Form 8843 as required for F-1 students and dependents regardless of income to document exempt status for tax residency, accurately reflecting IRS filing requirements."
+    },
+    {
+      "qid": "Q175",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly identifies multiple tax preparation resources including VITA program and university resources, accurately reflecting available assistance options for international students with nonresident returns."
+    },
+    {
+      "qid": "Q176",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states CPT and OPT income are taxed the same based on residency status with both subject to federal and state income tax, accurately reflecting IRS rules."
+    },
+    {
+      "qid": "Q177",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states working in multiple states may require filing tax returns in each state that taxes income, accurately reflecting state tax law requirements independent of USCIS regulations."
+    },
+    {
+      "qid": "Q178",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.8,
+      "explanation": "GPT-4o provides detailed education credit information but correctly implies eligibility depends on tax status, consistent with IRS rules that F-1 nonresident aliens are generally not eligible unless they meet exceptions."
+    },
+    {
+      "qid": "Q179",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states TA/RA income is taxable and must be reported, accurately reflecting IRS rules and noting this doesn't impact USCIS status when employment is authorized."
+    },
+    {
+      "qid": "Q180",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly explains FICA refund applies when Social Security/Medicare taxes were erroneously withheld and describes claiming process through employer or Form 843, accurately reflecting IRS refund procedures."
+    },
+    {
+      "qid": "Q181",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states students can apply for green card while on OPT through employment or family categories and mentions adjustment of status process, accurately reflecting USCIS petition evaluation procedures."
+    },
+    {
+      "qid": "Q182",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly distinguishes H-1B as temporary nonimmigrant work visa and green card as permanent residence, accurately reflecting USCIS classification of H-1B as dual-intent status."
+    },
+    {
+      "qid": "Q183",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly states students can start a business after OPT ends but need valid work authorization to work for it, accurately reflecting USCIS requirement for employment authorization for any work performed."
+    },
+    {
+      "qid": "Q184",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly explains if not selected in H-1B lottery, students need another work-authorized status or must explore alternatives like other visas or departure, consistent with USCIS work authorization requirements."
+    },
+    {
+      "qid": "Q185",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states returning after F-1 ends requires different visa status and explains grace period, accurately reflecting USCIS prohibition on reentry in F-1 status after grace period without new I-20."
+    },
+    {
+      "qid": "Q186",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly explains degree evaluations may be required for employment-based green cards to verify U.S. degree equivalency, accurately reflecting USCIS requirement for credential evaluation when needed."
+    },
+    {
+      "qid": "Q187",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly distinguishes EB-2 for advanced degree holders/exceptional ability and EB-3 for skilled workers/professionals, accurately reflecting USCIS eligibility determination based on job requirements and credentials."
+    },
+    {
+      "qid": "Q188",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly explains EB-1A allows self-petition for extraordinary ability with at least three of ten criteria, accurately reflecting USCIS requirements for sustained national or international acclaim."
+    },
+    {
+      "qid": "Q189",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states green card processing time varies by category, priority date, and country with wait times ranging from months to years, consistent with USCIS and DOS visa bulletin availability."
+    },
+    {
+      "qid": "Q190",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states H-1B can be maintained while green card pending due to dual-intent status and explains extensions beyond six years are possible, accurately reflecting USCIS H-1B dual-intent rules."
+    },
+    {
+      "qid": "Q191",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly describes NIW as allowing self-petition under EB-2 by demonstrating work benefits U.S. national interest without labor certification, accurately reflecting USCIS NIW adjudication criteria."
+    },
+    {
+      "qid": "Q192",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states F-1 students can buy property and notes property ownership doesn't affect immigration status, accurately reflecting USCIS non-restriction on F-1 property purchases."
+    },
+    {
+      "qid": "Q193",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly advises considering multiple factors before pursuing PhD for immigration benefits and notes advanced degrees may support EB-2, consistent with USCIS evaluation based on qualifications not degree alone."
+    },
+    {
+      "qid": "Q194",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly explains job loss impact depends on stage of employment-based green card process and mentions AC21 portability after 180 days, accurately reflecting USCIS rules for employment-based petitions."
+    },
+    {
+      "qid": "Q195",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states H-1B workers can work for startups if employer-employee relationship exists with requirements like financial stability and ability to pay, consistent with USCIS H-1B employer requirements."
+    },
+    {
+      "qid": "Q196",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly explains H-1B amendment is required for material changes like job location, duties, or employment terms, accurately reflecting USCIS determination of what constitutes material change."
+    },
+    {
+      "qid": "Q197",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states H-1B workers can do consulting only for petitioning employer with valid employer-employee relationship, accurately reflecting USCIS prohibition on unauthorized third-party employment without proper filings."
+    },
+    {
+      "qid": "Q198",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly distinguishes premium processing as faster adjudication with additional fee versus regular processing with standard USCIS timelines, accurately reflecting USCIS premium processing service."
+    },
+    {
+      "qid": "Q199",
+      "label": "incorrect",
+      "hallucination_score": 0.5,
+      "correctness_score": 0.3,
+      "semantic_similarity": 0.4,
+      "explanation": "GPT-4o incorrectly states volunteering while awaiting work authorization is generally allowed, when USCIS prohibits volunteering if the activity would normally be paid or considered employment, treating it as unauthorized employment."
+    },
+    {
+      "qid": "Q200",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly lists comprehensive documentation including I-20s, I-797s, EADs, I-94 records, tax documents, and passports, accurately reflecting USCIS requirement for evidence of past status in future applications."
+    }
+  ]

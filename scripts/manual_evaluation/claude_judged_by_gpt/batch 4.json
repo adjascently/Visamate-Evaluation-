@@ -1,0 +1,323 @@
+[
+    {
+      "qid": "Q121",
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.75,
+      "semantic_similarity": 0.82,
+      "explanation": "Mostly accurate but adds unrelated financial aid and academic policies beyond immigration scope."
+    },
+    {
+      "qid": "Q122",
+      "label": "incorrect",
+      "hallucination_score": 0.4,
+      "correctness_score": 0.5,
+      "semantic_similarity": 0.45,
+      "explanation": "Misses SEVP medical RCL rules and instead describes general university leave policies."
+    },
+    {
+      "qid": "Q123",
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.78,
+      "semantic_similarity": 0.86,
+      "explanation": "Correct about SEVIS update and new I-20 but adds extra OPT implications not in gold answer."
+    },
+    {
+      "qid": "Q124",
+      "label": "incorrect",
+      "hallucination_score": 0.4,
+      "correctness_score": 0.48,
+      "semantic_similarity": 0.42,
+      "explanation": "Does not mention that F-1 part-time enrollment requires DSO-authorized RCL and implies it is generally allowed."
+    },
+    {
+      "qid": "Q125",
+      "label": "partially_correct",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.72,
+      "semantic_similarity": 0.74,
+      "explanation": "Includes correct extension concept but adds reasons not permitted under F-1 rules, like financial hardship."
+    },
+    {
+      "qid": "Q126",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.98,
+      "explanation": "Fully aligns with SEVP policy limiting only one online course toward full-time status."
+    },
+    {
+      "qid": "Q127",
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.78,
+      "explanation": "Correct that probation does not break F-1 status but adds irrelevant restrictions unrelated to SEVP."
+    },
+    {
+      "qid": "Q128",
+      "label": "incorrect",
+      "hallucination_score": 0.5,
+      "correctness_score": 0.38,
+      "semantic_similarity": 0.41,
+      "explanation": "Fails to mention SEVP rules about maintaining status and instead discusses general admissions issues."
+    },
+    {
+      "qid": "Q129",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.97,
+      "explanation": "Correctly states I-20 shortening requirement and 60-day grace period."
+    },
+    {
+      "qid": "Q130",
+      "label": "hallucination",
+      "hallucination_score": 0.95,
+      "correctness_score": 0.1,
+      "semantic_similarity": 0.12,
+      "explanation": "Incorrectly claims a gap year can be maintained on F-1, which contradicts SEVP continuous enrollment rules."
+    },
+    {
+      "qid": "Q131",
+      "label": "partially_correct",
+      "hallucination_score": 0.25,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.8,
+      "explanation": "Correct about extension option but adds grace-period defense suggestion not allowed under SEVP."
+    },
+    {
+      "qid": "Q132",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.94,
+      "semantic_similarity": 0.93,
+      "explanation": "Fully aligned: auditing is allowed but cannot count toward full-time enrollment."
+    },
+    {
+      "qid": "Q133",
+      "label": "incorrect",
+      "hallucination_score": 0.55,
+      "correctness_score": 0.3,
+      "semantic_similarity": 0.35,
+      "explanation": "Fails to mention status violation and reinstatement requirements, focusing only on academic impacts."
+    },
+    {
+      "qid": "Q134",
+      "label": "incorrect",
+      "hallucination_score": 0.45,
+      "correctness_score": 0.42,
+      "semantic_similarity": 0.38,
+      "explanation": "Ignores SEVP final-term exception allowing part-time enrollment and instead discourages it."
+    },
+    {
+      "qid": "Q135",
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.78,
+      "semantic_similarity": 0.82,
+      "explanation": "Correct that retaking classes is allowed but omits the F-1 full-time requirement context."
+    },
+    {
+      "qid": "Q136",
+      "label": "partially_correct",
+      "hallucination_score": 0.25,
+      "correctness_score": 0.68,
+      "semantic_similarity": 0.72,
+      "explanation": "Correct that summer study is allowed but fails to mention SEVP requirement to keep home school as primary SEVIS sponsor."
+    },
+    {
+      "qid": "Q137",
+      "label": "incorrect",
+      "hallucination_score": 0.7,
+      "correctness_score": 0.25,
+      "semantic_similarity": 0.2,
+      "explanation": "Completely misses SEVP transfer/departure rules and answers as if about generic programs, not immigration."
+    },
+    {
+      "qid": "Q138",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.93,
+      "semantic_similarity": 0.9,
+      "explanation": "Accurately states that research-only enrollment is valid if counted as full-time by the school."
+    },
+    {
+      "qid": "Q139",
+      "label": "incorrect",
+      "hallucination_score": 0.5,
+      "correctness_score": 0.35,
+      "semantic_similarity": 0.3,
+      "explanation": "Does not address immigration consequences of failing a defense and instead discusses emotional support."
+    },
+    {
+      "qid": "Q140",
+      "label": "partially_correct",
+      "hallucination_score": 0.25,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.78,
+      "explanation": "Correct about changing levels but adds unrelated funding and academic policy details."
+    },
+    {
+      "qid": "Q141",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.97,
+      "explanation": "Fully aligns with USCIS rules that F-2 spouses cannot work."
+    },
+    {
+      "qid": "Q142",
+      "label": "hallucination",
+      "hallucination_score": 0.9,
+      "correctness_score": 0.1,
+      "semantic_similarity": 0.15,
+      "explanation": "Incorrectly states F-1 students cannot have dependents, which is a fabricated rule."
+    },
+    {
+      "qid": "Q143",
+      "label": "partially_correct",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.75,
+      "explanation": "Correct that F-2 spouses cannot study full time but incorrectly restricts part-time study to hobby courses."
+    },
+    {
+      "qid": "Q144",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.94,
+      "semantic_similarity": 0.96,
+      "explanation": "Accurately describes F-2 dependents changing to H-4 when the F-1 moves to H-1B."
+    },
+    {
+      "qid": "Q145",
+      "label": "incorrect",
+      "hallucination_score": 0.6,
+      "correctness_score": 0.32,
+      "semantic_similarity": 0.33,
+      "explanation": "Incorrectly states F-1 OPT does not allow dependents when F-2 sponsorship is permitted."
+    },
+    {
+      "qid": "Q146",
+      "label": "partially_correct",
+      "hallucination_score": 0.25,
+      "correctness_score": 0.72,
+      "semantic_similarity": 0.8,
+      "explanation": "Correct that marriage does not merge records but incorrectly claims F-2 can study full time."
+    },
+    {
+      "qid": "Q147",
+      "label": "hallucination",
+      "hallucination_score": 0.92,
+      "correctness_score": 0.15,
+      "semantic_similarity": 0.18,
+      "explanation": "Incorrectly states F-2 children cannot attend public K-12 despite DHS explicitly allowing it."
+    },
+    {
+      "qid": "Q148",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.96,
+      "semantic_similarity": 0.95,
+      "explanation": "Correctly states F-2 dependents follow F-1 status and must depart after the grace period."
+    },
+    {
+      "qid": "Q149",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.98,
+      "semantic_similarity": 0.97,
+      "explanation": "Accurately explains that parents may visit on B-1/B-2 visas with no F-1 restrictions."
+    },
+    {
+      "qid": "Q150",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.96,
+      "explanation": "Correctly states F-2 dependents lose status when the F-1 loses status."
+    },
+    {
+      "qid": "Q151",
+      "label": "hallucination",
+      "hallucination_score": 0.85,
+      "correctness_score": 0.18,
+      "semantic_similarity": 0.2,
+      "explanation": "Falsely states you cannot add dependents during OPT or STEM OPT despite regulations allowing it."
+    },
+    {
+      "qid": "Q152",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.9,
+      "semantic_similarity": 0.88,
+      "explanation": "Correctly states divorce ends F-2 eligibility and requires change of status or departure."
+    },
+    {
+      "qid": "Q153",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.94,
+      "semantic_similarity": 0.92,
+      "explanation": "Correctly states F-2 dependents may travel independently with proper documents."
+    },
+    {
+      "qid": "Q154",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.97,
+      "semantic_similarity": 0.94,
+      "explanation": "Accurately states no USCIS insurance requirement for F-2 dependents."
+    },
+    {
+      "qid": "Q155",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.96,
+      "semantic_similarity": 0.94,
+      "explanation": "Correctly states F-2 children age out at 21 and must change status or leave."
+    },
+    {
+      "qid": "Q156",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.92,
+      "explanation": "Correct that F-2 dependents may obtain a driver’s license if they meet state requirements."
+    },
+    {
+      "qid": "Q157",
+      "label": "partially_correct",
+      "hallucination_score": 0.25,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.78,
+      "explanation": "Correct about status violation but adds speculation about deportation without regulatory nuance."
+    },
+    {
+      "qid": "Q158",
+      "label": "partially_correct",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.65,
+      "semantic_similarity": 0.72,
+      "explanation": "Correct that employment-like volunteering is prohibited but overstated limitations."
+    },
+    {
+      "qid": "Q159",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.9,
+      "semantic_similarity": 0.88,
+      "explanation": "Matches gold answer that finances are reviewed by the school for dependent I-20 issuance."
+    },
+    {
+      "qid": "Q160",
+      "label": "hallucination",
+      "hallucination_score": 0.9,
+      "correctness_score": 0.12,
+      "semantic_similarity": 0.18,
+      "explanation": "Incorrectly claims F-2 dependents can qualify for SSNs despite USCIS prohibiting this."
+    }
+  ]
+  

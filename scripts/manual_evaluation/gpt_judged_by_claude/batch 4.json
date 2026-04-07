@@ -1,0 +1,322 @@
+[
+    {
+      "qid": "Q121",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states failing a class doesn't automatically violate F-1 status as long as full-time enrollment is maintained, accurately reflecting USCIS requirement that dropping below full-time enrollment affects status."
+    },
+    {
+      "qid": "Q122",
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.6,
+      "semantic_similarity": 0.4,
+      "explanation": "GPT-4o provides general advice about taking semester off but misses the specific F-1 regulation that DSO can authorize reduced course load for medical reasons including mental health, with up to 12 months allowed per educational level."
+    },
+    {
+      "qid": "Q123",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states students can change major if school approves and issues updated I-20 with DSO updating SEVIS, accurately reflecting USCIS requirement that SEVIS records accurately reflect the major."
+    },
+    {
+      "qid": "Q124",
+      "label": "partially_correct",
+      "hallucination_score": 0.1,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.6,
+      "explanation": "GPT-4o provides general advice about dropping to part-time but doesn't clearly emphasize the critical F-1 rule that part-time enrollment requires DSO authorization under specific USCIS criteria and unauthorized part-time study violates status."
+    },
+    {
+      "qid": "Q125",
+      "label": "partially_correct",
+      "hallucination_score": 0.1,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.6,
+      "explanation": "GPT-4o provides general advice about program extension but doesn't emphasize the critical USCIS requirement that new program end date must be reflected on I-20 before current end date expires with valid academic or medical reason."
+    },
+    {
+      "qid": "Q126",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states F-1 regulations limit online classes to one class (or three credit hours) per semester toward full-time requirement, accurately reflecting federal F-1 online course restrictions."
+    },
+    {
+      "qid": "Q127",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly implies academic probation doesn't automatically violate status as long as students remain enrolled and meet academic standards, consistent with SEVP requirement to maintain full-time enrollment."
+    },
+    {
+      "qid": "Q128",
+      "label": "partially_correct",
+      "hallucination_score": 0.1,
+      "correctness_score": 0.6,
+      "semantic_similarity": 0.5,
+      "explanation": "GPT-4o provides general transfer advice but doesn't clearly address the F-1-specific requirement that students on academic suspension must transfer to another SEVP-certified school before falling out of status to maintain continuous full-time enrollment."
+    },
+    {
+      "qid": "Q129",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states DSO must update SEVIS to reflect new program end date if graduating early and mentions 60-day grace period begins from actual completion date, accurately reflecting USCIS SEVIS reporting requirements."
+    },
+    {
+      "qid": "Q130",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly explains gap year requires leaving U.S. or using OPT, and reapplying for new F-1 visa for Master's program, consistent with SEVP requirement for continuous full-time study to maintain F-1 status."
+    },
+    {
+      "qid": "Q131",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly advises requesting program extension from DSO for thesis defense delay and mentions it must be done before I-20 expires, accurately reflecting USCIS program extension procedures for academic reasons."
+    },
+    {
+      "qid": "Q132",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states students can audit classes but audited courses don't count toward full-time enrollment requirement, accurately reflecting SEVP rule that full-time enrollment is required to maintain F-1 status."
+    },
+    {
+      "qid": "Q133",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly implies withdrawing from all classes affects F-1 status and mentions visa implications for international students, consistent with SEVP requirement that unauthorized withdrawal is a status violation requiring departure or reinstatement."
+    },
+    {
+      "qid": "Q134",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly acknowledges part-time enrollment in final semester may be possible based on institutional policies and graduation requirements, consistent with SEVP exception allowing part-time in final term if only part-time coursework remains."
+    },
+    {
+      "qid": "Q135",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly implies retaking classes is permissible if full-time enrollment is maintained, accurately reflecting USCIS position that retakes don't violate status as long as full-time status is maintained."
+    },
+    {
+      "qid": "Q136",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly advises checking with home institution and ensuring credits transfer, consistent with USCIS requirement that SEVIS records reflect primary school while summer classes at another SEVP-certified school are permitted."
+    },
+    {
+      "qid": "Q137",
+      "label": "partially_correct",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.5,
+      "semantic_similarity": 0.2,
+      "explanation": "GPT-4o provides generic software discontinuation advice completely missing the F-1-specific SEVP requirement that if program is discontinued, students must transfer to another certified school or depart the U.S."
+    },
+    {
+      "qid": "Q138",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states F-1 status can be maintained through research-only enrollment if school considers it full-time study and student makes normal progress, accurately reflecting SEVP allowance for research-based enrollment."
+    },
+    {
+      "qid": "Q139",
+      "label": "partially_correct",
+      "hallucination_score": 0.1,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.6,
+      "explanation": "GPT-4o provides general academic advice about failing thesis defense but doesn't clearly emphasize the F-1-specific SEVP requirement that students must maintain full-time enrollment and may need program extension until completion."
+    },
+    {
+      "qid": "Q140",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states switching from PhD to Master's requires school authorization and formal procedures, consistent with USCIS requirement that SEVIS must reflect correct program level through updated I-20."
+    },
+    {
+      "qid": "Q141",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states F-2 spouses are not permitted to work under any circumstances, precisely matching USCIS mandatory prohibition on F-2 dependent employment."
+    },
+    {
+      "qid": "Q142",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly explains adding newborn requires DSO to issue dependent I-20 and child obtains F-2 status through visa application or by birth in U.S., accurately reflecting USCIS dependent addition procedures."
+    },
+    {
+      "qid": "Q143",
+      "label": "incorrect",
+      "hallucination_score": 0.6,
+      "correctness_score": 0.3,
+      "semantic_similarity": 0.4,
+      "explanation": "GPT-4o incorrectly states F-2 spouses can study full-time citing 2015 guidelines, when federal regulations actually permit only part-time study for F-2 spouses unless they change to F-1 status; only F-2 children can study full-time K-12."
+    },
+    {
+      "qid": "Q144",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states F-2 dependents must change to H-4 status when F-1 principal switches to H-1B by filing Form I-539, accurately reflecting USCIS dependent status change requirements."
+    },
+    {
+      "qid": "Q145",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly explains marriage doesn't automatically grant dependent status and spouse needs dependent I-20 and F-2 visa application, accurately reflecting USCIS procedures for adding new dependents."
+    },
+    {
+      "qid": "Q146",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states each F-1 student maintains independent status with separate SEVIS record and marriage doesn't merge statuses, accurately reflecting USCIS requirement for independent F-1 status maintenance."
+    },
+    {
+      "qid": "Q147",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states F-2 children can attend public schools K-12 for free, accurately reflecting DHS specific allowance for F-2 minors to enroll in elementary and secondary education."
+    },
+    {
+      "qid": "Q148",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states F-2 spouse follows F-1 principal's grace period (60 days) after program completion or OPT, accurately reflecting that F-2 dependents follow the status of the F-1."
+    },
+    {
+      "qid": "Q149",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states parents can visit on B-2 tourist visa while student is on F-1, accurately reflecting USCIS allowance for family visits and lack of restrictions on B-2 visits to F-1 students."
+    },
+    {
+      "qid": "Q150",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states if F-1 loses status, F-2 dependents also lose status as F-2 is dependent on F-1 holder maintaining status, accurately reflecting SEVP requirement for dependent status maintenance."
+    },
+    {
+      "qid": "Q151",
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.8,
+      "semantic_similarity": 0.8,
+      "explanation": "GPT-4o correctly states students on STEM OPT can have F-2 dependents and incorrectly adds that F-2 spouses cannot enroll full-time, when the answer should simply confirm STEM OPT doesn't restrict dependent sponsorship without additional incorrect restrictions."
+    },
+    {
+      "qid": "Q152",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly explains divorce terminates F-2 eligibility and spouse must depart or change status, accurately reflecting USCIS requirement that dependents maintain valid status independent of personal circumstances."
+    },
+    {
+      "qid": "Q153",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states F-2 dependents can travel independently with valid passport, F-2 visa, and I-20, accurately reflecting federal regulations allowing independent F-2 dependent travel."
+    },
+    {
+      "qid": "Q154",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly states health insurance is recommended/often required by institutions for F-2 dependents though not federally mandated, consistent with USCIS position that only J-1/J-2 have mandatory federal insurance requirements."
+    },
+    {
+      "qid": "Q155",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states children lose F-2 eligibility at age 21 and must change to another status like F-1, accurately reflecting USCIS age limit for F-2 dependent children."
+    },
+    {
+      "qid": "Q156",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states F-2 dependents can obtain driver's license with identity and immigration documents and requirements vary by state, accurately reflecting that state licensing doesn't conflict with F-2 regulations."
+    },
+    {
+      "qid": "Q157",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states unauthorized employment by F-2 dependent is status violation that can result in termination requiring departure or status change, accurately reflecting USCIS prohibition on F-2 employment."
+    },
+    {
+      "qid": "Q158",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states F-2 dependents can volunteer at nonprofits if truly unpaid and doesn't displace paid worker, consistent with USCIS requirement that volunteer work meet federal labor standards."
+    },
+    {
+      "qid": "Q159",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly describes providing financial documentation to school for dependent I-20 issuance including bank statements and support letters, accurately reflecting that schools (not USCIS directly) review financials for dependent I-20 purposes."
+    },
+    {
+      "qid": "Q160",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states F-2 dependents are not eligible for SSN because not authorized to work and mentions ITIN as alternative for tax purposes, accurately reflecting SSA eligibility requirements for F-2 dependents."
+    }
+  ]

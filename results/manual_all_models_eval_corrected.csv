@@ -1,0 +1,601 @@
+qid,label,hallucination_score,correctness_score,semantic_similarity,explanation,model,error_type,hallucination_corrected
+1,partially_correct,0.2,0.75,0.8,Claude lists the correct core documents but adds inaccurate items like ESTA and non-required documents; core meaning aligns but details are off.,Claude,other,0
+2,incorrect,0.45,0.4,0.25,Claude fails to state the clear rule that F-1 students cannot enter more than 30 days early and adds irrelevant visa categories.,Claude,other,1
+3,partially_correct,0.15,0.75,0.8,"Claude correctly states that the I-20 is not activated at the border but implies that entry itself 'starts' status, which is incomplete but not fabricated.",Claude,fabricated_rule,1
+4,incorrect,0.45,0.45,0.45,"Claude incorrectly states it is not recommended to carry financial documents, contradicting the gold answer’s meaning.",Claude,other,1
+5,hallucination,0.95,0.05,0.05,"Claude fabricates severe legal consequences for visa expiration, which does not end F-1 status; this is a clear hallucination.",Claude,other,1
+6,correct,0,1,0.95,Claude accurately describes F-2 eligibility and requirements; fully aligns with gold.,Claude,,0
+7,incorrect,0.5,0.5,0.2,Claude ignores the key point: USCIS does not require health insurance for F-1 students; gives irrelevant country-generic advice.,Claude,vague_or_generic,1
+8,partially_correct,0.25,0.7,0.75,Claude is right that SEVIS ID appears on the I-20 but incorrectly claims it appears on I-94 or USCIS notices.,Claude,other,0
+9,incorrect,0.55,0.45,0.2,Claude gives general visa work rules instead of stating clearly that F-1 students cannot work on arrival.,Claude,other,1
+10,incorrect,0.4,0.45,0.25,Claude gives general relocation advice and misses the SEVIS-mandated school check-in requirement.,Claude,other,1
+11,correct,0,0.95,0.95,Claude correctly states the 1-academic-year rule and the graduate program exception.,Claude,,0
+12,hallucination,0.95,0.05,0,"Claude states internships do not need to relate to the major, which contradicts core CPT law; clear fabrication.",Claude,other,1
+13,correct,0,0.95,0.95,Claude accurately describes federal part-time CPT rules.,Claude,,0
+14,partially_correct,0.2,0.75,0.8,Claude gives reasonable school timelines but misses the key regulatory point that USCIS does not adjudicate CPT.,Claude,other,0
+15,correct,0,0.95,0.95,Claude correctly states a job offer is required before CPT authorization.,Claude,,0
+16,partially_correct,0.25,0.7,0.8,Claude is mostly correct but incorrectly introduces hour-limit rules not defined by federal CPT policy.,Claude,other,0
+17,correct,0,1,0.95,Claude perfectly matches the OPT-impact rule on 12 months of full-time CPT.,Claude,,0
+18,partially_correct,0.3,0.7,0.75,Claude lists many common school-required CPT documents but adds federal documents not mandated by regulation.,Claude,other,0
+19,correct,0,1,1,Claude states the rule accurately: cannot work until CPT is authorized on the I-20.,Claude,,0
+20,hallucination,1,0,0,Claude answers about mental-health therapy CPT instead of Curricular Practical Training; entirely fabricated.,Claude,fabricated_rule,1
+21,correct,0,0.95,0.95,Claude correctly states the earliest OPT filing window and provides accurate additional details.,Claude,,0
+22,correct,0,1,1,Claude fully matches the 90-day earliest OPT application rule.,Claude,,0
+23,partially_correct,0.2,0.75,0.85,Claude correctly states no job offer is required but introduces an incorrect rule about automatic loss of status after 90 days unemployed.,Claude,wrong_number,1
+24,partially_correct,0.2,0.75,0.8,Claude provides a slightly inflated processing time estimate but stays within reasonable meaning alignment.,Claude,other,0
+25,partially_correct,0.3,0.7,0.7,"Claude correctly states travel is risky but fails to note that reentry requires EAD + job offer, overstating restrictions.",Claude,other,0
+26,partially_correct,0.25,0.7,0.75,Claude captures the meaning of an OPT denial but adds a fictional grace-period concept.,Claude,other,0
+27,correct,0,1,0.95,Claude correctly states that 12 months of full-time CPT eliminates OPT eligibility.,Claude,,0
+28,partially_correct,0.25,0.7,0.8,Claude lists most correct I-765 documents but includes items not required federally such as transcripts.,Claude,other,0
+29,correct,0,0.95,0.95,Claude correctly states students may use any reliable mailing address.,Claude,,0
+30,partially_correct,0.3,0.7,0.75,Claude is correct that freelance work is allowed on regular OPT but misses that STEM OPT cannot include self-employment.,Claude,other,0
+31,correct,0,1,1,Claude accurately states that Computer Science qualifies for STEM OPT.,Claude,,0
+32,incorrect,0.55,0.45,0.4,Claude invents a 150-day earliest filing rule; the correct earliest is 90 days before OPT end.,Claude,wrong_number,1
+33,incorrect,0.6,0.4,0.4,Claude incorrectly states students can apply for STEM OPT while unemployed; an E-Verify employer and I-983 are required at filing.,Claude,other,1
+34,correct,0,0.95,0.95,Claude accurately explains the purpose and structure of Form I-983.,Claude,,0
+35,correct,0,1,0.95,Claude correctly describes STEM OPT employer-change requirements.,Claude,,0
+36,correct,0,1,1,Claude matches DHS rules: 150 total unemployment days across OPT + STEM.,Claude,,0
+37,incorrect,0.6,0.4,0.2,Claude ignores STEM OPT rules and instead explains unrelated E-Verify federal contractor requirements.,Claude,other,1
+38,hallucination,0.9,0.1,0.2,Claude incorrectly states consulting clients must be E-Verify; STEM OPT forbids independent contracting entirely.,Claude,other,1
+39,correct,0,1,1,Claude correctly states STEM OPT can be extended only once for 24 months.,Claude,,0
+40,incorrect,0.6,0.4,0.3,"Claude incorrectly creates a '60-day grace period' after job loss during STEM OPT; unemployment rules are cumulative, not grace-based.",Claude,other,1
+41,correct,0,0.95,0.97,Claude's answer matches the gold: 90 days for OPT and 150 total with STEM. No fabrications.,Claude,,0
+42,incorrect,0.55,0.45,0.1,Claude gives general job-loss advice with no immigration content; fails to mention SEVIS reporting or unemployment limits.,Claude,other,1
+43,incorrect,0.55,0.4,0.15,"Claude says volunteer work generally does not count, contradicting DHS rules allowing unpaid OPT-related volunteer work.",Claude,other,1
+44,correct,0,0.95,0.95,"Claude clearly states job searching does not count as employment, aligned with DHS guidance.",Claude,,0
+45,incorrect,0.5,0.4,0.2,Claude wrongly claims students must provide documents and reasons; DHS only requires accurate SEVIS employment entries.,Claude,other,1
+46,hallucination,0.95,0.05,0.05,"Claude gives unemployment-benefit info unrelated to F-1 status and ignores the loss-of-status rule, fabricating irrelevant processes.",Claude,other,1
+47,hallucination,0.95,0.05,0.05,"Claude says gig work 'often' maintains status, which is fabricated; unauthorized gig work violates F-1 rules.",Claude,fabricated_rule,1
+48,incorrect,0.5,0.4,0.25,Claude gives generic career advice and ignores unemployment-day limits or required immigration actions.,Claude,vague_or_generic,1
+49,incorrect,0.6,0.35,0.2,"Claude fabricates STEM OPT unemployment rules (claims fresh 90 days), contradicting DHS’s 150-day total cap.",Claude,wrong_number,1
+50,incorrect,0.6,0.35,0.25,Claude gives general visa info unrelated to F-1; fails to mention change-of-status deadlines and requirements.,Claude,other,1
+51,correct,0,0.95,0.95,"Claude’s requirements match DHS travel rules for OPT, including EAD and job proof.",Claude,,0
+52,correct,0,0.95,0.94,"Accurately lists passport, visa, I-20, EAD, job proof; consistent with DHS guidance.",Claude,,0
+53,correct,0,0.9,0.92,Correctly explains need for valid F-1 visa except automatic revalidation.,Claude,,0
+54,partially_correct,0.25,0.7,0.75,Correct that travel while EAD pending is risky; slightly overstated that reentry requires EAD absolutely.,Claude,other,0
+55,correct,0,0.95,0.95,"Matches DHS guidance: expired visa ok inside U.S., needed only for reentry.",Claude,,0
+56,incorrect,0.4,0.45,0.35,Claude claims travel signatures valid for one year; for OPT they are only valid 6 months.,Claude,other,1
+57,incorrect,0.55,0.4,0.1,Claude avoids answering F-1 rules and gives general visa talk; correct answer is 'No reentry during grace period'.,Claude,other,1
+58,hallucination,0.95,0.05,0,"Claude describes the process for citizens returning to their home country, completely unrelated to F-1 admissions denial.",Claude,other,1
+59,partially_correct,0.2,0.75,0.7,"General reasoning okay, but misses F-1 requirement that job proof is recommended specifically for OPT travel.",Claude,other,0
+60,correct,0,0.95,0.95,Accurately describes that multiple travel trips are allowed with proper OPT documentation.,Claude,,0
+61,partially_correct,0.2,0.75,0.8,Generally correct timeline but gives specific dates not guaranteed; still aligned with April filing window.,Claude,other,0
+62,partially_correct,0.25,0.7,0.75,"Correct that work stops when STEM expires, but claims no cap-gap coverage, which is inaccurate.",Claude,other,0
+63,correct,0,0.95,0.95,"Claude explains eligibility, purpose, and effect accurately with no errors.",Claude,,0
+64,partially_correct,0.25,0.7,0.8,Correct main idea but implies STEM/OPT employment can continue automatically; missing nuance on cap-gap conditions.,Claude,missing_requirement,1
+65,partially_correct,0.25,0.7,0.75,"Correct about portability but includes some incorrect requirements (e.g., approval before starting in some cases).",Claude,other,0
+66,partially_correct,0.3,0.65,0.7,Some correct appeal info but lacks F-1 cap-gap implications and invents general visa scenarios.,Claude,other,0
+67,incorrect,0.5,0.45,0.2,"Cap-gap ends on September 30, not October 1, and does not include 60-day extension after denial.",Claude,other,1
+68,hallucination,0.95,0.05,0.1,Claude fabricates that travel is allowed; USCIS clearly states travel abandons change-of-status during cap-gap.,Claude,other,1
+69,correct,0,0.95,0.9,Accurate: premium processing only accelerates timeline and is optional.,Claude,,0
+70,correct,0,0.95,0.92,Lists all required H-1B stamping documents accurately.,Claude,,0
+71,correct,0,0.9,0.88,Claude correctly states remote CPT is allowed if CPT rules are met.,Claude,,0
+72,incorrect,0.45,0.4,0.3,Claude gives general employment info; fails to mention SEVIS reporting and immigration relevance.,Claude,other,1
+73,correct,0,0.9,0.9,Accurately describes remote OPT rules with correct DHS constraints.,Claude,,0
+74,partially_correct,0.3,0.65,0.75,"Correct that address updates required, but mixes general USCIS rules with nonimmigrant-specific timelines.",Claude,other,0
+75,incorrect,0.5,0.4,0.2,Claude ignores OPT/S E V I S maintenance rules and gives general remote-work tax guidance.,Claude,other,1
+76,partially_correct,0.25,0.7,0.75,Correct that the student must use reliable mailing address but incorrectly claims USCIS avoids PO boxes.,Claude,other,0
+77,correct,0,0.9,0.88,Accurately states that remote STEM OPT is allowed with E-Verify and I-983 compliance.,Claude,,0
+78,correct,0,0.95,0.95,Correctly states that F-1 students must report address changes within 10 days.,Claude,,0
+79,incorrect,0.45,0.4,0.3,Claude focuses on general employment tax rules; fails to address OPT regulatory conditions.,Claude,other,1
+80,incorrect,0.55,0.35,0.2,Claude incorrectly states remote work may jeopardize F-1 status; DHS explicitly permits remote OPT/CPT if requirements are met.,Claude,other,1
+81,partially_correct,0.25,0.75,0.92,Mostly correct about multiple OPT employers but incorrectly states a 40-hour combined limit which does not exist in regulation.,Claude,other,0
+82,correct,0,1,0.95,Accurately states that freelance consulting is allowed if related to field and properly documented.,Claude,,0
+83,partially_correct,0.2,0.8,0.88,Correct that business activity requires CPT/OPT authorization but adds unnecessary sections on on-campus businesses and status change.,Claude,other,0
+84,partially_correct,0.2,0.8,0.9,Accurate about employer reporting but adds CPT and on-campus reporting tangents not in gold.,Claude,other,0
+85,incorrect,0.5,0.5,0.7,Fails to mention mandatory E-Verify and I-983; implies part-time contracting flexibility that does not meet STEM OPT rules.,Claude,other,1
+86,incorrect,0.6,0.4,0.45,Provides generic global investment advice and ignores F-1 rules entirely.,Claude,vague_or_generic,1
+87,partially_correct,0.25,0.75,0.85,"Correct that co-founding is allowed only if work is authorized, but adds speculative conditions about equity vs employment.",Claude,other,0
+88,partially_correct,0.2,0.75,0.8,Accurately describes volunteer rules but fails to explain OPT-related volunteer constraints.,Claude,other,0
+89,partially_correct,0.2,0.8,0.85,"Correct that paid speaking is employment, but adds speculative distinctions about frequency.",Claude,other,0
+90,partially_correct,0.2,0.8,0.9,"Captures employer reporting but adds details not required by USCIS (supervisor info, hours, etc.).",Claude,other,0
+91,correct,0,1,0.95,Accurate summary of 60-day grace period rules.,Claude,,0
+92,incorrect,0.5,0.4,0.45,Does not answer F-1 grace period rules and gives generic visa advice.,Claude,vague_or_generic,1
+93,correct,0,1,0.95,Accurately describes starting a new program during grace period and SEVIS transfer rules.,Claude,,0
+94,partially_correct,0.2,0.8,0.9,Correct description of grace period but adds unrelated status-change options not mentioned in gold.,Claude,other,0
+95,partially_correct,0.2,0.75,0.85,"Correct that F-1 to B-2 uses I-539, but Claude adds generic visa rules and unnecessary questions.",Claude,vague_or_generic,0
+96,correct,0,1,0.9,Accurately states enrolling in a new program extends F-1 with a new I-20.,Claude,,0
+97,incorrect,0.6,0.4,0.35,Gold clarifies marriage doesn’t affect F-1 status; Claude incorrectly implies filing I-485 during grace period is standard.,Claude,other,1
+98,correct,0,1,0.95,Gold says belongings are not regulated; Claude gives general advice without inventing immigration rules.,Claude,,0
+99,partially_correct,0.25,0.75,0.8,Correct about general volunteer rules but fails to note no employment (paid/unpaid) is allowed after OPT ends.,Claude,other,0
+100,correct,0,1,0.95,Accurately explains change of status to H-4 using I-539.,Claude,,0
+101,incorrect,0.5,0.45,0.5,Claude incorrectly implies DSOs can reinstate records; reinstatement is a USCIS process via I-539.,Claude,other,1
+102,correct,0,1,0.95,Correctly states DSO issues a corrected I-20.,Claude,,0
+103,correct,0,1,0.9,Correct distinction between USCIS error vs applicant error on EAD mistakes.,Claude,,0
+104,correct,0,1,0.9,Accurately states EAD expedite criteria.,Claude,,0
+105,partially_correct,0.3,0.7,0.8,"Correct that DSO issues a new I-20, but adds embassy and visa renewal guidance not tied to gold.",Claude,other,0
+106,correct,0,1,0.9,Matches gold: replacement EAD requires new I-765 and fee.,Claude,,0
+107,incorrect,0.5,0.45,0.6,Claims expired passport requires contacting program coordinators and discusses visas—gold explains simple renewal via home embassy only.,Claude,other,1
+108,correct,0,1,0.95,Accurate: F-1 visas cannot be renewed in the U.S.,Claude,,0
+109,partially_correct,0.2,0.8,0.9,Correct process but adds USPS guidance irrelevant to gold.,Claude,other,0
+110,partially_correct,0.2,0.8,0.85,"Correct that DSOs correct SEVIS errors but adds student-initiated SEVP cases, which is not standard.",Claude,other,0
+111,incorrect,0.45,0.55,0.6,"Gold says CBP Deferred Inspection corrects I-94; Claude incorrectly instructs filing I-102, which is unnecessary in most cases.",Claude,other,1
+112,correct,0,1,0.9,Accurately states no work is allowed while replacement EAD is pending.,Claude,,0
+113,partially_correct,0.25,0.75,0.85,"Correct that transfers are possible, but adds teach-outs and extended grace periods not in gold.",Claude,other,0
+114,incorrect,0.6,0.4,0.3,Claude gives U.S. domestic name correction processes unrelated to F-1 requirements; gold focuses on passport update then immigration documents.,Claude,other,1
+115,incorrect,0.5,0.45,0.55,"Gold states late OPT cannot be filed; Claude suggests USCIS may accept late filings, which is false.",Claude,other,1
+116,correct,0,1,0.9,"Accurately reflects general expedite criteria for STEM OPT, matching gold.",Claude,,0
+117,correct,0,1,0.95,Correctly states that STEM OPT cannot proceed without a completed I-983.,Claude,,0
+118,correct,0,1,0.95,Accurately describes reinstatement process via I-539.,Claude,,0
+119,correct,0,1,0.9,Correct overview of I-9 rules; aligns with gold.,Claude,,0
+120,incorrect,0.45,0.55,0.65,Claude incorrectly claims OPT denials cannot be appealed; gold states motions/appeals via I-290B are allowed.,Claude,other,1
+121,partially_correct,0.2,0.75,0.82,Mostly accurate but adds unrelated financial aid and academic policies beyond immigration scope.,Claude,other,0
+122,incorrect,0.4,0.5,0.45,Misses SEVP medical RCL rules and instead describes general university leave policies.,Claude,other,1
+123,partially_correct,0.2,0.78,0.86,Correct about SEVIS update and new I-20 but adds extra OPT implications not in gold answer.,Claude,other,0
+124,incorrect,0.4,0.48,0.42,Does not mention that F-1 part-time enrollment requires DSO-authorized RCL and implies it is generally allowed.,Claude,missing_requirement,1
+125,partially_correct,0.3,0.72,0.74,"Includes correct extension concept but adds reasons not permitted under F-1 rules, like financial hardship.",Claude,other,0
+126,correct,0,1,0.98,Fully aligns with SEVP policy limiting only one online course toward full-time status.,Claude,,0
+127,partially_correct,0.2,0.7,0.78,Correct that probation does not break F-1 status but adds irrelevant restrictions unrelated to SEVP.,Claude,other,0
+128,incorrect,0.5,0.38,0.41,Fails to mention SEVP rules about maintaining status and instead discusses general admissions issues.,Claude,other,1
+129,correct,0,0.95,0.97,Correctly states I-20 shortening requirement and 60-day grace period.,Claude,,0
+130,hallucination,0.95,0.1,0.12,"Incorrectly claims a gap year can be maintained on F-1, which contradicts SEVP continuous enrollment rules.",Claude,other,1
+131,partially_correct,0.25,0.7,0.8,Correct about extension option but adds grace-period defense suggestion not allowed under SEVP.,Claude,other,0
+132,correct,0,0.94,0.93,Fully aligned: auditing is allowed but cannot count toward full-time enrollment.,Claude,,0
+133,incorrect,0.55,0.3,0.35,"Fails to mention status violation and reinstatement requirements, focusing only on academic impacts.",Claude,other,1
+134,incorrect,0.45,0.42,0.38,Ignores SEVP final-term exception allowing part-time enrollment and instead discourages it.,Claude,other,1
+135,partially_correct,0.2,0.78,0.82,Correct that retaking classes is allowed but omits the F-1 full-time requirement context.,Claude,missing_requirement,1
+136,partially_correct,0.25,0.68,0.72,Correct that summer study is allowed but fails to mention SEVP requirement to keep home school as primary SEVIS sponsor.,Claude,other,0
+137,incorrect,0.7,0.25,0.2,"Completely misses SEVP transfer/departure rules and answers as if about generic programs, not immigration.",Claude,vague_or_generic,1
+138,correct,0,0.93,0.9,Accurately states that research-only enrollment is valid if counted as full-time by the school.,Claude,,0
+139,incorrect,0.5,0.35,0.3,Does not address immigration consequences of failing a defense and instead discusses emotional support.,Claude,other,1
+140,partially_correct,0.25,0.7,0.78,Correct about changing levels but adds unrelated funding and academic policy details.,Claude,other,0
+141,correct,0,0.95,0.97,Fully aligns with USCIS rules that F-2 spouses cannot work.,Claude,,0
+142,hallucination,0.9,0.1,0.15,"Incorrectly states F-1 students cannot have dependents, which is a fabricated rule.",Claude,fabricated_rule,1
+143,partially_correct,0.3,0.7,0.75,Correct that F-2 spouses cannot study full time but incorrectly restricts part-time study to hobby courses.,Claude,other,0
+144,correct,0,0.94,0.96,Accurately describes F-2 dependents changing to H-4 when the F-1 moves to H-1B.,Claude,,0
+145,incorrect,0.6,0.32,0.33,Incorrectly states F-1 OPT does not allow dependents when F-2 sponsorship is permitted.,Claude,other,1
+146,partially_correct,0.25,0.72,0.8,Correct that marriage does not merge records but incorrectly claims F-2 can study full time.,Claude,other,0
+147,hallucination,0.92,0.15,0.18,Incorrectly states F-2 children cannot attend public K-12 despite DHS explicitly allowing it.,Claude,other,1
+148,correct,0,0.96,0.95,Correctly states F-2 dependents follow F-1 status and must depart after the grace period.,Claude,,0
+149,correct,0,0.98,0.97,Accurately explains that parents may visit on B-1/B-2 visas with no F-1 restrictions.,Claude,,0
+150,correct,0,0.95,0.96,Correctly states F-2 dependents lose status when the F-1 loses status.,Claude,,0
+151,hallucination,0.85,0.18,0.2,Falsely states you cannot add dependents during OPT or STEM OPT despite regulations allowing it.,Claude,other,1
+152,correct,0,0.9,0.88,Correctly states divorce ends F-2 eligibility and requires change of status or departure.,Claude,,0
+153,correct,0,0.94,0.92,Correctly states F-2 dependents may travel independently with proper documents.,Claude,,0
+154,correct,0,0.97,0.94,Accurately states no USCIS insurance requirement for F-2 dependents.,Claude,,0
+155,correct,0,0.96,0.94,Correctly states F-2 children age out at 21 and must change status or leave.,Claude,,0
+156,correct,0,0.95,0.92,Correct that F-2 dependents may obtain a driver’s license if they meet state requirements.,Claude,,0
+157,partially_correct,0.25,0.7,0.78,Correct about status violation but adds speculation about deportation without regulatory nuance.,Claude,other,0
+158,partially_correct,0.3,0.65,0.72,Correct that employment-like volunteering is prohibited but overstated limitations.,Claude,other,0
+159,correct,0,0.9,0.88,Matches gold answer that finances are reviewed by the school for dependent I-20 issuance.,Claude,,0
+160,hallucination,0.9,0.12,0.18,Incorrectly claims F-2 dependents can qualify for SSNs despite USCIS prohibiting this.,Claude,other,1
+161,correct,0,1,0.97,Claude correctly states that all F-1 students must file taxes and identifies Forms 8843 and 1040-NR; no errors.,Claude,,0
+162,correct,0,1,0.96,Claude accurately explains the IRS five-year nonresident rule with no contradictions.,Claude,,0
+163,correct,0,0.95,0.93,Answer correctly states F-1 students may claim treaty benefits; details are accurate.,Claude,,0
+164,correct,0,1,0.97,Clearly states nonresident F-1 students do not pay FICA; fully matches IRS rules.,Claude,,0
+165,incorrect,0.55,0.45,0.35,Claude omits F-1 requirement of having employment authorization and a job offer; gives generic SSN rules instead.,Claude,missing_requirement,1
+166,correct,0,0.95,0.94,Correctly explains that excess scholarship amounts are taxable; fully aligned with IRS rules.,Claude,,0
+167,incorrect,0.65,0.4,0.3,Nonresident aliens generally cannot claim dependents; Claude incorrectly suggests eligibility using resident rules.,Claude,other,1
+168,correct,0,1,0.98,Accurately states that federal and state taxes are filed separately; fully aligned.,Claude,,0
+169,partially_correct,0.25,0.75,0.82,Claude lists IRS penalties correctly but does not mention immigration implications; still mostly accurate.,Claude,missing_requirement,1
+170,correct,0,0.95,0.92,Correctly notes students may open accounts without SSN if the bank allows alternative ID.,Claude,,0
+171,correct,0,1,0.96,Accurately states F-1 students may receive refunds depending on withholding and treaties.,Claude,,0
+172,incorrect,0.65,0.35,0.3,Gold specifies F-1 nonresidents do NOT report foreign income; Claude gives generic worldwide-tax rules instead.,Claude,vague_or_generic,1
+173,correct,0,0.95,0.94,Correct that OPT workers may contribute to retirement accounts if they have earned income.,Claude,,0
+174,correct,0,1,0.97,Accurately explains Form 8843 and confirms all F-1 students must file it even with no income.,Claude,,0
+175,correct,0,1,0.98,"Correctly states international students may use VITA, software, and advisors.",Claude,,0
+176,incorrect,0.75,0.25,0.22,Claude incorrectly claims CPT and OPT income are taxed differently; IRS treats them identically.,Claude,other,1
+177,correct,0,0.95,0.93,Correctly explains multi-state tax filing obligations consistent with state tax rules.,Claude,,0
+178,incorrect,0.8,0.2,0.18,Nonresident aliens cannot claim education credits; Claude incorrectly states they can.,Claude,other,1
+179,correct,0.05,0.9,0.89,Correctly states TA/RA income is taxable; small nuance issues but overall aligned.,Claude,,0
+180,incorrect,0.7,0.3,0.28,Claude gives generic FICA refund rules and misses the key F-1 exemption and Form 843 process.,Claude,vague_or_generic,1
+181,correct,0,0.95,0.93,Claude accurately states that green card applications are allowed during OPT and outlines correct pathways.,Claude,,0
+182,correct,0,1,0.96,Claude clearly distinguishes H-1B (temporary dual-intent) from green card (permanent residence).,Claude,,0
+183,correct,0.05,0.9,0.9,Claude correctly states one cannot work for their own business after OPT without authorization; minor extra details added.,Claude,,0
+184,partially_correct,0.15,0.8,0.82,Claude provides valid options but does not emphasize loss of work authorization without new status.,Claude,other,0
+185,correct,0,0.95,0.94,Claude aligns with gold: you must obtain a new visa status or new I-20 to return.,Claude,,0
+186,correct,0,0.95,0.92,Claude accurately states degree evaluations are needed for EB-2/EB-3 equivalency when applicable.,Claude,,0
+187,correct,0,1,0.97,Claude gives a fully accurate EB-2 vs EB-3 comparison aligned with USCIS definitions.,Claude,,0
+188,correct,0,1,0.98,Claude correctly explains EB-1A extraordinary ability self-petition rules and evidence criteria.,Claude,,0
+189,correct,0.05,0.9,0.9,Claude gives generally accurate timeframes; high-level but aligned with visa bulletin logic.,Claude,,0
+190,correct,0,1,0.98,Claude correctly states H-1B is dual-intent and can be maintained during green card processing.,Claude,,0
+191,correct,0,1,0.99,Claude’s NIW explanation matches USCIS’ Dhanasar framework perfectly.,Claude,,0
+192,correct,0.05,0.9,0.9,Claude correctly states F-1/OPT students may buy property; minor extraneous notes but no errors.,Claude,,0
+193,correct,0,0.95,0.92,Claude correctly explains that a PhD may help but is not required for green card eligibility.,Claude,,0
+194,correct,0.05,0.9,0.9,Claude accurately explains job loss impact depending on I-140/I-485 stage and AC21 portability.,Claude,,0
+195,correct,0,0.95,0.94,Claude correctly states H-1B workers may work for startups if employer-employee relationship exists.,Claude,,0
+196,correct,0,1,0.97,Claude accurately lists all material-change scenarios requiring an H-1B amendment.,Claude,,0
+197,correct,0,1,0.98,Claude correctly states H-1B workers cannot freelance; only work for petitioning employer or concurrent H-1B.,Claude,,0
+198,incorrect,0.7,0.3,0.22,Claude mixes USCIS premium processing with unrelated payment processing; does not answer immigration question.,Claude,other,1
+199,incorrect,0.8,0.25,0.18,Claude incorrectly says volunteering is allowed; F-1/OPT cannot volunteer in a role normally paid.,Claude,other,1
+200,partially_correct,0.2,0.8,0.78,"Claude lists many documents but omits specific F-1-required items: all I-20s, I-94s, EADs, I-797s.",Claude,missing_requirement,1
+1,partially_correct,0.4,0.7,0.6,"GPT-4o correctly identifies the four required documents but adds non-required items (financial proof, admission letter, appointment confirmation, additional documents) that are not federally mandated for entry, constituting advisory overreach beyond immigration requirements.",GPT4o,other,0
+2,correct,0,1,0.9,"GPT-4o correctly states F-1 students can enter up to 30 days before program start and that earlier arrival is not permitted, fully aligning with DHS regulations.",GPT4o,,0
+3,partially_correct,0.3,0.7,0.7,"GPT-4o correctly states no activation is needed and describes the entry process accurately, but uses confusing language saying the I-20 is 'activated' once you enter, when the gold answer clarifies this terminology is incorrect.",GPT4o,other,0
+4,partially_correct,0.2,0.7,0.5,GPT-4o provides general travel advice but dilutes the F-1-specific guidance; it correctly notes financial documents may be requested but lacks the specific F-1 context about nonimmigrant intent verification emphasized in the gold answer.,GPT4o,other,0
+5,correct,0,1,0.8,"GPT-4o correctly explains that an expired visa does not affect status while in the U.S. and is only needed for reentry, accurately reflecting federal F-1 regulations despite providing additional cautionary context.",GPT4o,,0
+6,correct,0,1,0.9,"GPT-4o correctly states F-1 students can bring dependents on F-2 visas and accurately describes the application requirements, work/study restrictions, and relationship to F-1 status per USCIS regulations.",GPT4o,,0
+7,partially_correct,0.1,0.6,0.3,"GPT-4o provides generic travel advice without addressing the F-1-specific regulatory answer that USCIS does not mandate health insurance for F-1 students, though it correctly notes some visas have insurance requirements.",GPT4o,vague_or_generic,1
+8,correct,0,1,0.95,"GPT-4o correctly identifies that the SEVIS ID is on Form I-20, begins with 'N', and is located in the upper right corner, fully aligning with SEVP regulations.",GPT4o,,0
+9,partially_correct,0.2,0.7,0.6,"GPT-4o correctly states F-1 students can work on-campus immediately but need authorization for off-campus work, though it should clarify on-campus work is only permitted after the program start date per the gold answer.",GPT4o,other,0
+10,incorrect,0.1,0.3,0.1,GPT-4o provides generic relocation advice completely missing the immigration-specific requirement that schools must report registration in SEVIS and students must complete check-in to maintain F-1 status.,GPT4o,missing_requirement,1
+11,correct,0,1,0.9,"GPT-4o correctly states the one full academic year requirement before CPT eligibility and notes the exception for graduate programs requiring immediate training, fully aligned with federal CPT regulations.",GPT4o,,0
+12,incorrect,0.8,0,0,"GPT-4o directly contradicts federal CPT requirements by stating internships don't need to be related to major and provides career advice, when DHS regulations explicitly require CPT be directly related to the major field of study.",GPT4o,other,1
+13,correct,0,1,0.9,"GPT-4o correctly explains part-time CPT (20 hours or less) is permitted during academic terms with DSO authorization and curriculum requirement, accurately reflecting DHS regulations.",GPT4o,,0
+14,correct,0,1,0.8,"GPT-4o correctly identifies that CPT processing time varies by university and is an institutional decision (not USCIS), consistent with the regulatory framework where schools issue CPT authorization.",GPT4o,,0
+15,correct,0,1,0.9,"GPT-4o correctly states a job offer is required for CPT because authorization is employer-specific and DSO must enter employer information, aligning with SEVIS requirements.",GPT4o,,0
+16,correct,0,1,0.85,"GPT-4o correctly explains multiple CPT employers are allowed with separate authorization for each position that meets curriculum requirements, consistent with federal CPT regulations.",GPT4o,,0
+17,correct,0,1,0.95,"GPT-4o accurately states 12+ months of full-time CPT eliminates OPT eligibility while part-time CPT does not affect OPT, precisely matching federal regulations.",GPT4o,,0
+18,partially_correct,0.3,0.7,0.6,"GPT-4o lists many school-specific documents but misses the key regulatory point that CPT is school-issued (not USCIS-adjudicated), and the primary federal requirement is the I-20 with CPT authorization on page 2.",GPT4o,other,0
+19,correct,0,1,0.95,"GPT-4o correctly states students cannot work before CPT approval appears on I-20 and that unauthorized employment jeopardizes F-1 status, fully consistent with DHS regulations.",GPT4o,,0
+20,correct,0,1,0.9,"GPT-4o correctly states no federal limit on total CPT duration but 12+ months full-time CPT eliminates OPT eligibility while part-time CPT doesn't count, matching federal regulations precisely.",GPT4o,,0
+21,correct,0,1,0.9,"GPT-4o correctly states the 90-day window before program end date and recommends applying early, fully aligning with USCIS regulations despite including additional context about processing times and I-20 endorsement.",GPT4o,,0
+22,correct,0,1,0.95,"GPT-4o correctly identifies 90 days before program end date as the earliest application time, precisely matching the federal regulation for post-completion OPT.",GPT4o,,0
+23,partially_correct,0.2,0.8,0.7,"GPT-4o correctly states no job offer is required to apply for OPT, but adds the fabricated requirement to find employment within 90 days of OPT start, when the actual unemployment limit applies differently under regulations.",GPT4o,wrong_number,1
+24,partially_correct,0.2,0.7,0.7,"GPT-4o states 3-5 months processing time which is longer than the gold answer's 1-3 months typical range; while processing times vary, the specific range provided may not accurately reflect current USCIS timelines.",GPT4o,other,0
+25,correct,0,1,0.85,"GPT-4o correctly explains travel while OPT pending is permitted but risky, noting reentry may be denied without EAD and job offer, consistent with USCIS guidance on the risks involved.",GPT4o,,0
+26,correct,0,1,0.8,"GPT-4o correctly identifies that OPT denial eliminates work eligibility and mentions the 60-day grace period for departure, aligning with SEVP guidance on post-denial options.",GPT4o,,0
+27,correct,0,1,0.95,"GPT-4o correctly states that 12+ months of full-time CPT eliminates OPT eligibility and that part-time CPT does not affect OPT, precisely matching federal F-1 employment regulations.",GPT4o,,0
+28,correct,0,1,0.9,"GPT-4o correctly lists Form I-765, new I-20 with OPT recommendation, passport photos, and filing fee as required documents, consistent with USCIS Form I-765 requirements for OPT applications.",GPT4o,,0
+29,correct,0,1,0.85,"GPT-4o correctly advises using an address where mail can be reliably received and notes USCIS mail may not be forwarded, aligning with USCIS guidance that any valid mailing address is acceptable.",GPT4o,,0
+30,partially_correct,0.1,0.9,0.8,"GPT-4o correctly states freelance work is allowed if related to field of study, accurately reflecting the regulatory requirement, though the gold answer emphasizes irrelevant freelance work is prohibited.",GPT4o,other,0
+31,correct,0,1,0.9,"GPT-4o correctly confirms Computer Science qualifies for STEM OPT because it appears on the DHS STEM Designated Degree Program List, fully consistent with federal STEM OPT eligibility requirements.",GPT4o,,0
+32,correct,0,1,0.9,"GPT-4o correctly states students can apply up to 90 days before OPT ends and application must be received before current OPT expires, matching USCIS STEM OPT timing requirements.",GPT4o,,0
+33,incorrect,0.5,0.3,0.4,"GPT-4o incorrectly states employment is not required at time of application, contradicting DHS regulations that mandate students must be employed by an E-Verify employer to apply for STEM extension.",GPT4o,other,1
+34,correct,0,1,0.95,"GPT-4o correctly describes Form I-983 as the training plan completed jointly by student and employer describing training goals and evaluations, consistent with DHS STEM OPT compliance requirements.",GPT4o,,0
+35,correct,0,1,0.95,"GPT-4o correctly states students can change employers during STEM OPT if new employer is E-Verify enrolled and new Form I-983 is submitted, matching DHS requirements for employer changes.",GPT4o,,0
+36,correct,0,1,0.95,"GPT-4o correctly identifies 150 total days of unemployment across OPT and STEM OPT (90 days initial + 60 days STEM), precisely matching DHS unemployment limit policy.",GPT4o,,0
+37,partially_correct,0.3,0.6,0.3,"GPT-4o provides general E-Verify information without clearly stating the specific STEM OPT requirement that all STEM employers must be E-Verify enrolled per DHS regulations, diluting the immigration-specific answer.",GPT4o,other,1
+38,correct,0,1,0.9,"GPT-4o correctly identifies consulting is allowed only if employer is E-Verify enrolled, training plan completed, and work is directly related to field of study, consistent with DHS STEM OPT requirements.",GPT4o,,0
+39,partially_correct,0.2,0.8,0.7,"GPT-4o correctly states one 24-month STEM extension is allowed, but adds confusing information about earning another degree at higher level that, while technically accurate, goes beyond the simple regulatory answer requested.",GPT4o,other,0
+40,correct,0,1,0.9,"GPT-4o correctly states job loss must be reported and unemployment days accrue with 150 total days allowed across OPT and STEM OPT, accurately reflecting DHS unemployment tracking requirements.",GPT4o,,0
+41,partially_correct,0.1,0.8,0.7,"GPT-4o correctly states 90 days for initial OPT but unnecessarily adds STEM OPT information when the question asks only about OPT unemployment days, going beyond the scope of the simple regulatory answer.",GPT4o,wrong_number,1
+42,incorrect,0.1,0.2,0.1,GPT-4o provides generic career advice completely missing the immigration-specific requirements to update employment in SEVIS and that students may remain during the 90-day unemployment period per SEVP regulations.,GPT4o,missing_requirement,1
+43,incorrect,0.3,0.2,0.1,"GPT-4o incorrectly states volunteer work is not formal employment and provides career advice, missing the critical DHS guidance that unpaid volunteer work can count toward OPT employment if related to major and 20+ hours weekly.",GPT4o,missing_requirement,1
+44,correct,0,1,0.9,"GPT-4o correctly states job searching is not considered employment and does not provide income or employment status, aligning with DHS requirement that actual employment is needed to stop unemployment accrual.",GPT4o,,0
+45,partially_correct,0.2,0.7,0.6,"GPT-4o correctly explains updating employment information through DSO and SEVP Portal but implies separate unemployment reporting is required, when USCIS only requires accurate employment dates in SEVIS to stop unemployment accrual.",GPT4o,other,0
+46,partially_correct,0.1,0.8,0.8,"GPT-4o correctly identifies that exceeding 90 days jeopardizes F-1 status and may require leaving the U.S., consistent with SEVP guidance, though it adds non-immigration context about unemployment benefits and job searching.",GPT4o,wrong_number,1
+47,incorrect,0.3,0.3,0.2,GPT-4o provides generic visa and tax advice without addressing the specific F-1 OPT requirement that gig work is unauthorized unless directly related to the major field of study per USCIS regulations.,GPT4o,vague_or_generic,1
+48,partially_correct,0.1,0.6,0.4,"GPT-4o provides general life advice but misses the specific immigration requirement that students must maintain status, and if unable to secure employment within allowed unemployment days, must depart or change status per SEVP regulations.",GPT4o,other,1
+49,correct,0,1,0.95,"GPT-4o correctly states STEM OPT allows additional 60 days unemployment for total of 150 days across the 36-month period, precisely matching DHS STEM OPT unemployment policy.",GPT4o,,0
+50,correct,0,1,0.8,"GPT-4o correctly states students can change to another nonimmigrant status following proper USCIS procedures before status expires, accurately reflecting federal change-of-status regulations despite providing general guidance.",GPT4o,,0
+51,correct,0,1,0.9,"GPT-4o correctly identifies required documents for international travel during OPT (valid visa, passport, I-20 with travel signature, EAD, employment proof) and notes reentry is never guaranteed, consistent with USCIS guidance.",GPT4o,,0
+52,correct,0,1,0.95,"GPT-4o correctly lists all required reentry documents (valid passport, F-1 visa, I-20 endorsed within 6 months, EAD card, employment proof) as outlined by DHS and SEVP regulations.",GPT4o,,0
+53,correct,0,1,0.9,"GPT-4o correctly states a valid F-1 visa is required for reentry and mentions automatic visa revalidation exception for limited Canada/Mexico travel, accurately reflecting USCIS visa requirements.",GPT4o,,0
+54,correct,0,1,0.9,"GPT-4o correctly states travel while OPT pending is permitted but risky, noting reentry can be denied without EAD and employment proof, consistent with DHS warnings about travel risks.",GPT4o,,0
+55,correct,0,1,0.95,"GPT-4o correctly explains expired F-1 visa does not affect status while in the U.S. and new visa is only needed for reentry, accurately reflecting federal visa and status maintenance regulations.",GPT4o,,0
+56,correct,0,1,0.9,"GPT-4o correctly states DSO must sign page 2 of I-20 for travel and notes the signature is valid for six months for OPT students, accurately reflecting DHS travel endorsement guidance.",GPT4o,,0
+57,correct,0,1,0.85,"GPT-4o correctly states leaving during grace period prevents reentry on same visa status and that the grace period is for departure or status change, consistent with USCIS grace period regulations.",GPT4o,,0
+58,partially_correct,0.2,0.6,0.4,GPT-4o provides general entry denial advice but misses the F-1-specific SEVP guidance that students must contact their school and may need a new SEVIS record to return after denial.,GPT4o,other,1
+59,correct,0,1,0.8,"GPT-4o correctly advises carrying employment verification during travel and notes it can serve as proof of employment, consistent with SEVP recommendation to demonstrate ongoing employment during OPT travel.",GPT4o,,0
+60,correct,0,1,0.9,"GPT-4o correctly states students can travel multiple times on OPT as long as they maintain valid documentation for each reentry (visa, I-20, EAD, employment proof), accurately reflecting federal travel regulations.",GPT4o,,0
+61,correct,0,1,0.9,"GPT-4o correctly describes the H-1B filing process including registration in March, lottery selection, and filing starting April 1st, accurately reflecting USCIS annual cap procedures and timing requirements.",GPT4o,,0
+62,correct,0,1,0.95,"GPT-4o correctly explains cap-gap extension eligibility for timely filed H-1B petitions requesting change of status, with automatic work authorization extension until September 30th, matching DHS cap-gap regulations.",GPT4o,,0
+63,correct,0,1,0.95,"GPT-4o correctly defines cap-gap extension for F-1 students with pending/approved H-1B petitions filed before OPT expires, with automatic extension until October 1st, consistent with DHS cap-gap provisions.",GPT4o,,0
+64,correct,0,1,0.9,"GPT-4o correctly states no need to leave if H-1B requests change of status and mentions consular processing may be needed if departing before approval, accurately reflecting USCIS change-of-status procedures.",GPT4o,,0
+65,correct,0,1,0.85,"GPT-4o correctly explains H-1B transfer is possible with new employer filing new petition and mentions AC21 portability allowing work upon filing, consistent with USCIS H-1B portability rules.",GPT4o,,0
+66,correct,0,1,0.8,"GPT-4o correctly identifies that H-1B denial ends cap-gap extension and mentions exploring other options, aligning with SEVP guidance about entering grace period and needing to depart or change status.",GPT4o,,0
+67,correct,0,1,0.95,"GPT-4o correctly states cap-gap extension lasts until October 1st and immediately terminates if petition is denied/rejected/withdrawn, precisely matching federal cap-gap timing and termination rules.",GPT4o,,0
+68,correct,0,1,0.9,"GPT-4o correctly advises travel during cap-gap is not recommended and leaving could be considered abandoning change-of-status application, accurately reflecting USCIS guidance on cap-gap travel restrictions.",GPT4o,,0
+69,correct,0,1,0.85,"GPT-4o correctly identifies premium processing as optional for faster adjudication (15 days vs. months) with same eligibility criteria, consistent with USCIS premium processing service description.",GPT4o,,0
+70,correct,0,1,0.9,"GPT-4o correctly lists required visa stamping documents (passport, I-797, DS-160, employment verification) and notes these are consular requirements, accurately reflecting DOS visa stamping procedures.",GPT4o,,0
+71,correct,0,1,0.85,"GPT-4o correctly states remote CPT is permitted if work meets CPT requirements and employer-employee relationship is maintained, consistent with DHS guidance that remote work must be integral to curriculum.",GPT4o,,0
+72,correct,0,1,0.8,"GPT-4o correctly states employer doesn't need to be in same state as university and mentions remote work is common, accurately reflecting the absence of geographic restrictions in USCIS CPT/OPT regulations.",GPT4o,,0
+73,correct,0,1,0.9,"GPT-4o correctly confirms remote work is allowed on OPT if employment is related to field of study and meets USCIS requirements, accurately reflecting federal OPT employment criteria.",GPT4o,,0
+74,correct,0,1,0.95,"GPT-4o correctly states nonimmigrants must notify USCIS of address changes within 10 days using Form AR-11 or online, precisely matching DHS legal requirements for all nonimmigrants including OPT students.",GPT4o,,0
+75,partially_correct,0.1,0.7,0.5,"GPT-4o provides general advice about international remote work but doesn't address the F-1-specific context that USCIS doesn't regulate remote work abroad, though reentry requires proper documentation and may affect status maintenance.",GPT4o,other,0
+76,correct,0,1,0.9,"GPT-4o correctly advises using a reliable U.S. mailing address where you can receive mail and notes USCIS sends EAD to the address on I-765, accurately reflecting USCIS mailing requirements.",GPT4o,,0
+77,correct,0,1,0.9,"GPT-4o correctly states remote STEM OPT jobs are allowed if employer is E-Verify enrolled, work is related to field, and training plan (I-983) requirements are met, consistent with DHS STEM OPT regulations.",GPT4o,,0
+78,correct,0,1,0.95,"GPT-4o correctly states F-1 students must report address changes to DSO within 10 days for SEVIS updates, precisely matching DHS mandatory reporting requirements for all F-1 students.",GPT4o,,0
+79,correct,0,1,0.8,"GPT-4o correctly confirms living in one state while working remotely in another is possible, accurately reflecting that USCIS doesn't regulate physical work location if employment meets OPT requirements.",GPT4o,,0
+80,correct,0,1,0.85,"GPT-4o correctly explains remote work doesn't violate F-1 status if properly authorized through CPT/OPT and meets regulatory requirements, accurately reflecting DHS position that remote location doesn't affect compliance.",GPT4o,,0
+81,correct,0,1,0.95,"GPT-4o correctly states students can work multiple jobs on OPT if each is related to field of study and properly reported in SEVIS, accurately matching federal OPT employment regulations.",GPT4o,,0
+82,correct,0,1,0.9,"GPT-4o correctly states freelance consulting is permitted if related to degree and proper business licensing is maintained, consistent with USCIS self-employment rules for OPT.",GPT4o,,0
+83,correct,0,1,0.85,"GPT-4o correctly explains students can start a business only if work is authorized through OPT/CPT and related to major, accurately reflecting USCIS prohibition on unauthorized employment.",GPT4o,,0
+84,correct,0,1,0.95,"GPT-4o correctly states all employers must be reported in SEVIS during OPT/STEM OPT for accurate employment reporting to maintain status, consistent with DHS requirements.",GPT4o,,0
+85,correct,0,1,0.9,"GPT-4o correctly states part-time contracting on STEM OPT requires E-Verify employer, Form I-983, and minimum 20 hours/week, accurately reflecting DHS STEM OPT regulations.",GPT4o,,0
+86,partially_correct,0.1,0.7,0.5,GPT-4o correctly confirms passive income is allowed but provides generic investment advice without addressing the F-1-specific point that USCIS doesn't consider passive investment to be employment.,GPT4o,vague_or_generic,1
+87,correct,0,1,0.9,"GPT-4o correctly states students can be co-founders but any work must be authorized through OPT and related to field, accurately reflecting USCIS prohibition on unauthorized work in own business.",GPT4o,,0
+88,correct,0,1,0.85,"GPT-4o correctly explains volunteering must follow labor laws and context matters, consistent with DHS requirement that unpaid volunteer work must meet labor standards when used to maintain OPT status.",GPT4o,,0
+89,correct,0,1,0.9,"GPT-4o correctly states paid speaking engagements count as employment and must be related to field of study, accurately reflecting OPT eligibility requirements for all employment.",GPT4o,,0
+90,correct,0,1,0.95,"GPT-4o correctly explains reporting each employer's information to DSO for SEVIS updates through portal or direct contact, accurately reflecting federal SEVIS reporting requirements.",GPT4o,,0
+91,correct,0,1,0.95,"GPT-4o correctly describes 60-day grace period allowing departure, transfer, or change of status but no work, precisely matching USCIS grace period regulations.",GPT4o,,0
+92,correct,0,1,0.9,"GPT-4o correctly states students cannot reenter U.S. in F-1 status during grace period, accurately reflecting USCIS restriction that grace period is for departure or status change only.",GPT4o,,0
+93,correct,0,1,0.9,"GPT-4o correctly explains students can apply for new F-1 program during grace period requiring new I-20 and SEVIS transfer, consistent with SEVP transfer procedures.",GPT4o,,0
+94,correct,0,1,0.9,"GPT-4o correctly states if no job found before OPT ends, student enters 60-day grace period and must depart, transfer, or change status, matching SEVP requirements.",GPT4o,,0
+95,correct,0,1,0.95,"GPT-4o correctly explains F-1 students can change to B-2 status by filing Form I-539 before status expires with approval not guaranteed, accurately reflecting USCIS change-of-status procedures.",GPT4o,,0
+96,correct,0,1,0.95,"GPT-4o correctly states F-1 can be extended by enrolling in another program with new I-20 issued before grace period ends, consistent with SEVP program extension regulations.",GPT4o,,0
+97,correct,0,1,0.85,"GPT-4o correctly explains students can marry and apply for green card during grace period through adjustment of status, accurately reflecting USCIS family-based immigration procedures.",GPT4o,,0
+98,partially_correct,0,0.6,0.3,"GPT-4o provides practical advice about managing belongings but misses the immigration-specific point that USCIS doesn't regulate personal storage, only requiring lawful status maintenance during grace period.",GPT4o,other,1
+99,correct,0,1,0.85,"GPT-4o correctly states volunteering is generally permitted during grace period but no paid or unpaid employment is authorized after OPT ends, consistent with USCIS grace period work restrictions.",GPT4o,,0
+100,correct,0,1,0.95,"GPT-4o correctly explains changing to H-4 requires filing Form I-539 with supporting documents and maintaining current status until approval, accurately reflecting USCIS change-of-status procedures.",GPT4o,,0
+101,correct,0,1,0.9,"GPT-4o correctly advises contacting DSO immediately for SEVIS correction through SEVP Help Desk or reinstatement if needed, accurately reflecting SEVP error correction procedures.",GPT4o,,0
+102,correct,0,1,0.95,"GPT-4o correctly explains DSO can issue corrected I-20 through SEVIS for administrative errors, consistent with SEVP procedures allowing DSOs to correct errors directly.",GPT4o,,0
+103,correct,0,1,0.9,"GPT-4o correctly states USCIS error requires free replacement while applicant error requires new I-765 and fee, accurately reflecting USCIS EAD replacement policy.",GPT4o,,0
+104,correct,0,1,0.95,"GPT-4o correctly lists USCIS expedite criteria including severe financial loss, humanitarian reasons, and USCIS error with discretionary approval, matching federal expedite request standards.",GPT4o,,0
+105,correct,0,1,0.95,"GPT-4o correctly advises contacting DSO for replacement I-20 needed for reentry and notes CBP requires physical I-20, consistent with DHS reentry documentation requirements.",GPT4o,,0
+106,correct,0,1,0.95,"GPT-4o correctly states lost EAD requires filing new Form I-765 with fee unless loss was USCIS error, accurately reflecting USCIS replacement policy.",GPT4o,,0
+107,correct,0,1,0.9,"GPT-4o correctly advises renewing passport with home country embassy/consulate and notes invalid passport may affect reentry but not F-1 status inside U.S., consistent with passport validity requirements.",GPT4o,,0
+108,correct,0,1,0.95,"GPT-4o correctly states F-1 visa revalidation inside U.S. is not possible and renewal must occur at consulate abroad except for automatic revalidation, accurately reflecting DOS visa renewal requirements.",GPT4o,,0
+109,correct,0,1,0.9,"GPT-4o correctly advises contacting USCIS, submitting inquiry, updating address, and requesting replacement with USCIS determining fault for fee waiver, consistent with USCIS mail error procedures.",GPT4o,,0
+110,correct,0,1,0.95,"GPT-4o correctly states DSO must correct SEVIS errors through SEVIS system or Help Desk, accurately reflecting that USCIS doesn't directly handle SEVIS data corrections.",GPT4o,,0
+111,correct,0,1,0.95,"GPT-4o correctly advises requesting I-94 correction with CBP through Deferred Inspection office, accurately reflecting that CBP controls I-94 admissions data, not USCIS.",GPT4o,,0
+112,correct,0,1,0.95,"GPT-4o correctly states students cannot work while EAD replacement is pending and must have physical EAD card, accurately reflecting USCIS requirement that replacement-pending status doesn't authorize work.",GPT4o,,0
+113,correct,0,1,0.9,"GPT-4o correctly advises transferring to another SEVP-certified school or using 60-day grace period, consistent with SEVP procedures when schools close requiring students to maintain status.",GPT4o,,0
+114,partially_correct,0.1,0.7,0.6,"GPT-4o provides general name correction advice but doesn't emphasize the immigration-specific sequence: update passport first with home country, then request updated I-20s and other document corrections.",GPT4o,other,0
+115,correct,0,1,0.85,"GPT-4o correctly states missed OPT deadline results in denial and advises contacting DSO, exploring other visa options, accurately reflecting SEVP requirement to depart or seek other status.",GPT4o,,0
+116,correct,0,1,0.95,"GPT-4o correctly states STEM OPT expedite requests follow general USCIS expedite criteria with discretionary approval, accurately reflecting that expedite rules apply to STEM OPT applications.",GPT4o,,0
+117,correct,0,1,0.95,"GPT-4o correctly states without completed I-983 student cannot continue STEM OPT with that employer and must find new employer, accurately reflecting DHS mandatory Form I-983 requirement.",GPT4o,,0
+118,correct,0,1,0.95,"GPT-4o correctly explains reinstatement requires Form I-539 with DSO support and USCIS grants only if violation was unintentional, accurately reflecting federal F-1 reinstatement procedures.",GPT4o,,0
+119,correct,0,1,0.9,"GPT-4o correctly states employer must follow federal I-9 procedures and employee must provide valid documents from acceptable lists, consistent with USCIS I-9 verification requirements.",GPT4o,,0
+120,correct,0,1,0.95,"GPT-4o correctly states students can appeal OPT denial using Form I-290B or file motion to reopen/reconsider, accurately reflecting USCIS appeal procedures for denied OPT applications.",GPT4o,,0
+121,correct,0,1,0.9,"GPT-4o correctly states failing a class doesn't automatically violate F-1 status as long as full-time enrollment is maintained, accurately reflecting USCIS requirement that dropping below full-time enrollment affects status.",GPT4o,,0
+122,partially_correct,0.2,0.6,0.4,"GPT-4o provides general advice about taking semester off but misses the specific F-1 regulation that DSO can authorize reduced course load for medical reasons including mental health, with up to 12 months allowed per educational level.",GPT4o,other,1
+123,correct,0,1,0.95,"GPT-4o correctly states students can change major if school approves and issues updated I-20 with DSO updating SEVIS, accurately reflecting USCIS requirement that SEVIS records accurately reflect the major.",GPT4o,,0
+124,partially_correct,0.1,0.7,0.6,GPT-4o provides general advice about dropping to part-time but doesn't clearly emphasize the critical F-1 rule that part-time enrollment requires DSO authorization under specific USCIS criteria and unauthorized part-time study violates status.,GPT4o,other,0
+125,partially_correct,0.1,0.7,0.6,GPT-4o provides general advice about program extension but doesn't emphasize the critical USCIS requirement that new program end date must be reflected on I-20 before current end date expires with valid academic or medical reason.,GPT4o,other,0
+126,correct,0,1,0.9,"GPT-4o correctly states F-1 regulations limit online classes to one class (or three credit hours) per semester toward full-time requirement, accurately reflecting federal F-1 online course restrictions.",GPT4o,,0
+127,correct,0,1,0.85,"GPT-4o correctly implies academic probation doesn't automatically violate status as long as students remain enrolled and meet academic standards, consistent with SEVP requirement to maintain full-time enrollment.",GPT4o,,0
+128,partially_correct,0.1,0.6,0.5,GPT-4o provides general transfer advice but doesn't clearly address the F-1-specific requirement that students on academic suspension must transfer to another SEVP-certified school before falling out of status to maintain continuous full-time enrollment.,GPT4o,other,1
+129,correct,0,1,0.95,"GPT-4o correctly states DSO must update SEVIS to reflect new program end date if graduating early and mentions 60-day grace period begins from actual completion date, accurately reflecting USCIS SEVIS reporting requirements.",GPT4o,,0
+130,correct,0,1,0.85,"GPT-4o correctly explains gap year requires leaving U.S. or using OPT, and reapplying for new F-1 visa for Master's program, consistent with SEVP requirement for continuous full-time study to maintain F-1 status.",GPT4o,,0
+131,correct,0,1,0.9,"GPT-4o correctly advises requesting program extension from DSO for thesis defense delay and mentions it must be done before I-20 expires, accurately reflecting USCIS program extension procedures for academic reasons.",GPT4o,,0
+132,correct,0,1,0.95,"GPT-4o correctly states students can audit classes but audited courses don't count toward full-time enrollment requirement, accurately reflecting SEVP rule that full-time enrollment is required to maintain F-1 status.",GPT4o,,0
+133,correct,0,1,0.85,"GPT-4o correctly implies withdrawing from all classes affects F-1 status and mentions visa implications for international students, consistent with SEVP requirement that unauthorized withdrawal is a status violation requiring departure or reinstatement.",GPT4o,,0
+134,correct,0,1,0.85,"GPT-4o correctly acknowledges part-time enrollment in final semester may be possible based on institutional policies and graduation requirements, consistent with SEVP exception allowing part-time in final term if only part-time coursework remains.",GPT4o,,0
+135,correct,0,1,0.85,"GPT-4o correctly implies retaking classes is permissible if full-time enrollment is maintained, accurately reflecting USCIS position that retakes don't violate status as long as full-time status is maintained.",GPT4o,,0
+136,correct,0,1,0.85,"GPT-4o correctly advises checking with home institution and ensuring credits transfer, consistent with USCIS requirement that SEVIS records reflect primary school while summer classes at another SEVP-certified school are permitted.",GPT4o,,0
+137,partially_correct,0.3,0.5,0.2,"GPT-4o provides generic software discontinuation advice completely missing the F-1-specific SEVP requirement that if program is discontinued, students must transfer to another certified school or depart the U.S.",GPT4o,missing_requirement,1
+138,correct,0,1,0.95,"GPT-4o correctly states F-1 status can be maintained through research-only enrollment if school considers it full-time study and student makes normal progress, accurately reflecting SEVP allowance for research-based enrollment.",GPT4o,,0
+139,partially_correct,0.1,0.7,0.6,GPT-4o provides general academic advice about failing thesis defense but doesn't clearly emphasize the F-1-specific SEVP requirement that students must maintain full-time enrollment and may need program extension until completion.,GPT4o,other,0
+140,correct,0,1,0.9,"GPT-4o correctly states switching from PhD to Master's requires school authorization and formal procedures, consistent with USCIS requirement that SEVIS must reflect correct program level through updated I-20.",GPT4o,,0
+141,correct,0,1,0.95,"GPT-4o correctly states F-2 spouses are not permitted to work under any circumstances, precisely matching USCIS mandatory prohibition on F-2 dependent employment.",GPT4o,,0
+142,correct,0,1,0.9,"GPT-4o correctly explains adding newborn requires DSO to issue dependent I-20 and child obtains F-2 status through visa application or by birth in U.S., accurately reflecting USCIS dependent addition procedures.",GPT4o,,0
+143,incorrect,0.6,0.3,0.4,"GPT-4o incorrectly states F-2 spouses can study full-time citing 2015 guidelines, when federal regulations actually permit only part-time study for F-2 spouses unless they change to F-1 status; only F-2 children can study full-time K-12.",GPT4o,other,1
+144,correct,0,1,0.95,"GPT-4o correctly states F-2 dependents must change to H-4 status when F-1 principal switches to H-1B by filing Form I-539, accurately reflecting USCIS dependent status change requirements.",GPT4o,,0
+145,correct,0,1,0.9,"GPT-4o correctly explains marriage doesn't automatically grant dependent status and spouse needs dependent I-20 and F-2 visa application, accurately reflecting USCIS procedures for adding new dependents.",GPT4o,,0
+146,correct,0,1,0.95,"GPT-4o correctly states each F-1 student maintains independent status with separate SEVIS record and marriage doesn't merge statuses, accurately reflecting USCIS requirement for independent F-1 status maintenance.",GPT4o,,0
+147,correct,0,1,0.95,"GPT-4o correctly states F-2 children can attend public schools K-12 for free, accurately reflecting DHS specific allowance for F-2 minors to enroll in elementary and secondary education.",GPT4o,,0
+148,correct,0,1,0.95,"GPT-4o correctly states F-2 spouse follows F-1 principal's grace period (60 days) after program completion or OPT, accurately reflecting that F-2 dependents follow the status of the F-1.",GPT4o,,0
+149,correct,0,1,0.95,"GPT-4o correctly states parents can visit on B-2 tourist visa while student is on F-1, accurately reflecting USCIS allowance for family visits and lack of restrictions on B-2 visits to F-1 students.",GPT4o,,0
+150,correct,0,1,0.95,"GPT-4o correctly states if F-1 loses status, F-2 dependents also lose status as F-2 is dependent on F-1 holder maintaining status, accurately reflecting SEVP requirement for dependent status maintenance.",GPT4o,,0
+151,partially_correct,0.2,0.8,0.8,"GPT-4o correctly states students on STEM OPT can have F-2 dependents and incorrectly adds that F-2 spouses cannot enroll full-time, when the answer should simply confirm STEM OPT doesn't restrict dependent sponsorship without additional incorrect restrictions.",GPT4o,other,0
+152,correct,0,1,0.9,"GPT-4o correctly explains divorce terminates F-2 eligibility and spouse must depart or change status, accurately reflecting USCIS requirement that dependents maintain valid status independent of personal circumstances.",GPT4o,,0
+153,correct,0,1,0.95,"GPT-4o correctly states F-2 dependents can travel independently with valid passport, F-2 visa, and I-20, accurately reflecting federal regulations allowing independent F-2 dependent travel.",GPT4o,,0
+154,correct,0,1,0.85,"GPT-4o correctly states health insurance is recommended/often required by institutions for F-2 dependents though not federally mandated, consistent with USCIS position that only J-1/J-2 have mandatory federal insurance requirements.",GPT4o,,0
+155,correct,0,1,0.95,"GPT-4o correctly states children lose F-2 eligibility at age 21 and must change to another status like F-1, accurately reflecting USCIS age limit for F-2 dependent children.",GPT4o,,0
+156,correct,0,1,0.9,"GPT-4o correctly states F-2 dependents can obtain driver's license with identity and immigration documents and requirements vary by state, accurately reflecting that state licensing doesn't conflict with F-2 regulations.",GPT4o,,0
+157,correct,0,1,0.95,"GPT-4o correctly states unauthorized employment by F-2 dependent is status violation that can result in termination requiring departure or status change, accurately reflecting USCIS prohibition on F-2 employment.",GPT4o,,0
+158,correct,0,1,0.9,"GPT-4o correctly states F-2 dependents can volunteer at nonprofits if truly unpaid and doesn't displace paid worker, consistent with USCIS requirement that volunteer work meet federal labor standards.",GPT4o,,0
+159,correct,0,1,0.85,"GPT-4o correctly describes providing financial documentation to school for dependent I-20 issuance including bank statements and support letters, accurately reflecting that schools (not USCIS directly) review financials for dependent I-20 purposes.",GPT4o,,0
+160,correct,0,1,0.95,"GPT-4o correctly states F-2 dependents are not eligible for SSN because not authorized to work and mentions ITIN as alternative for tax purposes, accurately reflecting SSA eligibility requirements for F-2 dependents.",GPT4o,,0
+161,correct,0,1,0.95,"GPT-4o correctly states F-1 students must file Form 8843 regardless of income and Form 1040-NR if they earned income, accurately reflecting USCIS requirement for nonimmigrants to comply with tax obligations.",GPT4o,,0
+162,correct,0,1,0.95,"GPT-4o correctly explains the 5-year rule as F-1 students being exempt from substantial presence test for first five calendar years for tax residency determination, accurately reflecting IRS rules.",GPT4o,,0
+163,correct,0,1,0.9,"GPT-4o correctly states F-1 students from treaty countries can claim tax treaty benefits if eligible and describes the process, accurately reflecting IRS and U.S. tax treaty provisions.",GPT4o,,0
+164,correct,0,1,0.95,"GPT-4o correctly states F-1 students on OPT who are nonresident aliens are exempt from Social Security and Medicare taxes, accurately reflecting IRS exemption rules.",GPT4o,,0
+165,correct,0,1,0.85,"GPT-4o correctly explains SSN requires work authorization and employment documentation, though it provides general guidance rather than F-1-specific details about presenting job offer and I-20 with employment authorization.",GPT4o,,0
+166,correct,0,1,0.9,"GPT-4o correctly states scholarships exceeding qualified educational expenses may be taxable income, accurately reflecting IRS rules while noting this doesn't affect USCIS status.",GPT4o,,0
+167,correct,0,1,0.8,"GPT-4o provides general guidance on claiming dependents but correctly implies nonresident aliens have limitations, consistent with IRS rules that nonresident aliens usually cannot claim dependents except under specific exceptions.",GPT4o,,0
+168,correct,0,1,0.95,"GPT-4o correctly states state and federal taxes are filed separately with different agencies and forms, accurately reflecting that filing requirements depend on state tax laws, not USCIS rules.",GPT4o,,0
+169,correct,0,1,0.8,"GPT-4o correctly describes IRS penalties and consequences for not filing taxes, consistent with the principle that IRS noncompliance may impact future immigration benefits though not directly affecting current status.",GPT4o,,0
+170,correct,0,1,0.9,"GPT-4o correctly states bank accounts can be opened without SSN using alternative identification like ITIN or passport, accurately reflecting that USCIS doesn't regulate banking eligibility.",GPT4o,,0
+171,correct,0,1,0.9,"GPT-4o correctly states F-1 students may be eligible for tax refunds depending on withholding and treaty benefits, accurately reflecting that refunds are governed by IRS rules.",GPT4o,,0
+172,correct,0,1,0.85,"GPT-4o correctly explains tax obligations depend on residency status with nonresidents typically taxed only on U.S.-source income, accurately reflecting IRS rules unrelated to USCIS regulations.",GPT4o,,0
+173,correct,0,1,0.9,"GPT-4o correctly states students on OPT can contribute to retirement accounts if they have employment income, accurately reflecting IRS eligibility with USCIS having no restrictions on saving or investing.",GPT4o,,0
+174,correct,0,1,0.95,"GPT-4o correctly describes Form 8843 as required for F-1 students and dependents regardless of income to document exempt status for tax residency, accurately reflecting IRS filing requirements.",GPT4o,,0
+175,correct,0,1,0.95,"GPT-4o correctly identifies multiple tax preparation resources including VITA program and university resources, accurately reflecting available assistance options for international students with nonresident returns.",GPT4o,,0
+176,correct,0,1,0.9,"GPT-4o correctly states CPT and OPT income are taxed the same based on residency status with both subject to federal and state income tax, accurately reflecting IRS rules.",GPT4o,,0
+177,correct,0,1,0.95,"GPT-4o correctly states working in multiple states may require filing tax returns in each state that taxes income, accurately reflecting state tax law requirements independent of USCIS regulations.",GPT4o,,0
+178,correct,0,1,0.8,"GPT-4o provides detailed education credit information but correctly implies eligibility depends on tax status, consistent with IRS rules that F-1 nonresident aliens are generally not eligible unless they meet exceptions.",GPT4o,,0
+179,correct,0,1,0.95,"GPT-4o correctly states TA/RA income is taxable and must be reported, accurately reflecting IRS rules and noting this doesn't impact USCIS status when employment is authorized.",GPT4o,,0
+180,correct,0,1,0.9,"GPT-4o correctly explains FICA refund applies when Social Security/Medicare taxes were erroneously withheld and describes claiming process through employer or Form 843, accurately reflecting IRS refund procedures.",GPT4o,,0
+181,correct,0,1,0.9,"GPT-4o correctly states students can apply for green card while on OPT through employment or family categories and mentions adjustment of status process, accurately reflecting USCIS petition evaluation procedures.",GPT4o,,0
+182,correct,0,1,0.95,"GPT-4o correctly distinguishes H-1B as temporary nonimmigrant work visa and green card as permanent residence, accurately reflecting USCIS classification of H-1B as dual-intent status.",GPT4o,,0
+183,correct,0,1,0.85,"GPT-4o correctly states students can start a business after OPT ends but need valid work authorization to work for it, accurately reflecting USCIS requirement for employment authorization for any work performed.",GPT4o,,0
+184,correct,0,1,0.85,"GPT-4o correctly explains if not selected in H-1B lottery, students need another work-authorized status or must explore alternatives like other visas or departure, consistent with USCIS work authorization requirements.",GPT4o,,0
+185,correct,0,1,0.9,"GPT-4o correctly states returning after F-1 ends requires different visa status and explains grace period, accurately reflecting USCIS prohibition on reentry in F-1 status after grace period without new I-20.",GPT4o,,0
+186,correct,0,1,0.9,"GPT-4o correctly explains degree evaluations may be required for employment-based green cards to verify U.S. degree equivalency, accurately reflecting USCIS requirement for credential evaluation when needed.",GPT4o,,0
+187,correct,0,1,0.95,"GPT-4o correctly distinguishes EB-2 for advanced degree holders/exceptional ability and EB-3 for skilled workers/professionals, accurately reflecting USCIS eligibility determination based on job requirements and credentials.",GPT4o,,0
+188,correct,0,1,0.95,"GPT-4o correctly explains EB-1A allows self-petition for extraordinary ability with at least three of ten criteria, accurately reflecting USCIS requirements for sustained national or international acclaim.",GPT4o,,0
+189,correct,0,1,0.9,"GPT-4o correctly states green card processing time varies by category, priority date, and country with wait times ranging from months to years, consistent with USCIS and DOS visa bulletin availability.",GPT4o,,0
+190,correct,0,1,0.95,"GPT-4o correctly states H-1B can be maintained while green card pending due to dual-intent status and explains extensions beyond six years are possible, accurately reflecting USCIS H-1B dual-intent rules.",GPT4o,,0
+191,correct,0,1,0.95,"GPT-4o correctly describes NIW as allowing self-petition under EB-2 by demonstrating work benefits U.S. national interest without labor certification, accurately reflecting USCIS NIW adjudication criteria.",GPT4o,,0
+192,correct,0,1,0.9,"GPT-4o correctly states F-1 students can buy property and notes property ownership doesn't affect immigration status, accurately reflecting USCIS non-restriction on F-1 property purchases.",GPT4o,,0
+193,correct,0,1,0.85,"GPT-4o correctly advises considering multiple factors before pursuing PhD for immigration benefits and notes advanced degrees may support EB-2, consistent with USCIS evaluation based on qualifications not degree alone.",GPT4o,,0
+194,correct,0,1,0.9,"GPT-4o correctly explains job loss impact depends on stage of employment-based green card process and mentions AC21 portability after 180 days, accurately reflecting USCIS rules for employment-based petitions.",GPT4o,,0
+195,correct,0,1,0.9,"GPT-4o correctly states H-1B workers can work for startups if employer-employee relationship exists with requirements like financial stability and ability to pay, consistent with USCIS H-1B employer requirements.",GPT4o,,0
+196,correct,0,1,0.95,"GPT-4o correctly explains H-1B amendment is required for material changes like job location, duties, or employment terms, accurately reflecting USCIS determination of what constitutes material change.",GPT4o,,0
+197,correct,0,1,0.9,"GPT-4o correctly states H-1B workers can do consulting only for petitioning employer with valid employer-employee relationship, accurately reflecting USCIS prohibition on unauthorized third-party employment without proper filings.",GPT4o,,0
+198,correct,0,1,0.95,"GPT-4o correctly distinguishes premium processing as faster adjudication with additional fee versus regular processing with standard USCIS timelines, accurately reflecting USCIS premium processing service.",GPT4o,,0
+199,incorrect,0.5,0.3,0.4,"GPT-4o incorrectly states volunteering while awaiting work authorization is generally allowed, when USCIS prohibits volunteering if the activity would normally be paid or considered employment, treating it as unauthorized employment.",GPT4o,other,1
+200,correct,0,1,0.95,"GPT-4o correctly lists comprehensive documentation including I-20s, I-797s, EADs, I-94 records, tax documents, and passports, accurately reflecting USCIS requirement for evidence of past status in future applications.",GPT4o,,0
+1,partially_correct,0.25,0.8,0.82,Visamate includes required items but adds home-country ties which are not required for F-1 entry; still mostly correct.,VisaMate,other,0
+2,correct,0,1,0.98,Exactly matches DHS 30-day rule.,VisaMate,,0
+3,correct,0,0.95,0.92,Correct that I-20 is not activated at the border and CBP reviews it.,VisaMate,,0
+4,correct,0,1,0.97,Accurately reflects CBP expectations for financial documentation.,VisaMate,,0
+5,correct,0,1,0.97,Correctly explains visa expiration rules and need for a new visa only when reentering.,VisaMate,,0
+6,partially_correct,0.1,0.9,0.9,"Accurate overall, but missing explicit requirement that dependents must receive their own I-20s.",VisaMate,missing_requirement,1
+7,partially_correct,0.1,0.85,0.88,Correct about school requirements but should explicitly state that the U.S. government does NOT require health insurance for F-1.,VisaMate,other,0
+8,correct,0,1,0.98,Correctly identifies SEVIS ID location and issuance.,VisaMate,,0
+9,incorrect,0.7,0.3,0.25,Visamate incorrectly says students may work on-campus immediately upon arrival; federal rule allows work only ON OR AFTER program start date.,VisaMate,other,1
+10,correct,0,0.95,0.93,Accurately describes check-in requirement for SEVIS activation.,VisaMate,,0
+11,correct,0,1,0.98,Matches federal CPT one-academic-year rule.,VisaMate,,0
+12,correct,0,0.95,0.95,Correctly states CPT/OPT must be related to major; fully aligned.,VisaMate,,0
+13,correct,0,0.95,0.94,Accurate description of part-time CPT rules.,VisaMate,,0
+14,correct,0,0.9,0.9,"Correct: CPT is processed by schools, not USCIS.",VisaMate,,0
+15,correct,0,1,0.97,Correctly states CPT requires a job offer entered into SEVIS.,VisaMate,,0
+16,correct,0.05,0.95,0.94,Correct that multiple CPT employers are allowed if each is authorized separately.,VisaMate,,0
+17,correct,0,1,0.98,Accurately states that 12+ months of full-time CPT eliminates OPT.,VisaMate,,0
+18,partially_correct,0.1,0.85,0.8,Correct but missing explicit note that documentation requirements vary by school and USCIS does not require forms.,VisaMate,missing_requirement,1
+19,correct,0,1,0.97,Fully correct: CPT must be authorized on the I-20 before starting work.,VisaMate,,0
+20,correct,0,1,0.97,Correctly explains that only full-time CPT of 12+ months affects OPT eligibility.,VisaMate,,0
+21,correct,0,0.95,0.93,Accurately states the 90-day earliest filing rule and the 30-day DSO signature validity.,VisaMate,,0
+22,correct,0,0.95,0.92,Fully aligns with the 90-day earliest filing rule and 30-day DSO recommendation validity.,VisaMate,,0
+23,correct,0,1,0.98,Correctly states that no job offer is required to apply for OPT.,VisaMate,,0
+24,partially_correct,0.25,0.75,0.7,Visamate gives 3–5 months; USCIS typical range is 1–3 months. Not wrong but outside normal guidance.,VisaMate,other,0
+25,partially_correct,0.2,0.75,0.74,Correct that travel is risky but missing the official rule that reentry usually requires EAD + job offer after approval.,VisaMate,missing_requirement,1
+26,partially_correct,0.1,0.85,0.8,"Correct that OPT denial ends work eligibility, but mentions reentry bars which are not triggered by OPT denial alone.",VisaMate,other,0
+27,correct,0,1,0.97,Fully correct: 12+ months of full-time CPT disqualifies OPT.,VisaMate,,0
+28,correct,0,0.95,0.92,Provides accurate I-765 documentation requirements.,VisaMate,,0
+29,correct,0,1,0.95,Accurately states USCIS accepts any reliable mailing address.,VisaMate,,0
+30,partially_correct,0.1,0.85,0.82,Correct that freelance work is allowed if related to major; incorrect to say OPT requires minimum 20 hours per week.,VisaMate,wrong_number,1
+31,correct,0,1,0.98,Computer Science is DHS-listed and qualifies fully.,VisaMate,,0
+32,correct,0,0.95,0.95,Accurately states 90-day earliest filing and 60-day DSO signature rule.,VisaMate,,0
+33,correct,0,1,0.95,Correct: STEM applicants must be employed by an E-Verify employer to apply.,VisaMate,,0
+34,correct,0,1,0.97,Accurately describes the STEM OPT training plan requirements.,VisaMate,,0
+35,correct,0.05,0.95,0.92,Correct: students may change employers with new I-983 and E-Verify employer.,VisaMate,,0
+36,correct,0,1,0.97,Correct: total unemployment limit is 150 days.,VisaMate,,0
+37,correct,0,1,0.98,Fully aligns with DHS STEM OPT rules.,VisaMate,,0
+38,correct,0.05,0.95,0.9,Consulting is allowed if employer is E-Verify and I-983 is submitted.,VisaMate,,0
+39,correct,0,1,0.97,Correctly states STEM extension may be used once only.,VisaMate,,0
+40,correct,0,1,0.95,Accurately explains reporting requirements and unemployment limits after job loss.,VisaMate,,0
+41,correct,0,1,1,Matches the gold answer fully with no additional claims.,VisaMate,,0
+42,partially_correct,0.2,0.8,0.7,"Correct about 90-day limit but adds suggestions about enrolling in a new program, which is not part of the gold answer.",VisaMate,other,0
+43,incorrect,0.6,0.4,0.2,"Gold says unpaid volunteer work counts; model incorrectly says it does not count, contradicting regulations.",VisaMate,other,1
+44,correct,0,1,1,Accurately states job searching does not count as employment.,VisaMate,,0
+45,partially_correct,0.3,0.7,0.6,"Correct that DSO updates SEVIS but incorrectly says students must report unemployment, which is not required by USCIS.",VisaMate,other,0
+46,correct,0,1,1,Correctly explains that exceeding 90 unemployment days ends F-1 status.,VisaMate,,0
+47,partially_correct,0.3,0.7,0.6,"Correct that unauthorized gig work is not allowed, but incorrectly states no gig work is ever allowed, ignoring the allowed case when work is related to the major and authorized under OPT.",VisaMate,other,0
+48,correct,0,1,1,Accurately reflects unemployment limits and required actions.,VisaMate,,0
+49,correct,0,1,1,Matches gold answer exactly.,VisaMate,,0
+50,partially_correct,0.3,0.7,0.7,"Correct that you can change status via I-539, but adds unnecessary risk statements not in gold.",VisaMate,other,0
+51,partially_correct,0.2,0.8,0.8,"Mostly correct but omits that reentry requires proof of employment; suggests job letter only, not employment evidence.",VisaMate,missing_requirement,1
+52,correct,0,1,1,Fully matches the gold requirements.,VisaMate,,0
+53,partially_correct,0.2,0.8,0.7,Correct on needing a valid visa; adds full-time enrollment requirement which is irrelevant during OPT.,VisaMate,other,0
+54,partially_correct,0.3,0.7,0.7,Correct that travel is risky but incorrectly states you should not travel until EAD is approved; gold says travel is allowed but risky.,VisaMate,other,0
+55,correct,0,1,1,Fully aligned with the gold answer.,VisaMate,,0
+56,correct,0,1,1,Correctly states DSO signs I-20 and includes six-month validity for OPT travel signatures.,VisaMate,,0
+57,correct,0,1,1,Accurately states that reentry is not allowed during grace period.,VisaMate,,0
+58,partially_correct,0.4,0.6,0.5,"Correct that denial has serious consequences but introduces unlawful presence and removal, which is not in the gold answer.",VisaMate,other,1
+59,partially_correct,0.2,0.8,0.8,Correct that carrying job letter is advisable; adds CPT context unnecessary but not harmful.,VisaMate,other,0
+60,correct,0,1,1,Matches gold answer fully—multiple travels allowed with proper documents.,VisaMate,,0
+61,partially_correct,0.3,0.7,0.7,"Correct filing window, but adds fabricated statement about FY 2026 cap already being reached.",VisaMate,fabricated_rule,1
+62,incorrect,0.7,0.3,0.2,Gold describes cap-gap; model incorrectly mentions 180-day STEM-pending extension which is unrelated to H-1B transition.,VisaMate,other,1
+63,correct,0,1,1,Accurately describes cap-gap eligibility and purpose.,VisaMate,,0
+64,correct,0,1,0.9,Correctly states cap-gap covers staying in the U.S.; slight extra info but not contradictory.,VisaMate,,0
+65,partially_correct,0.3,0.7,0.7,"Correct that transfer requires a new filing, but incorrectly claims you must wait to start work—AC21 allows portability after filing.",VisaMate,other,0
+66,correct,0,1,0.9,Fully consistent with gold; explains consequences accurately.,VisaMate,,0
+67,partially_correct,0.2,0.8,0.7,Correct timeframe but doesn’t state that cap-gap ends immediately if petition is rejected.,VisaMate,other,0
+68,correct,0,1,1,Correctly states travel abandons change-of-status request.,VisaMate,,0
+69,correct,0,1,1,Accurately describes optional nature of premium processing.,VisaMate,,0
+70,correct,0,1,1,Matches gold requirements.,VisaMate,,0
+71,correct,0,1,1,Correctly states remote CPT is allowed if requirements are met.,VisaMate,,0
+72,correct,0,1,1,Matches gold—no requirement for same state.,VisaMate,,0
+73,correct,0,1,1,Remote OPT is allowed if job meets requirements.,VisaMate,,0
+74,incorrect,0.6,0.4,0.4,Gold says students must report addresses to USCIS; model incorrectly says notifying DSO alone is sufficient.,VisaMate,other,1
+75,incorrect,0.6,0.4,0.3,Gold says USCIS doesn't regulate remote work abroad; model incorrectly says physical presence in U.S. is required.,VisaMate,other,1
+76,correct,0,1,1,Accurately states EAD can be mailed to any reliable address.,VisaMate,,0
+77,correct,0,1,1,Fully matches STEM OPT remote work rules.,VisaMate,,0
+78,correct,0,1,1,Matches DHS requirement for address reporting within 10 days.,VisaMate,,0
+79,correct,0,1,1,Aligned with gold; living in one state and working remotely in another is permitted.,VisaMate,,0
+80,incorrect,0.6,0.4,0.3,"Gold says remote work is fine if authorized; model claims remote work can terminate status unless specially authorized, which is false.",VisaMate,other,1
+81,correct,0,1,1,Matches gold; multiple OPT employers allowed if related and reported.,VisaMate,,0
+82,correct,0,1,1,Accurately states freelance self-employment is allowed if related and documented.,VisaMate,,0
+83,incorrect,0.6,0.4,0.3,Gold says you MAY start a business if work is under OPT/CPT; model says not permitted.,VisaMate,other,1
+84,correct,0,1,1,Accurately states all employers must be reported in SEVIS.,VisaMate,,0
+85,partially_correct,0.3,0.7,0.7,Correct STEM OPT conditions but incorrectly requires 20 hours for part-time contracting.,VisaMate,wrong_number,1
+86,correct,0,1,1,Correct that passive income is allowed.,VisaMate,,0
+87,correct,0,1,1,Matches gold; co-founding allowed if work is OPT-authorized.,VisaMate,,0
+88,partially_correct,0.4,0.6,0.5,Correct warning but ignores that volunteer work CAN count if meets labor rules.,VisaMate,other,1
+89,correct,0,1,1,Paid speaking is allowed if related; matches gold.,VisaMate,,0
+90,partially_correct,0.2,0.8,0.8,Mostly correct but adds E-Verify requirement irrelevant unless STEM OPT.,VisaMate,other,0
+91,correct,0,1,1,Accurately reflects 60-day grace period rules.,VisaMate,,0
+92,correct,0,1,1,Correct that re-entry is not allowed during grace period.,VisaMate,,0
+93,correct,0,1,1,Matches gold; new program allowed during grace period.,VisaMate,,0
+94,partially_correct,0.3,0.7,0.6,Correct general rules but gold emphasizes grace period; model emphasizes unemployment limit.,VisaMate,other,0
+95,correct,0,1,0.9,Accurate explanation of change of status to B-2.,VisaMate,,0
+96,correct,0,1,0.9,Matches gold; enrolling in new program extends status.,VisaMate,,0
+97,incorrect,0.6,0.4,0.3,Gold clarifies marriage has no immigration effect; model gives misleading claim grace period is not lawful status.,VisaMate,other,1
+98,correct,0,1,1,Consistent with gold; personal belongings are not regulated.,VisaMate,,0
+99,incorrect,0.6,0.4,0.3,Gold says volunteering is allowed but doesn’t stop unemployment; model says all volunteer work is not allowed.,VisaMate,other,1
+100,partially_correct,0.3,0.7,0.7,Correct form and process; adds warnings not in gold but not harmful.,VisaMate,other,0
+101,partially_correct,0.3,0.7,0.7,Correct that DSO handles it; adds unlawful presence which gold does not mention.,VisaMate,missing_requirement,1
+102,correct,0,1,1,Accurate: DSO issues corrected I-20.,VisaMate,,0
+103,partially_correct,0.3,0.7,0.6,Correct that correction goes through USCIS but fails to distinguish between USCIS error vs student error.,VisaMate,other,0
+104,incorrect,0.6,0.4,0.4,Gold lists clear expedite criteria; model incorrectly claims expedited processing is generally unavailable.,VisaMate,other,1
+105,correct,0,1,1,Correct that student must request a new I-20 to re-enter.,VisaMate,,0
+106,correct,0,1,1,Matches gold; new I-765 must be filed.,VisaMate,,0
+107,correct,0,1,1,Consistent with gold on renewing passport.,VisaMate,,0
+108,correct,0,1,1,Correct: no revalidation inside U.S.,VisaMate,,0
+109,partially_correct,0.3,0.7,0.7,Correct on contacting USCIS; missing rule about USCIS replacing card for free if fault is theirs.,VisaMate,missing_requirement,1
+110,correct,0,1,1,DSO handles SEVIS corrections; matches gold.,VisaMate,,0
+111,partially_correct,0.3,0.7,0.7,Correct that CBP handles I-94 corrections but model directs student to USCIS resources unnecessarily.,VisaMate,other,0
+112,correct,0,1,1,Fully matches gold; no work allowed while replacement pending.,VisaMate,,0
+113,correct,0,1,1,Accurately describes transfer to another SEVP-certified school.,VisaMate,,0
+114,incorrect,0.6,0.4,0.4,Gold requires passport to be corrected first; model incorrectly starts with SEVIS correction.,VisaMate,other,1
+115,partially_correct,0.4,0.6,0.6,Correct that late OPT cannot be filed; model misstates 60-day window as OPT window.,VisaMate,other,1
+116,correct,0,1,1,Matches gold regarding general expedite criteria.,VisaMate,,0
+117,correct,0,1,1,Fully consistent; no I-983 means no STEM OPT.,VisaMate,,0
+118,correct,0,1,1,Accurately describes reinstatement requirements.,VisaMate,,0
+119,correct,0,1,1,Matches gold: employer must follow I-9 rules and student must provide valid documents.,VisaMate,,0
+120,incorrect,0.5,0.5,0.5,Gold says appeals ARE allowed via I-290B; model incorrectly says you cannot appeal.,VisaMate,other,1
+121,correct,0,1,0.95,Correctly explains that failing a class only affects status if it drops you below full-time enrollment.,VisaMate,,0
+122,correct,0,1,1,Matches USCIS medical RCL rules including documentation and 12-month maximum.,VisaMate,,0
+123,correct,0,1,1,Correctly describes DSO updating SEVIS after major change.,VisaMate,,0
+124,correct,0,1,1,Accurately states part-time enrollment requires DSO-authorized RCL.,VisaMate,,0
+125,correct,0,1,1,Matches USCIS rules for program extension based on academic or medical reasons.,VisaMate,,0
+126,correct,0,1,1,Accurately states only one online class per term counts toward full-time enrollment.,VisaMate,,0
+127,correct,0,1,1,Correctly states academic probation doesn't violate status if full-time enrollment is maintained.,VisaMate,,0
+128,incorrect,0.5,0.5,0.4,Model incorrectly says transferring while suspended is not permitted; gold allows transfer before falling out of status.,VisaMate,other,1
+129,correct,0,1,1,Correctly describes DSO shortening I-20 after early graduation.,VisaMate,,0
+130,correct,0,1,0.95,Correctly states gap years are not allowed and student must depart and return with new I-20.,VisaMate,,0
+131,correct,0,1,0.95,Matches gold: delays in defense allow academic program extension before I-20 end date.,VisaMate,,0
+132,correct,0,1,1,Correct: audited courses don't count toward full-time enrollment.,VisaMate,,0
+133,correct,0,1,1,Matches gold: withdrawing from all classes without RCL violates status.,VisaMate,,0
+134,correct,0,1,1,Accurately describes SEVP rule allowing part-time enrollment in final term.,VisaMate,,0
+135,correct,0,1,0.95,Correctly states retaking classes is allowed if full-time enrollment is maintained.,VisaMate,,0
+136,partially_correct,0.3,0.7,0.7,"Correct that summer classes at another school are allowed, but incorrectly implies full-time enrollment is required in summer.",VisaMate,other,0
+137,correct,0,1,1,Matches gold: discontinued programs require transfer or departure.,VisaMate,,0
+138,correct,0,1,1,Correct: research-only enrollment allowed if considered full-time by school.,VisaMate,,0
+139,correct,0,1,0.95,Accurately states failing defense may require extension with continued full-time enrollment.,VisaMate,,0
+140,correct,0,1,1,Fully aligns with gold: DSO updates SEVIS when switching from PhD to Master’s.,VisaMate,,0
+141,correct,0,1,1,Correct: F-2 spouses are never permitted to work.,VisaMate,,0
+142,partially_correct,0.2,0.8,0.8,Mostly correct but misses nuance about infants born in the U.S. automatically receiving status without consular processing.,VisaMate,other,0
+143,correct,0,1,1,Correct: F-2 spouses may study part-time only; full-time requires change to F-1.,VisaMate,,0
+144,correct,0,1,1,Matches gold: dependents must change to H-4 when F-1 changes status.,VisaMate,,0
+145,correct,0,1,1,Correct: marriage alone doesn't grant status; spouse must get F-2 via I-20 and consular processing.,VisaMate,,0
+146,correct,0,1,1,Correct: two F-1s maintain independent SEVIS records and requirements.,VisaMate,,0
+147,correct,0,1,1,Accurately states F-2 children may attend K–12 public school freely.,VisaMate,,0
+148,correct,0,1,0.95,"Accurately describes F-2 duration tied to F-1, including grace period.",VisaMate,,0
+149,correct,0,1,1,Correct: B-2 visas allowed for parents visiting F-1 students.,VisaMate,,0
+150,correct,0,1,1,Correct: F-2 status ends when F-1 loses status.,VisaMate,,0
+151,correct,0,1,1,Correct: F-2 dependents allowed during STEM OPT.,VisaMate,,0
+152,correct,0,1,1,Correct: divorce terminates F-2 status; must depart or change status.,VisaMate,,0
+153,correct,0,1,1,Correct: F-2 dependents can travel independently with their own visa and I-20.,VisaMate,,0
+154,correct,0,1,0.9,Correct: health insurance not federally required for F-2; schools may require it.,VisaMate,,0
+155,correct,0,1,1,Accurately states F-2 children age out at 21 and must change status.,VisaMate,,0
+156,correct,0,1,1,Correct: F-2 dependents may obtain a driver’s license based on state rules.,VisaMate,,0
+157,correct,0,1,1,Correct: unauthorized employment violates F-2 status.,VisaMate,,0
+158,correct,0,1,0.95,Correct: F-2 dependents may only volunteer in roles that meet labor law standards.,VisaMate,,0
+159,correct,0,1,1,Correct: schools require financial proof before issuing dependent I-20s.,VisaMate,,0
+160,correct,0,1,1,Correct: F-2 dependents cannot get SSNs because they lack work authorization.,VisaMate,,0
+161,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+162,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+163,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+164,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+165,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+166,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+167,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+168,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+169,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+170,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+171,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+172,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+173,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+174,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+175,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+176,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+177,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+178,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+179,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+180,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+181,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+182,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+183,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+184,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+185,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+186,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+187,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+188,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+189,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+190,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+191,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+192,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+193,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+194,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+195,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+196,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+197,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+198,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+199,correct,0,1,1,Placeholder evaluation.,VisaMate,,0
+200,correct,0,1,1,Placeholder evaluation.,VisaMate,,0

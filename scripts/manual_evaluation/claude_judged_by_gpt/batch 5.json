@@ -1,0 +1,165 @@
+{
+    "evaluations": [
+      {
+        "qid": 161,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 1.0,
+        "semantic_similarity": 0.97,
+        "explanation": "Claude correctly states that all F-1 students must file taxes and identifies Forms 8843 and 1040-NR; no errors."
+      },
+      {
+        "qid": 162,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 1.0,
+        "semantic_similarity": 0.96,
+        "explanation": "Claude accurately explains the IRS five-year nonresident rule with no contradictions."
+      },
+      {
+        "qid": 163,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 0.95,
+        "semantic_similarity": 0.93,
+        "explanation": "Answer correctly states F-1 students may claim treaty benefits; details are accurate."
+      },
+      {
+        "qid": 164,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 1.0,
+        "semantic_similarity": 0.97,
+        "explanation": "Clearly states nonresident F-1 students do not pay FICA; fully matches IRS rules."
+      },
+      {
+        "qid": 165,
+        "label": "incorrect",
+        "hallucination_score": 0.55,
+        "correctness_score": 0.45,
+        "semantic_similarity": 0.35,
+        "explanation": "Claude omits F-1 requirement of having employment authorization and a job offer; gives generic SSN rules instead."
+      },
+      {
+        "qid": 166,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 0.95,
+        "semantic_similarity": 0.94,
+        "explanation": "Correctly explains that excess scholarship amounts are taxable; fully aligned with IRS rules."
+      },
+      {
+        "qid": 167,
+        "label": "incorrect",
+        "hallucination_score": 0.65,
+        "correctness_score": 0.4,
+        "semantic_similarity": 0.30,
+        "explanation": "Nonresident aliens generally cannot claim dependents; Claude incorrectly suggests eligibility using resident rules."
+      },
+      {
+        "qid": 168,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 1.0,
+        "semantic_similarity": 0.98,
+        "explanation": "Accurately states that federal and state taxes are filed separately; fully aligned."
+      },
+      {
+        "qid": 169,
+        "label": "partially_correct",
+        "hallucination_score": 0.25,
+        "correctness_score": 0.75,
+        "semantic_similarity": 0.82,
+        "explanation": "Claude lists IRS penalties correctly but does not mention immigration implications; still mostly accurate."
+      },
+      {
+        "qid": 170,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 0.95,
+        "semantic_similarity": 0.92,
+        "explanation": "Correctly notes students may open accounts without SSN if the bank allows alternative ID."
+      },
+      {
+        "qid": 171,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 1.0,
+        "semantic_similarity": 0.96,
+        "explanation": "Accurately states F-1 students may receive refunds depending on withholding and treaties."
+      },
+      {
+        "qid": 172,
+        "label": "incorrect",
+        "hallucination_score": 0.65,
+        "correctness_score": 0.35,
+        "semantic_similarity": 0.30,
+        "explanation": "Gold specifies F-1 nonresidents do NOT report foreign income; Claude gives generic worldwide-tax rules instead."
+      },
+      {
+        "qid": 173,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 0.95,
+        "semantic_similarity": 0.94,
+        "explanation": "Correct that OPT workers may contribute to retirement accounts if they have earned income."
+      },
+      {
+        "qid": 174,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 1.0,
+        "semantic_similarity": 0.97,
+        "explanation": "Accurately explains Form 8843 and confirms all F-1 students must file it even with no income."
+      },
+      {
+        "qid": 175,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 1.0,
+        "semantic_similarity": 0.98,
+        "explanation": "Correctly states international students may use VITA, software, and advisors."
+      },
+      {
+        "qid": 176,
+        "label": "incorrect",
+        "hallucination_score": 0.75,
+        "correctness_score": 0.25,
+        "semantic_similarity": 0.22,
+        "explanation": "Claude incorrectly claims CPT and OPT income are taxed differently; IRS treats them identically."
+      },
+      {
+        "qid": 177,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 0.95,
+        "semantic_similarity": 0.93,
+        "explanation": "Correctly explains multi-state tax filing obligations consistent with state tax rules."
+      },
+      {
+        "qid": 178,
+        "label": "incorrect",
+        "hallucination_score": 0.8,
+        "correctness_score": 0.2,
+        "semantic_similarity": 0.18,
+        "explanation": "Nonresident aliens cannot claim education credits; Claude incorrectly states they can."
+      },
+      {
+        "qid": 179,
+        "label": "correct",
+        "hallucination_score": 0.05,
+        "correctness_score": 0.9,
+        "semantic_similarity": 0.89,
+        "explanation": "Correctly states TA/RA income is taxable; small nuance issues but overall aligned."
+      },
+      {
+        "qid": 180,
+        "label": "incorrect",
+        "hallucination_score": 0.7,
+        "correctness_score": 0.3,
+        "semantic_similarity": 0.28,
+        "explanation": "Claude gives generic FICA refund rules and misses the key F-1 exemption and Form 843 process."
+      }
+    ]
+  }
+  

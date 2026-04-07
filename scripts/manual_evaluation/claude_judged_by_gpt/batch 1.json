@@ -1,0 +1,323 @@
+[
+    {
+      "qid": "Q1",
+      "label": "partially_correct",
+      "hallucination_score": 0.20,
+      "correctness_score": 0.75,
+      "semantic_similarity": 0.80,
+      "explanation": "Claude lists the correct core documents but adds inaccurate items like ESTA and non-required documents; core meaning aligns but details are off."
+    },
+    {
+      "qid": "Q2",
+      "label": "incorrect",
+      "hallucination_score": 0.45,
+      "correctness_score": 0.40,
+      "semantic_similarity": 0.25,
+      "explanation": "Claude fails to state the clear rule that F-1 students cannot enter more than 30 days early and adds irrelevant visa categories."
+    },
+    {
+      "qid": "Q3",
+      "label": "partially_correct",
+      "hallucination_score": 0.15,
+      "correctness_score": 0.75,
+      "semantic_similarity": 0.80,
+      "explanation": "Claude correctly states that the I-20 is not activated at the border but implies that entry itself 'starts' status, which is incomplete but not fabricated."
+    },
+    {
+      "qid": "Q4",
+      "label": "incorrect",
+      "hallucination_score": 0.45,
+      "correctness_score": 0.45,
+      "semantic_similarity": 0.45,
+      "explanation": "Claude incorrectly states it is not recommended to carry financial documents, contradicting the gold answer’s meaning."
+    },
+    {
+      "qid": "Q5",
+      "label": "hallucination",
+      "hallucination_score": 0.95,
+      "correctness_score": 0.05,
+      "semantic_similarity": 0.05,
+      "explanation": "Claude fabricates severe legal consequences for visa expiration, which does not end F-1 status; this is a clear hallucination."
+    },
+    {
+      "qid": "Q6",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "Claude accurately describes F-2 eligibility and requirements; fully aligns with gold."
+    },
+    {
+      "qid": "Q7",
+      "label": "incorrect",
+      "hallucination_score": 0.50,
+      "correctness_score": 0.50,
+      "semantic_similarity": 0.20,
+      "explanation": "Claude ignores the key point: USCIS does not require health insurance for F-1 students; gives irrelevant country-generic advice."
+    },
+    {
+      "qid": "Q8",
+      "label": "partially_correct",
+      "hallucination_score": 0.25,
+      "correctness_score": 0.70,
+      "semantic_similarity": 0.75,
+      "explanation": "Claude is right that SEVIS ID appears on the I-20 but incorrectly claims it appears on I-94 or USCIS notices."
+    },
+    {
+      "qid": "Q9",
+      "label": "incorrect",
+      "hallucination_score": 0.55,
+      "correctness_score": 0.45,
+      "semantic_similarity": 0.20,
+      "explanation": "Claude gives general visa work rules instead of stating clearly that F-1 students cannot work on arrival."
+    },
+    {
+      "qid": "Q10",
+      "label": "incorrect",
+      "hallucination_score": 0.40,
+      "correctness_score": 0.45,
+      "semantic_similarity": 0.25,
+      "explanation": "Claude gives general relocation advice and misses the SEVIS-mandated school check-in requirement."
+    },
+    {
+      "qid": "Q11",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.95,
+      "explanation": "Claude correctly states the 1-academic-year rule and the graduate program exception."
+    },
+    {
+      "qid": "Q12",
+      "label": "hallucination",
+      "hallucination_score": 0.95,
+      "correctness_score": 0.05,
+      "semantic_similarity": 0.0,
+      "explanation": "Claude states internships do not need to relate to the major, which contradicts core CPT law; clear fabrication."
+    },
+    {
+      "qid": "Q13",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.95,
+      "explanation": "Claude accurately describes federal part-time CPT rules."
+    },
+    {
+      "qid": "Q14",
+      "label": "partially_correct",
+      "hallucination_score": 0.20,
+      "correctness_score": 0.75,
+      "semantic_similarity": 0.80,
+      "explanation": "Claude gives reasonable school timelines but misses the key regulatory point that USCIS does not adjudicate CPT."
+    },
+    {
+      "qid": "Q15",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.95,
+      "explanation": "Claude correctly states a job offer is required before CPT authorization."
+    },
+    {
+      "qid": "Q16",
+      "label": "partially_correct",
+      "hallucination_score": 0.25,
+      "correctness_score": 0.70,
+      "semantic_similarity": 0.80,
+      "explanation": "Claude is mostly correct but incorrectly introduces hour-limit rules not defined by federal CPT policy."
+    },
+    {
+      "qid": "Q17",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "Claude perfectly matches the OPT-impact rule on 12 months of full-time CPT."
+    },
+    {
+      "qid": "Q18",
+      "label": "partially_correct",
+      "hallucination_score": 0.30,
+      "correctness_score": 0.70,
+      "semantic_similarity": 0.75,
+      "explanation": "Claude lists many common school-required CPT documents but adds federal documents not mandated by regulation."
+    },
+    {
+      "qid": "Q19",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Claude states the rule accurately: cannot work until CPT is authorized on the I-20."
+    },
+    {
+      "qid": "Q20",
+      "label": "hallucination",
+      "hallucination_score": 1.0,
+      "correctness_score": 0.0,
+      "semantic_similarity": 0.0,
+      "explanation": "Claude answers about mental-health therapy CPT instead of Curricular Practical Training; entirely fabricated."
+    },
+    {
+      "qid": "Q21",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.95,
+      "explanation": "Claude correctly states the earliest OPT filing window and provides accurate additional details."
+    },
+    {
+      "qid": "Q22",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Claude fully matches the 90-day earliest OPT application rule."
+    },
+    {
+      "qid": "Q23",
+      "label": "partially_correct",
+      "hallucination_score": 0.20,
+      "correctness_score": 0.75,
+      "semantic_similarity": 0.85,
+      "explanation": "Claude correctly states no job offer is required but introduces an incorrect rule about automatic loss of status after 90 days unemployed."
+    },
+    {
+      "qid": "Q24",
+      "label": "partially_correct",
+      "hallucination_score": 0.20,
+      "correctness_score": 0.75,
+      "semantic_similarity": 0.80,
+      "explanation": "Claude provides a slightly inflated processing time estimate but stays within reasonable meaning alignment."
+    },
+    {
+      "qid": "Q25",
+      "label": "partially_correct",
+      "hallucination_score": 0.30,
+      "correctness_score": 0.70,
+      "semantic_similarity": 0.70,
+      "explanation": "Claude correctly states travel is risky but fails to note that reentry requires EAD + job offer, overstating restrictions."
+    },
+    {
+      "qid": "Q26",
+      "label": "partially_correct",
+      "hallucination_score": 0.25,
+      "correctness_score": 0.70,
+      "semantic_similarity": 0.75,
+      "explanation": "Claude captures the meaning of an OPT denial but adds a fictional grace-period concept."
+    },
+    {
+      "qid": "Q27",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "Claude correctly states that 12 months of full-time CPT eliminates OPT eligibility."
+    },
+    {
+      "qid": "Q28",
+      "label": "partially_correct",
+      "hallucination_score": 0.25,
+      "correctness_score": 0.70,
+      "semantic_similarity": 0.80,
+      "explanation": "Claude lists most correct I-765 documents but includes items not required federally such as transcripts."
+    },
+    {
+      "qid": "Q29",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.95,
+      "explanation": "Claude correctly states students may use any reliable mailing address."
+    },
+    {
+      "qid": "Q30",
+      "label": "partially_correct",
+      "hallucination_score": 0.30,
+      "correctness_score": 0.70,
+      "semantic_similarity": 0.75,
+      "explanation": "Claude is correct that freelance work is allowed on regular OPT but misses that STEM OPT cannot include self-employment."
+    },
+    {
+      "qid": "Q31",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Claude accurately states that Computer Science qualifies for STEM OPT."
+    },
+    {
+      "qid": "Q32",
+      "label": "incorrect",
+      "hallucination_score": 0.55,
+      "correctness_score": 0.45,
+      "semantic_similarity": 0.40,
+      "explanation": "Claude invents a 150-day earliest filing rule; the correct earliest is 90 days before OPT end."
+    },
+    {
+      "qid": "Q33",
+      "label": "incorrect",
+      "hallucination_score": 0.60,
+      "correctness_score": 0.40,
+      "semantic_similarity": 0.40,
+      "explanation": "Claude incorrectly states students can apply for STEM OPT while unemployed; an E-Verify employer and I-983 are required at filing."
+    },
+    {
+      "qid": "Q34",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.95,
+      "explanation": "Claude accurately explains the purpose and structure of Form I-983."
+    },
+    {
+      "qid": "Q35",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "Claude correctly describes STEM OPT employer-change requirements."
+    },
+    {
+      "qid": "Q36",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Claude matches DHS rules: 150 total unemployment days across OPT + STEM."
+    },
+    {
+      "qid": "Q37",
+      "label": "incorrect",
+      "hallucination_score": 0.60,
+      "correctness_score": 0.40,
+      "semantic_similarity": 0.20,
+      "explanation": "Claude ignores STEM OPT rules and instead explains unrelated E-Verify federal contractor requirements."
+    },
+    {
+      "qid": "Q38",
+      "label": "hallucination",
+      "hallucination_score": 0.90,
+      "correctness_score": 0.10,
+      "semantic_similarity": 0.20,
+      "explanation": "Claude incorrectly states consulting clients must be E-Verify; STEM OPT forbids independent contracting entirely."
+    },
+    {
+      "qid": "Q39",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Claude correctly states STEM OPT can be extended only once for 24 months."
+    },
+    {
+      "qid": "Q40",
+      "label": "incorrect",
+      "hallucination_score": 0.60,
+      "correctness_score": 0.40,
+      "semantic_similarity": 0.30,
+      "explanation": "Claude incorrectly creates a '60-day grace period' after job loss during STEM OPT; unemployment rules are cumulative, not grace-based."
+    }
+  ]
+  

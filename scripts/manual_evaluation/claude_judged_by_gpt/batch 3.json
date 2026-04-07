@@ -1,0 +1,323 @@
+[
+    {
+      "qid": "Q81",
+      "label": "partially_correct",
+      "hallucination_score": 0.25,
+      "correctness_score": 0.75,
+      "semantic_similarity": 0.92,
+      "explanation": "Mostly correct about multiple OPT employers but incorrectly states a 40-hour combined limit which does not exist in regulation."
+    },
+    {
+      "qid": "Q82",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "Accurately states that freelance consulting is allowed if related to field and properly documented."
+    },
+    {
+      "qid": "Q83",
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.8,
+      "semantic_similarity": 0.88,
+      "explanation": "Correct that business activity requires CPT/OPT authorization but adds unnecessary sections on on-campus businesses and status change."
+    },
+    {
+      "qid": "Q84",
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.8,
+      "semantic_similarity": 0.9,
+      "explanation": "Accurate about employer reporting but adds CPT and on-campus reporting tangents not in gold."
+    },
+    {
+      "qid": "Q85",
+      "label": "incorrect",
+      "hallucination_score": 0.5,
+      "correctness_score": 0.5,
+      "semantic_similarity": 0.7,
+      "explanation": "Fails to mention mandatory E-Verify and I-983; implies part-time contracting flexibility that does not meet STEM OPT rules."
+    },
+    {
+      "qid": "Q86",
+      "label": "incorrect",
+      "hallucination_score": 0.6,
+      "correctness_score": 0.4,
+      "semantic_similarity": 0.45,
+      "explanation": "Provides generic global investment advice and ignores F-1 rules entirely."
+    },
+    {
+      "qid": "Q87",
+      "label": "partially_correct",
+      "hallucination_score": 0.25,
+      "correctness_score": 0.75,
+      "semantic_similarity": 0.85,
+      "explanation": "Correct that co-founding is allowed only if work is authorized, but adds speculative conditions about equity vs employment."
+    },
+    {
+      "qid": "Q88",
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.75,
+      "semantic_similarity": 0.8,
+      "explanation": "Accurately describes volunteer rules but fails to explain OPT-related volunteer constraints."
+    },
+    {
+      "qid": "Q89",
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.8,
+      "semantic_similarity": 0.85,
+      "explanation": "Correct that paid speaking is employment, but adds speculative distinctions about frequency."
+    },
+    {
+      "qid": "Q90",
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.8,
+      "semantic_similarity": 0.9,
+      "explanation": "Captures employer reporting but adds details not required by USCIS (supervisor info, hours, etc.)."
+    },
+    {
+      "qid": "Q91",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "Accurate summary of 60-day grace period rules."
+    },
+    {
+      "qid": "Q92",
+      "label": "incorrect",
+      "hallucination_score": 0.5,
+      "correctness_score": 0.4,
+      "semantic_similarity": 0.45,
+      "explanation": "Does not answer F-1 grace period rules and gives generic visa advice."
+    },
+    {
+      "qid": "Q93",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "Accurately describes starting a new program during grace period and SEVIS transfer rules."
+    },
+    {
+      "qid": "Q94",
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.8,
+      "semantic_similarity": 0.9,
+      "explanation": "Correct description of grace period but adds unrelated status-change options not mentioned in gold."
+    },
+    {
+      "qid": "Q95",
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.75,
+      "semantic_similarity": 0.85,
+      "explanation": "Correct that F-1 to B-2 uses I-539, but Claude adds generic visa rules and unnecessary questions."
+    },
+    {
+      "qid": "Q96",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "Accurately states enrolling in a new program extends F-1 with a new I-20."
+    },
+    {
+      "qid": "Q97",
+      "label": "incorrect",
+      "hallucination_score": 0.6,
+      "correctness_score": 0.4,
+      "semantic_similarity": 0.35,
+      "explanation": "Gold clarifies marriage doesn’t affect F-1 status; Claude incorrectly implies filing I-485 during grace period is standard."
+    },
+    {
+      "qid": "Q98",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "Gold says belongings are not regulated; Claude gives general advice without inventing immigration rules."
+    },
+    {
+      "qid": "Q99",
+      "label": "partially_correct",
+      "hallucination_score": 0.25,
+      "correctness_score": 0.75,
+      "semantic_similarity": 0.8,
+      "explanation": "Correct about general volunteer rules but fails to note no employment (paid/unpaid) is allowed after OPT ends."
+    },
+    {
+      "qid": "Q100",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "Accurately explains change of status to H-4 using I-539."
+    },
+    {
+      "qid": "Q101",
+      "label": "incorrect",
+      "hallucination_score": 0.5,
+      "correctness_score": 0.45,
+      "semantic_similarity": 0.5,
+      "explanation": "Claude incorrectly implies DSOs can reinstate records; reinstatement is a USCIS process via I-539."
+    },
+    {
+      "qid": "Q102",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "Correctly states DSO issues a corrected I-20."
+    },
+    {
+      "qid": "Q103",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "Correct distinction between USCIS error vs applicant error on EAD mistakes."
+    },
+    {
+      "qid": "Q104",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "Accurately states EAD expedite criteria."
+    },
+    {
+      "qid": "Q105",
+      "label": "partially_correct",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.8,
+      "explanation": "Correct that DSO issues a new I-20, but adds embassy and visa renewal guidance not tied to gold."
+    },
+    {
+      "qid": "Q106",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "Matches gold: replacement EAD requires new I-765 and fee."
+    },
+    {
+      "qid": "Q107",
+      "label": "incorrect",
+      "hallucination_score": 0.5,
+      "correctness_score": 0.45,
+      "semantic_similarity": 0.6,
+      "explanation": "Claims expired passport requires contacting program coordinators and discusses visas—gold explains simple renewal via home embassy only."
+    },
+    {
+      "qid": "Q108",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "Accurate: F-1 visas cannot be renewed in the U.S."
+    },
+    {
+      "qid": "Q109",
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.8,
+      "semantic_similarity": 0.9,
+      "explanation": "Correct process but adds USPS guidance irrelevant to gold."
+    },
+    {
+      "qid": "Q110",
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.8,
+      "semantic_similarity": 0.85,
+      "explanation": "Correct that DSOs correct SEVIS errors but adds student-initiated SEVP cases, which is not standard."
+    },
+    {
+      "qid": "Q111",
+      "label": "incorrect",
+      "hallucination_score": 0.45,
+      "correctness_score": 0.55,
+      "semantic_similarity": 0.6,
+      "explanation": "Gold says CBP Deferred Inspection corrects I-94; Claude incorrectly instructs filing I-102, which is unnecessary in most cases."
+    },
+    {
+      "qid": "Q112",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "Accurately states no work is allowed while replacement EAD is pending."
+    },
+    {
+      "qid": "Q113",
+      "label": "partially_correct",
+      "hallucination_score": 0.25,
+      "correctness_score": 0.75,
+      "semantic_similarity": 0.85,
+      "explanation": "Correct that transfers are possible, but adds teach-outs and extended grace periods not in gold."
+    },
+    {
+      "qid": "Q114",
+      "label": "incorrect",
+      "hallucination_score": 0.6,
+      "correctness_score": 0.4,
+      "semantic_similarity": 0.3,
+      "explanation": "Claude gives U.S. domestic name correction processes unrelated to F-1 requirements; gold focuses on passport update then immigration documents."
+    },
+    {
+      "qid": "Q115",
+      "label": "incorrect",
+      "hallucination_score": 0.5,
+      "correctness_score": 0.45,
+      "semantic_similarity": 0.55,
+      "explanation": "Gold states late OPT cannot be filed; Claude suggests USCIS may accept late filings, which is false."
+    },
+    {
+      "qid": "Q116",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "Accurately reflects general expedite criteria for STEM OPT, matching gold."
+    },
+    {
+      "qid": "Q117",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "Correctly states that STEM OPT cannot proceed without a completed I-983."
+    },
+    {
+      "qid": "Q118",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "Accurately describes reinstatement process via I-539."
+    },
+    {
+      "qid": "Q119",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "Correct overview of I-9 rules; aligns with gold."
+    },
+    {
+      "qid": "Q120",
+      "label": "incorrect",
+      "hallucination_score": 0.45,
+      "correctness_score": 0.55,
+      "semantic_similarity": 0.65,
+      "explanation": "Claude incorrectly claims OPT denials cannot be appealed; gold states motions/appeals via I-290B are allowed."
+    }
+  ]
+  

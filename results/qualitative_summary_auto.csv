@@ -1,0 +1,4 @@
+model,professional_tone,proactivity,completeness,relevance,citation_quality,regulatory_consistency,safety,overall
+Claude,4.05,3.1,5.0,4.05,2.05,5.0,4.05,3.9
+GPT4o,4.0,3.1,5.0,4.1,2.0,4.8,4.05,3.8642857142857143
+VisaMate,4.05,3.05,4.95,4.05,1.95,4.95,4.05,3.8642857142857143

@@ -1,0 +1,323 @@
+[
+    {
+      "qid": 121,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "Correctly explains that failing a class only affects status if it drops you below full-time enrollment."
+    },
+    {
+      "qid": 122,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Matches USCIS medical RCL rules including documentation and 12-month maximum."
+    },
+    {
+      "qid": 123,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correctly describes DSO updating SEVIS after major change."
+    },
+    {
+      "qid": 124,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Accurately states part-time enrollment requires DSO-authorized RCL."
+    },
+    {
+      "qid": 125,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Matches USCIS rules for program extension based on academic or medical reasons."
+    },
+    {
+      "qid": 126,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Accurately states only one online class per term counts toward full-time enrollment."
+    },
+    {
+      "qid": 127,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correctly states academic probation doesn't violate status if full-time enrollment is maintained."
+    },
+    {
+      "qid": 128,
+      "label": "incorrect",
+      "hallucination_score": 0.5,
+      "correctness_score": 0.5,
+      "semantic_similarity": 0.4,
+      "explanation": "Model incorrectly says transferring while suspended is not permitted; gold allows transfer before falling out of status."
+    },
+    {
+      "qid": 129,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correctly describes DSO shortening I-20 after early graduation."
+    },
+    {
+      "qid": 130,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "Correctly states gap years are not allowed and student must depart and return with new I-20."
+    },
+    {
+      "qid": 131,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "Matches gold: delays in defense allow academic program extension before I-20 end date."
+    },
+    {
+      "qid": 132,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correct: audited courses don't count toward full-time enrollment."
+    },
+    {
+      "qid": 133,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Matches gold: withdrawing from all classes without RCL violates status."
+    },
+    {
+      "qid": 134,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Accurately describes SEVP rule allowing part-time enrollment in final term."
+    },
+    {
+      "qid": 135,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "Correctly states retaking classes is allowed if full-time enrollment is maintained."
+    },
+    {
+      "qid": 136,
+      "label": "partially_correct",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.7,
+      "explanation": "Correct that summer classes at another school are allowed, but incorrectly implies full-time enrollment is required in summer."
+    },
+    {
+      "qid": 137,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Matches gold: discontinued programs require transfer or departure."
+    },
+    {
+      "qid": 138,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correct: research-only enrollment allowed if considered full-time by school."
+    },
+    {
+      "qid": 139,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "Accurately states failing defense may require extension with continued full-time enrollment."
+    },
+    {
+      "qid": 140,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Fully aligns with gold: DSO updates SEVIS when switching from PhD to Master’s."
+    },
+    {
+      "qid": 141,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correct: F-2 spouses are never permitted to work."
+    },
+    {
+      "qid": 142,
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.8,
+      "semantic_similarity": 0.8,
+      "explanation": "Mostly correct but misses nuance about infants born in the U.S. automatically receiving status without consular processing."
+    },
+    {
+      "qid": 143,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correct: F-2 spouses may study part-time only; full-time requires change to F-1."
+    },
+    {
+      "qid": 144,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Matches gold: dependents must change to H-4 when F-1 changes status."
+    },
+    {
+      "qid": 145,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correct: marriage alone doesn't grant status; spouse must get F-2 via I-20 and consular processing."
+    },
+    {
+      "qid": 146,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correct: two F-1s maintain independent SEVIS records and requirements."
+    },
+    {
+      "qid": 147,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Accurately states F-2 children may attend K–12 public school freely."
+    },
+    {
+      "qid": 148,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "Accurately describes F-2 duration tied to F-1, including grace period."
+    },
+    {
+      "qid": 149,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correct: B-2 visas allowed for parents visiting F-1 students."
+    },
+    {
+      "qid": 150,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correct: F-2 status ends when F-1 loses status."
+    },
+    {
+      "qid": 151,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correct: F-2 dependents allowed during STEM OPT."
+    },
+    {
+      "qid": 152,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correct: divorce terminates F-2 status; must depart or change status."
+    },
+    {
+      "qid": 153,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correct: F-2 dependents can travel independently with their own visa and I-20."
+    },
+    {
+      "qid": 154,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "Correct: health insurance not federally required for F-2; schools may require it."
+    },
+    {
+      "qid": 155,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Accurately states F-2 children age out at 21 and must change status."
+    },
+    {
+      "qid": 156,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correct: F-2 dependents may obtain a driver’s license based on state rules."
+    },
+    {
+      "qid": 157,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correct: unauthorized employment violates F-2 status."
+    },
+    {
+      "qid": 158,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "Correct: F-2 dependents may only volunteer in roles that meet labor law standards."
+    },
+    {
+      "qid": 159,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correct: schools require financial proof before issuing dependent I-20s."
+    },
+    {
+      "qid": 160,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correct: F-2 dependents cannot get SSNs because they lack work authorization."
+    }
+  ]
+  

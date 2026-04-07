@@ -1,0 +1,165 @@
+{
+    "evaluations": [
+      {
+        "qid": 181,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 0.95,
+        "semantic_similarity": 0.93,
+        "explanation": "Claude accurately states that green card applications are allowed during OPT and outlines correct pathways."
+      },
+      {
+        "qid": 182,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 1.0,
+        "semantic_similarity": 0.96,
+        "explanation": "Claude clearly distinguishes H-1B (temporary dual-intent) from green card (permanent residence)."
+      },
+      {
+        "qid": 183,
+        "label": "correct",
+        "hallucination_score": 0.05,
+        "correctness_score": 0.9,
+        "semantic_similarity": 0.9,
+        "explanation": "Claude correctly states one cannot work for their own business after OPT without authorization; minor extra details added."
+      },
+      {
+        "qid": 184,
+        "label": "partially_correct",
+        "hallucination_score": 0.15,
+        "correctness_score": 0.8,
+        "semantic_similarity": 0.82,
+        "explanation": "Claude provides valid options but does not emphasize loss of work authorization without new status."
+      },
+      {
+        "qid": 185,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 0.95,
+        "semantic_similarity": 0.94,
+        "explanation": "Claude aligns with gold: you must obtain a new visa status or new I-20 to return."
+      },
+      {
+        "qid": 186,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 0.95,
+        "semantic_similarity": 0.92,
+        "explanation": "Claude accurately states degree evaluations are needed for EB-2/EB-3 equivalency when applicable."
+      },
+      {
+        "qid": 187,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 1.0,
+        "semantic_similarity": 0.97,
+        "explanation": "Claude gives a fully accurate EB-2 vs EB-3 comparison aligned with USCIS definitions."
+      },
+      {
+        "qid": 188,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 1.0,
+        "semantic_similarity": 0.98,
+        "explanation": "Claude correctly explains EB-1A extraordinary ability self-petition rules and evidence criteria."
+      },
+      {
+        "qid": 189,
+        "label": "correct",
+        "hallucination_score": 0.05,
+        "correctness_score": 0.9,
+        "semantic_similarity": 0.9,
+        "explanation": "Claude gives generally accurate timeframes; high-level but aligned with visa bulletin logic."
+      },
+      {
+        "qid": 190,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 1.0,
+        "semantic_similarity": 0.98,
+        "explanation": "Claude correctly states H-1B is dual-intent and can be maintained during green card processing."
+      },
+      {
+        "qid": 191,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 1.0,
+        "semantic_similarity": 0.99,
+        "explanation": "Claude’s NIW explanation matches USCIS’ Dhanasar framework perfectly."
+      },
+      {
+        "qid": 192,
+        "label": "correct",
+        "hallucination_score": 0.05,
+        "correctness_score": 0.9,
+        "semantic_similarity": 0.9,
+        "explanation": "Claude correctly states F-1/OPT students may buy property; minor extraneous notes but no errors."
+      },
+      {
+        "qid": 193,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 0.95,
+        "semantic_similarity": 0.92,
+        "explanation": "Claude correctly explains that a PhD may help but is not required for green card eligibility."
+      },
+      {
+        "qid": 194,
+        "label": "correct",
+        "hallucination_score": 0.05,
+        "correctness_score": 0.9,
+        "semantic_similarity": 0.9,
+        "explanation": "Claude accurately explains job loss impact depending on I-140/I-485 stage and AC21 portability."
+      },
+      {
+        "qid": 195,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 0.95,
+        "semantic_similarity": 0.94,
+        "explanation": "Claude correctly states H-1B workers may work for startups if employer-employee relationship exists."
+      },
+      {
+        "qid": 196,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 1.0,
+        "semantic_similarity": 0.97,
+        "explanation": "Claude accurately lists all material-change scenarios requiring an H-1B amendment."
+      },
+      {
+        "qid": 197,
+        "label": "correct",
+        "hallucination_score": 0.0,
+        "correctness_score": 1.0,
+        "semantic_similarity": 0.98,
+        "explanation": "Claude correctly states H-1B workers cannot freelance; only work for petitioning employer or concurrent H-1B."
+      },
+      {
+        "qid": 198,
+        "label": "incorrect",
+        "hallucination_score": 0.7,
+        "correctness_score": 0.3,
+        "semantic_similarity": 0.22,
+        "explanation": "Claude mixes USCIS premium processing with unrelated payment processing; does not answer immigration question."
+      },
+      {
+        "qid": 199,
+        "label": "incorrect",
+        "hallucination_score": 0.8,
+        "correctness_score": 0.25,
+        "semantic_similarity": 0.18,
+        "explanation": "Claude incorrectly says volunteering is allowed; F-1/OPT cannot volunteer in a role normally paid."
+      },
+      {
+        "qid": 200,
+        "label": "partially_correct",
+        "hallucination_score": 0.2,
+        "correctness_score": 0.8,
+        "semantic_similarity": 0.78,
+        "explanation": "Claude lists many documents but omits specific F-1-required items: all I-20s, I-94s, EADs, I-797s."
+      }
+    ]
+  }
+  

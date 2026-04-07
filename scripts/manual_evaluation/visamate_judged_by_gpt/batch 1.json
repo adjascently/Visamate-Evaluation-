@@ -1,0 +1,325 @@
+[
+    {
+      "qid": 1,
+      "label": "partially_correct",
+      "hallucination_score": 0.25,
+      "correctness_score": 0.8,
+      "semantic_similarity": 0.82,
+      "explanation": "Visamate includes required items but adds home-country ties which are not required for F-1 entry; still mostly correct."
+    },
+    {
+      "qid": 2,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.98,
+      "explanation": "Exactly matches DHS 30-day rule."
+    },
+    {
+      "qid": 3,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.92,
+      "explanation": "Correct that I-20 is not activated at the border and CBP reviews it."
+    },
+    {
+      "qid": 4,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.97,
+      "explanation": "Accurately reflects CBP expectations for financial documentation."
+    },
+    {
+      "qid": 5,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.97,
+      "explanation": "Correctly explains visa expiration rules and need for a new visa only when reentering."
+    },
+    {
+      "qid": 6,
+      "label": "partially_correct",
+      "hallucination_score": 0.1,
+      "correctness_score": 0.9,
+      "semantic_similarity": 0.9,
+      "explanation": "Accurate overall, but missing explicit requirement that dependents must receive their own I-20s."
+    },
+    {
+      "qid": 7,
+      "label": "partially_correct",
+      "hallucination_score": 0.1,
+      "correctness_score": 0.85,
+      "semantic_similarity": 0.88,
+      "explanation": "Correct about school requirements but should explicitly state that the U.S. government does NOT require health insurance for F-1."
+    },
+    {
+      "qid": 8,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.98,
+      "explanation": "Correctly identifies SEVIS ID location and issuance."
+    },
+    {
+      "qid": 9,
+      "label": "incorrect",
+      "hallucination_score": 0.7,
+      "correctness_score": 0.3,
+      "semantic_similarity": 0.25,
+      "explanation": "Visamate incorrectly says students may work on-campus immediately upon arrival; federal rule allows work only ON OR AFTER program start date."
+    },
+    {
+      "qid": 10,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.93,
+      "explanation": "Accurately describes check-in requirement for SEVIS activation."
+    },
+    {
+      "qid": 11,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.98,
+      "explanation": "Matches federal CPT one-academic-year rule."
+    },
+    {
+      "qid": 12,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.95,
+      "explanation": "Correctly states CPT/OPT must be related to major; fully aligned."
+    },
+    {
+      "qid": 13,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.94,
+      "explanation": "Accurate description of part-time CPT rules."
+    },
+    {
+      "qid": 14,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.9,
+      "semantic_similarity": 0.9,
+      "explanation": "Correct: CPT is processed by schools, not USCIS."
+    },
+    {
+      "qid": 15,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.97,
+      "explanation": "Correctly states CPT requires a job offer entered into SEVIS."
+    },
+    {
+      "qid": 16,
+      "label": "correct",
+      "hallucination_score": 0.05,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.94,
+      "explanation": "Correct that multiple CPT employers are allowed if each is authorized separately."
+    },
+    {
+      "qid": 17,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.98,
+      "explanation": "Accurately states that 12+ months of full-time CPT eliminates OPT."
+    },
+    {
+      "qid": 18,
+      "label": "partially_correct",
+      "hallucination_score": 0.1,
+      "correctness_score": 0.85,
+      "semantic_similarity": 0.8,
+      "explanation": "Correct but missing explicit note that documentation requirements vary by school and USCIS does not require forms."
+    },
+    {
+      "qid": 19,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.97,
+      "explanation": "Fully correct: CPT must be authorized on the I-20 before starting work."
+    },
+    {
+      "qid": 20,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.97,
+      "explanation": "Correctly explains that only full-time CPT of 12+ months affects OPT eligibility."
+    },
+  
+    
+    {
+      "qid": 21,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.93,
+      "explanation": "Accurately states the 90-day earliest filing rule and the 30-day DSO signature validity."
+    },
+    {
+      "qid": 22,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.92,
+      "explanation": "Fully aligns with the 90-day earliest filing rule and 30-day DSO recommendation validity."
+    },
+    {
+      "qid": 23,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.98,
+      "explanation": "Correctly states that no job offer is required to apply for OPT."
+    },
+    {
+      "qid": 24,
+      "label": "partially_correct",
+      "hallucination_score": 0.25,
+      "correctness_score": 0.75,
+      "semantic_similarity": 0.7,
+      "explanation": "Visamate gives 3–5 months; USCIS typical range is 1–3 months. Not wrong but outside normal guidance."
+    },
+    {
+      "qid": 25,
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.75,
+      "semantic_similarity": 0.74,
+      "explanation": "Correct that travel is risky but missing the official rule that reentry usually requires EAD + job offer after approval."
+    },
+    {
+      "qid": 26,
+      "label": "partially_correct",
+      "hallucination_score": 0.1,
+      "correctness_score": 0.85,
+      "semantic_similarity": 0.8,
+      "explanation": "Correct that OPT denial ends work eligibility, but mentions reentry bars which are not triggered by OPT denial alone."
+    },
+    {
+      "qid": 27,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.97,
+      "explanation": "Fully correct: 12+ months of full-time CPT disqualifies OPT."
+    },
+    {
+      "qid": 28,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.92,
+      "explanation": "Provides accurate I-765 documentation requirements."
+    },
+    {
+      "qid": 29,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "Accurately states USCIS accepts any reliable mailing address."
+    },
+    {
+      "qid": 30,
+      "label": "partially_correct",
+      "hallucination_score": 0.1,
+      "correctness_score": 0.85,
+      "semantic_similarity": 0.82,
+      "explanation": "Correct that freelance work is allowed if related to major; incorrect to say OPT requires minimum 20 hours per week."
+    },
+    {
+      "qid": 31,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.98,
+      "explanation": "Computer Science is DHS-listed and qualifies fully."
+    },
+    {
+      "qid": 32,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.95,
+      "explanation": "Accurately states 90-day earliest filing and 60-day DSO signature rule."
+    },
+    {
+      "qid": 33,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "Correct: STEM applicants must be employed by an E-Verify employer to apply."
+    },
+    {
+      "qid": 34,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.97,
+      "explanation": "Accurately describes the STEM OPT training plan requirements."
+    },
+    {
+      "qid": 35,
+      "label": "correct",
+      "hallucination_score": 0.05,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.92,
+      "explanation": "Correct: students may change employers with new I-983 and E-Verify employer."
+    },
+    {
+      "qid": 36,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.97,
+      "explanation": "Correct: total unemployment limit is 150 days."
+    },
+    {
+      "qid": 37,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.98,
+      "explanation": "Fully aligns with DHS STEM OPT rules."
+    },
+    {
+      "qid": 38,
+      "label": "correct",
+      "hallucination_score": 0.05,
+      "correctness_score": 0.95,
+      "semantic_similarity": 0.9,
+      "explanation": "Consulting is allowed if employer is E-Verify and I-983 is submitted."
+    },
+    {
+      "qid": 39,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.97,
+      "explanation": "Correctly states STEM extension may be used once only."
+    },
+    {
+      "qid": 40,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "Accurately explains reporting requirements and unemployment limits after job loss."
+    }
+  ]
+  

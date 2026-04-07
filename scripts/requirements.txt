@@ -1,0 +1,5 @@
+aiohttp
+backoff
+openai==1.52.0
+anthropic
+pandas

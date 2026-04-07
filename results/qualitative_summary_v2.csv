@@ -1,0 +1,4 @@
+model,factual_accuracy,completeness,citation_precision,clarity,safety,relevance,actionability,overall
+Claude,4.4,4.5,3.8,4.0,4.65,4.3,4.65,4.328571428571429
+GPT4o,4.3,4.35,3.35,4.0,4.6,4.35,4.4,4.192857142857142
+VisaMate,4.95,4.95,3.9,4.05,5.0,4.75,4.95,4.65

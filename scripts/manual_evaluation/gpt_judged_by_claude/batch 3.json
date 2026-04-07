@@ -1,0 +1,322 @@
+[
+    {
+      "qid": "Q81",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states students can work multiple jobs on OPT if each is related to field of study and properly reported in SEVIS, accurately matching federal OPT employment regulations."
+    },
+    {
+      "qid": "Q82",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states freelance consulting is permitted if related to degree and proper business licensing is maintained, consistent with USCIS self-employment rules for OPT."
+    },
+    {
+      "qid": "Q83",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly explains students can start a business only if work is authorized through OPT/CPT and related to major, accurately reflecting USCIS prohibition on unauthorized employment."
+    },
+    {
+      "qid": "Q84",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states all employers must be reported in SEVIS during OPT/STEM OPT for accurate employment reporting to maintain status, consistent with DHS requirements."
+    },
+    {
+      "qid": "Q85",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states part-time contracting on STEM OPT requires E-Verify employer, Form I-983, and minimum 20 hours/week, accurately reflecting DHS STEM OPT regulations."
+    },
+    {
+      "qid": "Q86",
+      "label": "partially_correct",
+      "hallucination_score": 0.1,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.5,
+      "explanation": "GPT-4o correctly confirms passive income is allowed but provides generic investment advice without addressing the F-1-specific point that USCIS doesn't consider passive investment to be employment."
+    },
+    {
+      "qid": "Q87",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states students can be co-founders but any work must be authorized through OPT and related to field, accurately reflecting USCIS prohibition on unauthorized work in own business."
+    },
+    {
+      "qid": "Q88",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly explains volunteering must follow labor laws and context matters, consistent with DHS requirement that unpaid volunteer work must meet labor standards when used to maintain OPT status."
+    },
+    {
+      "qid": "Q89",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states paid speaking engagements count as employment and must be related to field of study, accurately reflecting OPT eligibility requirements for all employment."
+    },
+    {
+      "qid": "Q90",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly explains reporting each employer's information to DSO for SEVIS updates through portal or direct contact, accurately reflecting federal SEVIS reporting requirements."
+    },
+    {
+      "qid": "Q91",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly describes 60-day grace period allowing departure, transfer, or change of status but no work, precisely matching USCIS grace period regulations."
+    },
+    {
+      "qid": "Q92",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states students cannot reenter U.S. in F-1 status during grace period, accurately reflecting USCIS restriction that grace period is for departure or status change only."
+    },
+    {
+      "qid": "Q93",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly explains students can apply for new F-1 program during grace period requiring new I-20 and SEVIS transfer, consistent with SEVP transfer procedures."
+    },
+    {
+      "qid": "Q94",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states if no job found before OPT ends, student enters 60-day grace period and must depart, transfer, or change status, matching SEVP requirements."
+    },
+    {
+      "qid": "Q95",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly explains F-1 students can change to B-2 status by filing Form I-539 before status expires with approval not guaranteed, accurately reflecting USCIS change-of-status procedures."
+    },
+    {
+      "qid": "Q96",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states F-1 can be extended by enrolling in another program with new I-20 issued before grace period ends, consistent with SEVP program extension regulations."
+    },
+    {
+      "qid": "Q97",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly explains students can marry and apply for green card during grace period through adjustment of status, accurately reflecting USCIS family-based immigration procedures."
+    },
+    {
+      "qid": "Q98",
+      "label": "partially_correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 0.6,
+      "semantic_similarity": 0.3,
+      "explanation": "GPT-4o provides practical advice about managing belongings but misses the immigration-specific point that USCIS doesn't regulate personal storage, only requiring lawful status maintenance during grace period."
+    },
+    {
+      "qid": "Q99",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly states volunteering is generally permitted during grace period but no paid or unpaid employment is authorized after OPT ends, consistent with USCIS grace period work restrictions."
+    },
+    {
+      "qid": "Q100",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly explains changing to H-4 requires filing Form I-539 with supporting documents and maintaining current status until approval, accurately reflecting USCIS change-of-status procedures."
+    },
+    {
+      "qid": "Q101",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly advises contacting DSO immediately for SEVIS correction through SEVP Help Desk or reinstatement if needed, accurately reflecting SEVP error correction procedures."
+    },
+    {
+      "qid": "Q102",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly explains DSO can issue corrected I-20 through SEVIS for administrative errors, consistent with SEVP procedures allowing DSOs to correct errors directly."
+    },
+    {
+      "qid": "Q103",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states USCIS error requires free replacement while applicant error requires new I-765 and fee, accurately reflecting USCIS EAD replacement policy."
+    },
+    {
+      "qid": "Q104",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly lists USCIS expedite criteria including severe financial loss, humanitarian reasons, and USCIS error with discretionary approval, matching federal expedite request standards."
+    },
+    {
+      "qid": "Q105",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly advises contacting DSO for replacement I-20 needed for reentry and notes CBP requires physical I-20, consistent with DHS reentry documentation requirements."
+    },
+    {
+      "qid": "Q106",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states lost EAD requires filing new Form I-765 with fee unless loss was USCIS error, accurately reflecting USCIS replacement policy."
+    },
+    {
+      "qid": "Q107",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly advises renewing passport with home country embassy/consulate and notes invalid passport may affect reentry but not F-1 status inside U.S., consistent with passport validity requirements."
+    },
+    {
+      "qid": "Q108",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states F-1 visa revalidation inside U.S. is not possible and renewal must occur at consulate abroad except for automatic revalidation, accurately reflecting DOS visa renewal requirements."
+    },
+    {
+      "qid": "Q109",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly advises contacting USCIS, submitting inquiry, updating address, and requesting replacement with USCIS determining fault for fee waiver, consistent with USCIS mail error procedures."
+    },
+    {
+      "qid": "Q110",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states DSO must correct SEVIS errors through SEVIS system or Help Desk, accurately reflecting that USCIS doesn't directly handle SEVIS data corrections."
+    },
+    {
+      "qid": "Q111",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly advises requesting I-94 correction with CBP through Deferred Inspection office, accurately reflecting that CBP controls I-94 admissions data, not USCIS."
+    },
+    {
+      "qid": "Q112",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states students cannot work while EAD replacement is pending and must have physical EAD card, accurately reflecting USCIS requirement that replacement-pending status doesn't authorize work."
+    },
+    {
+      "qid": "Q113",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly advises transferring to another SEVP-certified school or using 60-day grace period, consistent with SEVP procedures when schools close requiring students to maintain status."
+    },
+    {
+      "qid": "Q114",
+      "label": "partially_correct",
+      "hallucination_score": 0.1,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.6,
+      "explanation": "GPT-4o provides general name correction advice but doesn't emphasize the immigration-specific sequence: update passport first with home country, then request updated I-20s and other document corrections."
+    },
+    {
+      "qid": "Q115",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly states missed OPT deadline results in denial and advises contacting DSO, exploring other visa options, accurately reflecting SEVP requirement to depart or seek other status."
+    },
+    {
+      "qid": "Q116",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states STEM OPT expedite requests follow general USCIS expedite criteria with discretionary approval, accurately reflecting that expedite rules apply to STEM OPT applications."
+    },
+    {
+      "qid": "Q117",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states without completed I-983 student cannot continue STEM OPT with that employer and must find new employer, accurately reflecting DHS mandatory Form I-983 requirement."
+    },
+    {
+      "qid": "Q118",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly explains reinstatement requires Form I-539 with DSO support and USCIS grants only if violation was unintentional, accurately reflecting federal F-1 reinstatement procedures."
+    },
+    {
+      "qid": "Q119",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states employer must follow federal I-9 procedures and employee must provide valid documents from acceptable lists, consistent with USCIS I-9 verification requirements."
+    },
+    {
+      "qid": "Q120",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states students can appeal OPT denial using Form I-290B or file motion to reopen/reconsider, accurately reflecting USCIS appeal procedures for denied OPT applications."
+    }
+  ]

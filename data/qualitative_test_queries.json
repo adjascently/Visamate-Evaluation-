@@ -1,0 +1,142 @@
+[
+  {
+    "qid": 1,
+    "query": "Can I work on CPT?",
+    "category": "CPT",
+    "complexity": "simple",
+    "expected_behavior": "Should ask: Have you completed one academic year? Do you have a job offer? What's your major?"
+  },
+  {
+    "qid": 2,
+    "query": "My I-20 expires next month but my program continues. What should I do?",
+    "category": "Administrative",
+    "complexity": "medium",
+    "expected_behavior": "Should ask for program end date, explain program extension process, recommend DSO contact"
+  },
+  {
+    "qid": 3,
+    "query": "I got a job offer starting in 2 weeks. Can I start working?",
+    "category": "CPT",
+    "complexity": "medium",
+    "expected_behavior": "Should ask about CPT authorization status, warn about unauthorized employment, explain approval timeline"
+  },
+  {
+    "qid": 4,
+    "query": "What's the difference between CPT and OPT?",
+    "category": "General",
+    "complexity": "simple",
+    "expected_behavior": "Should explain both clearly, cite regulations, note key differences"
+  },
+  {
+    "qid": 5,
+    "query": "I'm graduating next month. When should I apply for OPT?",
+    "category": "OPT",
+    "complexity": "medium",
+    "expected_behavior": "Should ask program end date, explain 90-day window, provide urgent timeline"
+  },
+  {
+    "qid": 6,
+    "query": "Can I travel while my OPT application is pending?",
+    "category": "Travel",
+    "complexity": "medium",
+    "expected_behavior": "Should explain risks, mention abandonment risk, cite SEVP guidance, recommend documents"
+  },
+  {
+    "qid": 7,
+    "query": "I lost my job on OPT. What happens now?",
+    "category": "Job Loss",
+    "complexity": "high",
+    "expected_behavior": "Should ask employment history, explain 90-day limit, recommend DSO reporting, provide options"
+  },
+  {
+    "qid": 8,
+    "query": "Do I need a visa stamp to re-enter the US on OPT?",
+    "category": "Travel",
+    "complexity": "medium",
+    "expected_behavior": "Should explain visa stamp requirement, mention automatic revalidation exception, cite regulations"
+  },
+  {
+    "qid": 9,
+    "query": "My employer wants me to work remotely from Canada for 3 months. Is that allowed on F-1?",
+    "category": "Remote Work",
+    "complexity": "high",
+    "expected_behavior": "Should explain physical presence requirement, warn about violations, recommend DSO consultation"
+  },
+  {
+    "qid": 10,
+    "query": "What is STEM OPT and am I eligible?",
+    "category": "STEM OPT",
+    "complexity": "simple",
+    "expected_behavior": "Should ask about degree/major, explain CIP code requirement, mention E-Verify requirement"
+  },
+  {
+    "qid": 11,
+    "query": "I'm on STEM OPT and want to change employers. What's the process?",
+    "category": "STEM OPT",
+    "complexity": "medium",
+    "expected_behavior": "Should explain 10-day reporting, new I-983 requirement, E-Verify verification, unemployment tracking"
+  },
+  {
+    "qid": 12,
+    "query": "Can I do freelance work on OPT?",
+    "category": "Multiple Jobs",
+    "complexity": "medium",
+    "expected_behavior": "Should explain self-employment rules, documentation requirements, DSO reporting, field-relation requirement"
+  },
+  {
+    "qid": 13,
+    "query": "What happens after my OPT ends? Do I have to leave immediately?",
+    "category": "Grace Period",
+    "complexity": "simple",
+    "expected_behavior": "Should explain 60-day grace period, options (departure, status change, new program), work prohibition"
+  },
+  {
+    "qid": 14,
+    "query": "How do I transition from F-1 to H-1B? When should I start?",
+    "category": "H-1B Transition",
+    "complexity": "high",
+    "expected_behavior": "Should explain cap-gap, lottery timeline, employer requirements, provide planning timeline"
+  },
+  {
+    "qid": 15,
+    "query": "My SEVIS record was terminated by mistake. What should I do?",
+    "category": "Administrative",
+    "complexity": "high",
+    "expected_behavior": "Should recommend immediate DSO contact, explain reinstatement options, note urgency, provide resources"
+  },
+  {
+    "qid": 16,
+    "query": "Do I need to file taxes as an F-1 student?",
+    "category": "Tax",
+    "complexity": "medium",
+    "expected_behavior": "Should explain nonresident alien status, Form 8843, 5-year rule, treaty benefits"
+  },
+  {
+    "qid": 17,
+    "query": "Can my spouse work on F-2 visa?",
+    "category": "F-2 Dependents",
+    "complexity": "simple",
+    "expected_behavior": "Should clearly state F-2 cannot work, cite regulation, explain study allowance"
+  },
+  {
+    "qid": 18,
+    "query": "I'm pregnant. Will this affect my F-1 status?",
+    "category": "F-2 Dependents",
+    "complexity": "medium",
+    "expected_behavior": "Should reassure no status impact, explain adding newborn to F-2, maintain professional empathy"
+  },
+  {
+    "qid": 19,
+    "query": "Can I work two jobs simultaneously on OPT?",
+    "category": "Multiple Jobs",
+    "complexity": "medium",
+    "expected_behavior": "Should explain multiple employer allowance, DSO reporting requirement, field-relation requirement"
+  },
+  {
+    "qid": 20,
+    "query": "How many days of unemployment am I allowed on STEM OPT?",
+    "category": "STEM OPT",
+    "complexity": "simple",
+    "expected_behavior": "Should state 60 days for STEM + 90 from initial OPT = 150 total, explain cumulative tracking"
+  }
+]

@@ -1,0 +1,201 @@
+qid,label,hallucination_score,correctness_score,semantic_similarity,explanation,model
+1,partially_correct,0.25,0.8,0.82,Visamate includes required items but adds home-country ties which are not required for F-1 entry; still mostly correct.,VisaMate
+2,correct,0.0,1.0,0.98,Exactly matches DHS 30-day rule.,VisaMate
+3,correct,0.0,0.95,0.92,Correct that I-20 is not activated at the border and CBP reviews it.,VisaMate
+4,correct,0.0,1.0,0.97,Accurately reflects CBP expectations for financial documentation.,VisaMate
+5,correct,0.0,1.0,0.97,Correctly explains visa expiration rules and need for a new visa only when reentering.,VisaMate
+6,partially_correct,0.1,0.9,0.9,"Accurate overall, but missing explicit requirement that dependents must receive their own I-20s.",VisaMate
+7,partially_correct,0.1,0.85,0.88,Correct about school requirements but should explicitly state that the U.S. government does NOT require health insurance for F-1.,VisaMate
+8,correct,0.0,1.0,0.98,Correctly identifies SEVIS ID location and issuance.,VisaMate
+9,incorrect,0.7,0.3,0.25,Visamate incorrectly says students may work on-campus immediately upon arrival; federal rule allows work only ON OR AFTER program start date.,VisaMate
+10,correct,0.0,0.95,0.93,Accurately describes check-in requirement for SEVIS activation.,VisaMate
+11,correct,0.0,1.0,0.98,Matches federal CPT one-academic-year rule.,VisaMate
+12,correct,0.0,0.95,0.95,Correctly states CPT/OPT must be related to major; fully aligned.,VisaMate
+13,correct,0.0,0.95,0.94,Accurate description of part-time CPT rules.,VisaMate
+14,correct,0.0,0.9,0.9,"Correct: CPT is processed by schools, not USCIS.",VisaMate
+15,correct,0.0,1.0,0.97,Correctly states CPT requires a job offer entered into SEVIS.,VisaMate
+16,correct,0.05,0.95,0.94,Correct that multiple CPT employers are allowed if each is authorized separately.,VisaMate
+17,correct,0.0,1.0,0.98,Accurately states that 12+ months of full-time CPT eliminates OPT.,VisaMate
+18,partially_correct,0.1,0.85,0.8,Correct but missing explicit note that documentation requirements vary by school and USCIS does not require forms.,VisaMate
+19,correct,0.0,1.0,0.97,Fully correct: CPT must be authorized on the I-20 before starting work.,VisaMate
+20,correct,0.0,1.0,0.97,Correctly explains that only full-time CPT of 12+ months affects OPT eligibility.,VisaMate
+21,correct,0.0,0.95,0.93,Accurately states the 90-day earliest filing rule and the 30-day DSO signature validity.,VisaMate
+22,correct,0.0,0.95,0.92,Fully aligns with the 90-day earliest filing rule and 30-day DSO recommendation validity.,VisaMate
+23,correct,0.0,1.0,0.98,Correctly states that no job offer is required to apply for OPT.,VisaMate
+24,partially_correct,0.25,0.75,0.7,Visamate gives 3–5 months; USCIS typical range is 1–3 months. Not wrong but outside normal guidance.,VisaMate
+25,partially_correct,0.2,0.75,0.74,Correct that travel is risky but missing the official rule that reentry usually requires EAD + job offer after approval.,VisaMate
+26,partially_correct,0.1,0.85,0.8,"Correct that OPT denial ends work eligibility, but mentions reentry bars which are not triggered by OPT denial alone.",VisaMate
+27,correct,0.0,1.0,0.97,Fully correct: 12+ months of full-time CPT disqualifies OPT.,VisaMate
+28,correct,0.0,0.95,0.92,Provides accurate I-765 documentation requirements.,VisaMate
+29,correct,0.0,1.0,0.95,Accurately states USCIS accepts any reliable mailing address.,VisaMate
+30,partially_correct,0.1,0.85,0.82,Correct that freelance work is allowed if related to major; incorrect to say OPT requires minimum 20 hours per week.,VisaMate
+31,correct,0.0,1.0,0.98,Computer Science is DHS-listed and qualifies fully.,VisaMate
+32,correct,0.0,0.95,0.95,Accurately states 90-day earliest filing and 60-day DSO signature rule.,VisaMate
+33,correct,0.0,1.0,0.95,Correct: STEM applicants must be employed by an E-Verify employer to apply.,VisaMate
+34,correct,0.0,1.0,0.97,Accurately describes the STEM OPT training plan requirements.,VisaMate
+35,correct,0.05,0.95,0.92,Correct: students may change employers with new I-983 and E-Verify employer.,VisaMate
+36,correct,0.0,1.0,0.97,Correct: total unemployment limit is 150 days.,VisaMate
+37,correct,0.0,1.0,0.98,Fully aligns with DHS STEM OPT rules.,VisaMate
+38,correct,0.05,0.95,0.9,Consulting is allowed if employer is E-Verify and I-983 is submitted.,VisaMate
+39,correct,0.0,1.0,0.97,Correctly states STEM extension may be used once only.,VisaMate
+40,correct,0.0,1.0,0.95,Accurately explains reporting requirements and unemployment limits after job loss.,VisaMate
+41,correct,0.0,1.0,1.0,Matches the gold answer fully with no additional claims.,VisaMate
+42,partially_correct,0.2,0.8,0.7,"Correct about 90-day limit but adds suggestions about enrolling in a new program, which is not part of the gold answer.",VisaMate
+43,incorrect,0.6,0.4,0.2,"Gold says unpaid volunteer work counts; model incorrectly says it does not count, contradicting regulations.",VisaMate
+44,correct,0.0,1.0,1.0,Accurately states job searching does not count as employment.,VisaMate
+45,partially_correct,0.3,0.7,0.6,"Correct that DSO updates SEVIS but incorrectly says students must report unemployment, which is not required by USCIS.",VisaMate
+46,correct,0.0,1.0,1.0,Correctly explains that exceeding 90 unemployment days ends F-1 status.,VisaMate
+47,partially_correct,0.3,0.7,0.6,"Correct that unauthorized gig work is not allowed, but incorrectly states no gig work is ever allowed, ignoring the allowed case when work is related to the major and authorized under OPT.",VisaMate
+48,correct,0.0,1.0,1.0,Accurately reflects unemployment limits and required actions.,VisaMate
+49,correct,0.0,1.0,1.0,Matches gold answer exactly.,VisaMate
+50,partially_correct,0.3,0.7,0.7,"Correct that you can change status via I-539, but adds unnecessary risk statements not in gold.",VisaMate
+51,partially_correct,0.2,0.8,0.8,"Mostly correct but omits that reentry requires proof of employment; suggests job letter only, not employment evidence.",VisaMate
+52,correct,0.0,1.0,1.0,Fully matches the gold requirements.,VisaMate
+53,partially_correct,0.2,0.8,0.7,Correct on needing a valid visa; adds full-time enrollment requirement which is irrelevant during OPT.,VisaMate
+54,partially_correct,0.3,0.7,0.7,Correct that travel is risky but incorrectly states you should not travel until EAD is approved; gold says travel is allowed but risky.,VisaMate
+55,correct,0.0,1.0,1.0,Fully aligned with the gold answer.,VisaMate
+56,correct,0.0,1.0,1.0,Correctly states DSO signs I-20 and includes six-month validity for OPT travel signatures.,VisaMate
+57,correct,0.0,1.0,1.0,Accurately states that reentry is not allowed during grace period.,VisaMate
+58,partially_correct,0.4,0.6,0.5,"Correct that denial has serious consequences but introduces unlawful presence and removal, which is not in the gold answer.",VisaMate
+59,partially_correct,0.2,0.8,0.8,Correct that carrying job letter is advisable; adds CPT context unnecessary but not harmful.,VisaMate
+60,correct,0.0,1.0,1.0,Matches gold answer fully—multiple travels allowed with proper documents.,VisaMate
+61,partially_correct,0.3,0.7,0.7,"Correct filing window, but adds fabricated statement about FY 2026 cap already being reached.",VisaMate
+62,incorrect,0.7,0.3,0.2,Gold describes cap-gap; model incorrectly mentions 180-day STEM-pending extension which is unrelated to H-1B transition.,VisaMate
+63,correct,0.0,1.0,1.0,Accurately describes cap-gap eligibility and purpose.,VisaMate
+64,correct,0.0,1.0,0.9,Correctly states cap-gap covers staying in the U.S.; slight extra info but not contradictory.,VisaMate
+65,partially_correct,0.3,0.7,0.7,"Correct that transfer requires a new filing, but incorrectly claims you must wait to start work—AC21 allows portability after filing.",VisaMate
+66,correct,0.0,1.0,0.9,Fully consistent with gold; explains consequences accurately.,VisaMate
+67,partially_correct,0.2,0.8,0.7,Correct timeframe but doesn’t state that cap-gap ends immediately if petition is rejected.,VisaMate
+68,correct,0.0,1.0,1.0,Correctly states travel abandons change-of-status request.,VisaMate
+69,correct,0.0,1.0,1.0,Accurately describes optional nature of premium processing.,VisaMate
+70,correct,0.0,1.0,1.0,Matches gold requirements.,VisaMate
+71,correct,0.0,1.0,1.0,Correctly states remote CPT is allowed if requirements are met.,VisaMate
+72,correct,0.0,1.0,1.0,Matches gold—no requirement for same state.,VisaMate
+73,correct,0.0,1.0,1.0,Remote OPT is allowed if job meets requirements.,VisaMate
+74,incorrect,0.6,0.4,0.4,Gold says students must report addresses to USCIS; model incorrectly says notifying DSO alone is sufficient.,VisaMate
+75,incorrect,0.6,0.4,0.3,Gold says USCIS doesn't regulate remote work abroad; model incorrectly says physical presence in U.S. is required.,VisaMate
+76,correct,0.0,1.0,1.0,Accurately states EAD can be mailed to any reliable address.,VisaMate
+77,correct,0.0,1.0,1.0,Fully matches STEM OPT remote work rules.,VisaMate
+78,correct,0.0,1.0,1.0,Matches DHS requirement for address reporting within 10 days.,VisaMate
+79,correct,0.0,1.0,1.0,Aligned with gold; living in one state and working remotely in another is permitted.,VisaMate
+80,incorrect,0.6,0.4,0.3,"Gold says remote work is fine if authorized; model claims remote work can terminate status unless specially authorized, which is false.",VisaMate
+81,correct,0.0,1.0,1.0,Matches gold; multiple OPT employers allowed if related and reported.,VisaMate
+82,correct,0.0,1.0,1.0,Accurately states freelance self-employment is allowed if related and documented.,VisaMate
+83,incorrect,0.6,0.4,0.3,Gold says you MAY start a business if work is under OPT/CPT; model says not permitted.,VisaMate
+84,correct,0.0,1.0,1.0,Accurately states all employers must be reported in SEVIS.,VisaMate
+85,partially_correct,0.3,0.7,0.7,Correct STEM OPT conditions but incorrectly requires 20 hours for part-time contracting.,VisaMate
+86,correct,0.0,1.0,1.0,Correct that passive income is allowed.,VisaMate
+87,correct,0.0,1.0,1.0,Matches gold; co-founding allowed if work is OPT-authorized.,VisaMate
+88,partially_correct,0.4,0.6,0.5,Correct warning but ignores that volunteer work CAN count if meets labor rules.,VisaMate
+89,correct,0.0,1.0,1.0,Paid speaking is allowed if related; matches gold.,VisaMate
+90,partially_correct,0.2,0.8,0.8,Mostly correct but adds E-Verify requirement irrelevant unless STEM OPT.,VisaMate
+91,correct,0.0,1.0,1.0,Accurately reflects 60-day grace period rules.,VisaMate
+92,correct,0.0,1.0,1.0,Correct that re-entry is not allowed during grace period.,VisaMate
+93,correct,0.0,1.0,1.0,Matches gold; new program allowed during grace period.,VisaMate
+94,partially_correct,0.3,0.7,0.6,Correct general rules but gold emphasizes grace period; model emphasizes unemployment limit.,VisaMate
+95,correct,0.0,1.0,0.9,Accurate explanation of change of status to B-2.,VisaMate
+96,correct,0.0,1.0,0.9,Matches gold; enrolling in new program extends status.,VisaMate
+97,incorrect,0.6,0.4,0.3,Gold clarifies marriage has no immigration effect; model gives misleading claim grace period is not lawful status.,VisaMate
+98,correct,0.0,1.0,1.0,Consistent with gold; personal belongings are not regulated.,VisaMate
+99,incorrect,0.6,0.4,0.3,Gold says volunteering is allowed but doesn’t stop unemployment; model says all volunteer work is not allowed.,VisaMate
+100,partially_correct,0.3,0.7,0.7,Correct form and process; adds warnings not in gold but not harmful.,VisaMate
+101,partially_correct,0.3,0.7,0.7,Correct that DSO handles it; adds unlawful presence which gold does not mention.,VisaMate
+102,correct,0.0,1.0,1.0,Accurate: DSO issues corrected I-20.,VisaMate
+103,partially_correct,0.3,0.7,0.6,Correct that correction goes through USCIS but fails to distinguish between USCIS error vs student error.,VisaMate
+104,incorrect,0.6,0.4,0.4,Gold lists clear expedite criteria; model incorrectly claims expedited processing is generally unavailable.,VisaMate
+105,correct,0.0,1.0,1.0,Correct that student must request a new I-20 to re-enter.,VisaMate
+106,correct,0.0,1.0,1.0,Matches gold; new I-765 must be filed.,VisaMate
+107,correct,0.0,1.0,1.0,Consistent with gold on renewing passport.,VisaMate
+108,correct,0.0,1.0,1.0,Correct: no revalidation inside U.S.,VisaMate
+109,partially_correct,0.3,0.7,0.7,Correct on contacting USCIS; missing rule about USCIS replacing card for free if fault is theirs.,VisaMate
+110,correct,0.0,1.0,1.0,DSO handles SEVIS corrections; matches gold.,VisaMate
+111,partially_correct,0.3,0.7,0.7,Correct that CBP handles I-94 corrections but model directs student to USCIS resources unnecessarily.,VisaMate
+112,correct,0.0,1.0,1.0,Fully matches gold; no work allowed while replacement pending.,VisaMate
+113,correct,0.0,1.0,1.0,Accurately describes transfer to another SEVP-certified school.,VisaMate
+114,incorrect,0.6,0.4,0.4,Gold requires passport to be corrected first; model incorrectly starts with SEVIS correction.,VisaMate
+115,partially_correct,0.4,0.6,0.6,Correct that late OPT cannot be filed; model misstates 60-day window as OPT window.,VisaMate
+116,correct,0.0,1.0,1.0,Matches gold regarding general expedite criteria.,VisaMate
+117,correct,0.0,1.0,1.0,Fully consistent; no I-983 means no STEM OPT.,VisaMate
+118,correct,0.0,1.0,1.0,Accurately describes reinstatement requirements.,VisaMate
+119,correct,0.0,1.0,1.0,Matches gold: employer must follow I-9 rules and student must provide valid documents.,VisaMate
+120,incorrect,0.5,0.5,0.5,Gold says appeals ARE allowed via I-290B; model incorrectly says you cannot appeal.,VisaMate
+121,correct,0.0,1.0,0.95,Correctly explains that failing a class only affects status if it drops you below full-time enrollment.,VisaMate
+122,correct,0.0,1.0,1.0,Matches USCIS medical RCL rules including documentation and 12-month maximum.,VisaMate
+123,correct,0.0,1.0,1.0,Correctly describes DSO updating SEVIS after major change.,VisaMate
+124,correct,0.0,1.0,1.0,Accurately states part-time enrollment requires DSO-authorized RCL.,VisaMate
+125,correct,0.0,1.0,1.0,Matches USCIS rules for program extension based on academic or medical reasons.,VisaMate
+126,correct,0.0,1.0,1.0,Accurately states only one online class per term counts toward full-time enrollment.,VisaMate
+127,correct,0.0,1.0,1.0,Correctly states academic probation doesn't violate status if full-time enrollment is maintained.,VisaMate
+128,incorrect,0.5,0.5,0.4,Model incorrectly says transferring while suspended is not permitted; gold allows transfer before falling out of status.,VisaMate
+129,correct,0.0,1.0,1.0,Correctly describes DSO shortening I-20 after early graduation.,VisaMate
+130,correct,0.0,1.0,0.95,Correctly states gap years are not allowed and student must depart and return with new I-20.,VisaMate
+131,correct,0.0,1.0,0.95,Matches gold: delays in defense allow academic program extension before I-20 end date.,VisaMate
+132,correct,0.0,1.0,1.0,Correct: audited courses don't count toward full-time enrollment.,VisaMate
+133,correct,0.0,1.0,1.0,Matches gold: withdrawing from all classes without RCL violates status.,VisaMate
+134,correct,0.0,1.0,1.0,Accurately describes SEVP rule allowing part-time enrollment in final term.,VisaMate
+135,correct,0.0,1.0,0.95,Correctly states retaking classes is allowed if full-time enrollment is maintained.,VisaMate
+136,partially_correct,0.3,0.7,0.7,"Correct that summer classes at another school are allowed, but incorrectly implies full-time enrollment is required in summer.",VisaMate
+137,correct,0.0,1.0,1.0,Matches gold: discontinued programs require transfer or departure.,VisaMate
+138,correct,0.0,1.0,1.0,Correct: research-only enrollment allowed if considered full-time by school.,VisaMate
+139,correct,0.0,1.0,0.95,Accurately states failing defense may require extension with continued full-time enrollment.,VisaMate
+140,correct,0.0,1.0,1.0,Fully aligns with gold: DSO updates SEVIS when switching from PhD to Master’s.,VisaMate
+141,correct,0.0,1.0,1.0,Correct: F-2 spouses are never permitted to work.,VisaMate
+142,partially_correct,0.2,0.8,0.8,Mostly correct but misses nuance about infants born in the U.S. automatically receiving status without consular processing.,VisaMate
+143,correct,0.0,1.0,1.0,Correct: F-2 spouses may study part-time only; full-time requires change to F-1.,VisaMate
+144,correct,0.0,1.0,1.0,Matches gold: dependents must change to H-4 when F-1 changes status.,VisaMate
+145,correct,0.0,1.0,1.0,Correct: marriage alone doesn't grant status; spouse must get F-2 via I-20 and consular processing.,VisaMate
+146,correct,0.0,1.0,1.0,Correct: two F-1s maintain independent SEVIS records and requirements.,VisaMate
+147,correct,0.0,1.0,1.0,Accurately states F-2 children may attend K–12 public school freely.,VisaMate
+148,correct,0.0,1.0,0.95,"Accurately describes F-2 duration tied to F-1, including grace period.",VisaMate
+149,correct,0.0,1.0,1.0,Correct: B-2 visas allowed for parents visiting F-1 students.,VisaMate
+150,correct,0.0,1.0,1.0,Correct: F-2 status ends when F-1 loses status.,VisaMate
+151,correct,0.0,1.0,1.0,Correct: F-2 dependents allowed during STEM OPT.,VisaMate
+152,correct,0.0,1.0,1.0,Correct: divorce terminates F-2 status; must depart or change status.,VisaMate
+153,correct,0.0,1.0,1.0,Correct: F-2 dependents can travel independently with their own visa and I-20.,VisaMate
+154,correct,0.0,1.0,0.9,Correct: health insurance not federally required for F-2; schools may require it.,VisaMate
+155,correct,0.0,1.0,1.0,Accurately states F-2 children age out at 21 and must change status.,VisaMate
+156,correct,0.0,1.0,1.0,Correct: F-2 dependents may obtain a driver’s license based on state rules.,VisaMate
+157,correct,0.0,1.0,1.0,Correct: unauthorized employment violates F-2 status.,VisaMate
+158,correct,0.0,1.0,0.95,Correct: F-2 dependents may only volunteer in roles that meet labor law standards.,VisaMate
+159,correct,0.0,1.0,1.0,Correct: schools require financial proof before issuing dependent I-20s.,VisaMate
+160,correct,0.0,1.0,1.0,Correct: F-2 dependents cannot get SSNs because they lack work authorization.,VisaMate
+161,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+162,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+163,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+164,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+165,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+166,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+167,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+168,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+169,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+170,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+171,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+172,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+173,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+174,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+175,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+176,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+177,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+178,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+179,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+180,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+181,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+182,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+183,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+184,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+185,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+186,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+187,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+188,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+189,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+190,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+191,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+192,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+193,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+194,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+195,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+196,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+197,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+198,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+199,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate
+200,correct,0.0,1.0,1.0,Placeholder evaluation.,VisaMate

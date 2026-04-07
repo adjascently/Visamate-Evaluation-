@@ -1,0 +1,322 @@
+[
+    {
+      "qid": "Q41",
+      "label": "partially_correct",
+      "hallucination_score": 0.1,
+      "correctness_score": 0.8,
+      "semantic_similarity": 0.7,
+      "explanation": "GPT-4o correctly states 90 days for initial OPT but unnecessarily adds STEM OPT information when the question asks only about OPT unemployment days, going beyond the scope of the simple regulatory answer."
+    },
+    {
+      "qid": "Q42",
+      "label": "incorrect",
+      "hallucination_score": 0.1,
+      "correctness_score": 0.2,
+      "semantic_similarity": 0.1,
+      "explanation": "GPT-4o provides generic career advice completely missing the immigration-specific requirements to update employment in SEVIS and that students may remain during the 90-day unemployment period per SEVP regulations."
+    },
+    {
+      "qid": "Q43",
+      "label": "incorrect",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.2,
+      "semantic_similarity": 0.1,
+      "explanation": "GPT-4o incorrectly states volunteer work is not formal employment and provides career advice, missing the critical DHS guidance that unpaid volunteer work can count toward OPT employment if related to major and 20+ hours weekly."
+    },
+    {
+      "qid": "Q44",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states job searching is not considered employment and does not provide income or employment status, aligning with DHS requirement that actual employment is needed to stop unemployment accrual."
+    },
+    {
+      "qid": "Q45",
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.6,
+      "explanation": "GPT-4o correctly explains updating employment information through DSO and SEVP Portal but implies separate unemployment reporting is required, when USCIS only requires accurate employment dates in SEVIS to stop unemployment accrual."
+    },
+    {
+      "qid": "Q46",
+      "label": "partially_correct",
+      "hallucination_score": 0.1,
+      "correctness_score": 0.8,
+      "semantic_similarity": 0.8,
+      "explanation": "GPT-4o correctly identifies that exceeding 90 days jeopardizes F-1 status and may require leaving the U.S., consistent with SEVP guidance, though it adds non-immigration context about unemployment benefits and job searching."
+    },
+    {
+      "qid": "Q47",
+      "label": "incorrect",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.3,
+      "semantic_similarity": 0.2,
+      "explanation": "GPT-4o provides generic visa and tax advice without addressing the specific F-1 OPT requirement that gig work is unauthorized unless directly related to the major field of study per USCIS regulations."
+    },
+    {
+      "qid": "Q48",
+      "label": "partially_correct",
+      "hallucination_score": 0.1,
+      "correctness_score": 0.6,
+      "semantic_similarity": 0.4,
+      "explanation": "GPT-4o provides general life advice but misses the specific immigration requirement that students must maintain status, and if unable to secure employment within allowed unemployment days, must depart or change status per SEVP regulations."
+    },
+    {
+      "qid": "Q49",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states STEM OPT allows additional 60 days unemployment for total of 150 days across the 36-month period, precisely matching DHS STEM OPT unemployment policy."
+    },
+    {
+      "qid": "Q50",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.8,
+      "explanation": "GPT-4o correctly states students can change to another nonimmigrant status following proper USCIS procedures before status expires, accurately reflecting federal change-of-status regulations despite providing general guidance."
+    },
+    {
+      "qid": "Q51",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly identifies required documents for international travel during OPT (valid visa, passport, I-20 with travel signature, EAD, employment proof) and notes reentry is never guaranteed, consistent with USCIS guidance."
+    },
+    {
+      "qid": "Q52",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly lists all required reentry documents (valid passport, F-1 visa, I-20 endorsed within 6 months, EAD card, employment proof) as outlined by DHS and SEVP regulations."
+    },
+    {
+      "qid": "Q53",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states a valid F-1 visa is required for reentry and mentions automatic visa revalidation exception for limited Canada/Mexico travel, accurately reflecting USCIS visa requirements."
+    },
+    {
+      "qid": "Q54",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states travel while OPT pending is permitted but risky, noting reentry can be denied without EAD and employment proof, consistent with DHS warnings about travel risks."
+    },
+    {
+      "qid": "Q55",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly explains expired F-1 visa does not affect status while in the U.S. and new visa is only needed for reentry, accurately reflecting federal visa and status maintenance regulations."
+    },
+    {
+      "qid": "Q56",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states DSO must sign page 2 of I-20 for travel and notes the signature is valid for six months for OPT students, accurately reflecting DHS travel endorsement guidance."
+    },
+    {
+      "qid": "Q57",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly states leaving during grace period prevents reentry on same visa status and that the grace period is for departure or status change, consistent with USCIS grace period regulations."
+    },
+    {
+      "qid": "Q58",
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.6,
+      "semantic_similarity": 0.4,
+      "explanation": "GPT-4o provides general entry denial advice but misses the F-1-specific SEVP guidance that students must contact their school and may need a new SEVIS record to return after denial."
+    },
+    {
+      "qid": "Q59",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.8,
+      "explanation": "GPT-4o correctly advises carrying employment verification during travel and notes it can serve as proof of employment, consistent with SEVP recommendation to demonstrate ongoing employment during OPT travel."
+    },
+    {
+      "qid": "Q60",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states students can travel multiple times on OPT as long as they maintain valid documentation for each reentry (visa, I-20, EAD, employment proof), accurately reflecting federal travel regulations."
+    },
+    {
+      "qid": "Q61",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly describes the H-1B filing process including registration in March, lottery selection, and filing starting April 1st, accurately reflecting USCIS annual cap procedures and timing requirements."
+    },
+    {
+      "qid": "Q62",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly explains cap-gap extension eligibility for timely filed H-1B petitions requesting change of status, with automatic work authorization extension until September 30th, matching DHS cap-gap regulations."
+    },
+    {
+      "qid": "Q63",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly defines cap-gap extension for F-1 students with pending/approved H-1B petitions filed before OPT expires, with automatic extension until October 1st, consistent with DHS cap-gap provisions."
+    },
+    {
+      "qid": "Q64",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states no need to leave if H-1B requests change of status and mentions consular processing may be needed if departing before approval, accurately reflecting USCIS change-of-status procedures."
+    },
+    {
+      "qid": "Q65",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly explains H-1B transfer is possible with new employer filing new petition and mentions AC21 portability allowing work upon filing, consistent with USCIS H-1B portability rules."
+    },
+    {
+      "qid": "Q66",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.8,
+      "explanation": "GPT-4o correctly identifies that H-1B denial ends cap-gap extension and mentions exploring other options, aligning with SEVP guidance about entering grace period and needing to depart or change status."
+    },
+    {
+      "qid": "Q67",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states cap-gap extension lasts until October 1st and immediately terminates if petition is denied/rejected/withdrawn, precisely matching federal cap-gap timing and termination rules."
+    },
+    {
+      "qid": "Q68",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly advises travel during cap-gap is not recommended and leaving could be considered abandoning change-of-status application, accurately reflecting USCIS guidance on cap-gap travel restrictions."
+    },
+    {
+      "qid": "Q69",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly identifies premium processing as optional for faster adjudication (15 days vs. months) with same eligibility criteria, consistent with USCIS premium processing service description."
+    },
+    {
+      "qid": "Q70",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly lists required visa stamping documents (passport, I-797, DS-160, employment verification) and notes these are consular requirements, accurately reflecting DOS visa stamping procedures."
+    },
+    {
+      "qid": "Q71",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly states remote CPT is permitted if work meets CPT requirements and employer-employee relationship is maintained, consistent with DHS guidance that remote work must be integral to curriculum."
+    },
+    {
+      "qid": "Q72",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.8,
+      "explanation": "GPT-4o correctly states employer doesn't need to be in same state as university and mentions remote work is common, accurately reflecting the absence of geographic restrictions in USCIS CPT/OPT regulations."
+    },
+    {
+      "qid": "Q73",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly confirms remote work is allowed on OPT if employment is related to field of study and meets USCIS requirements, accurately reflecting federal OPT employment criteria."
+    },
+    {
+      "qid": "Q74",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states nonimmigrants must notify USCIS of address changes within 10 days using Form AR-11 or online, precisely matching DHS legal requirements for all nonimmigrants including OPT students."
+    },
+    {
+      "qid": "Q75",
+      "label": "partially_correct",
+      "hallucination_score": 0.1,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.5,
+      "explanation": "GPT-4o provides general advice about international remote work but doesn't address the F-1-specific context that USCIS doesn't regulate remote work abroad, though reentry requires proper documentation and may affect status maintenance."
+    },
+    {
+      "qid": "Q76",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly advises using a reliable U.S. mailing address where you can receive mail and notes USCIS sends EAD to the address on I-765, accurately reflecting USCIS mailing requirements."
+    },
+    {
+      "qid": "Q77",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "GPT-4o correctly states remote STEM OPT jobs are allowed if employer is E-Verify enrolled, work is related to field, and training plan (I-983) requirements are met, consistent with DHS STEM OPT regulations."
+    },
+    {
+      "qid": "Q78",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.95,
+      "explanation": "GPT-4o correctly states F-1 students must report address changes to DSO within 10 days for SEVIS updates, precisely matching DHS mandatory reporting requirements for all F-1 students."
+    },
+    {
+      "qid": "Q79",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.8,
+      "explanation": "GPT-4o correctly confirms living in one state while working remotely in another is possible, accurately reflecting that USCIS doesn't regulate physical work location if employment meets OPT requirements."
+    },
+    {
+      "qid": "Q80",
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.85,
+      "explanation": "GPT-4o correctly explains remote work doesn't violate F-1 status if properly authorized through CPT/OPT and meets regulatory requirements, accurately reflecting DHS position that remote location doesn't affect compliance."
+    }
+  ]

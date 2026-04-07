@@ -1,0 +1,1002 @@
+[
+  {
+    "qid": 1,
+    "question": "What documents do I need to enter the US on F-1 visa?",
+    "answer": "To enter the United States on an F-1 visa, you will need a valid passport, a valid F-1 visa stamp in your passport, and a Form I-20 issued by your U.S. institution. Additionally, you should carry proof of financial support and evidence of your ties to your home country. It is advisable to have your SEVIS fee payment receipt and any other documents that demonstrate your intent to return home after your studies. Please ensure all documents are current and readily accessible when you arrive at the U.S. port of entry."
+  },
+  {
+    "qid": 2,
+    "question": "Can I arrive more than 30 days before my program start date?",
+    "answer": "As an F-1 student, you may not enter the United States more than 30 days before the start date listed on your Form I-20. This regulation is in place to ensure compliance with U.S. immigration policies. It is important to plan your travel accordingly to avoid any issues at the port of entry. For further details, please refer to the official guidance from the Student and Exchange Visitor Program (SEVP)."
+  },
+  {
+    "qid": 3,
+    "question": "Do I need to activate my I-20 at the border?",
+    "answer": "You do not need to activate your I-20 at the border. Upon entering the United States, your I-20 will be reviewed by the Customs and Border Protection (CBP) officer, who will verify your student status and ensure you meet the entry requirements. It is important to carry your I-20, valid F-1 visa, and other supporting documents to present at the port of entry. Please ensure that your I-20 is signed by your Designated School Official (DSO) before traveling."
+  },
+  {
+    "qid": 4,
+    "question": "Should I carry my financial documents when entering the US?",
+    "answer": "When entering the United States on an F-1 visa, it is advisable to carry financial documents that demonstrate your ability to support yourself during your stay. This may include bank statements, scholarship letters, or affidavits of support. These documents may be requested by U.S. Customs and Border Protection officers to verify that you have sufficient funds available, as required by your visa conditions. For further guidance, please consult your Designated School Official (DSO) or refer to official USCIS resources."
+  },
+  {
+    "qid": 5,
+    "question": "What happens if my visa expires while I'm studying?",
+    "answer": "If your F-1 visa expires while you are studying, your legal status in the United States is not affected as long as you maintain your student status by complying with all F-1 requirements, such as full-time enrollment and not engaging in unauthorized employment. The visa is merely an entry document, and its expiration does not impact your ability to remain in the U.S. while you are in valid F-1 status. However, if you travel outside the U.S. with an expired visa, you will need to obtain a new visa to re-enter. Please consult your Designated School Official (DSO) for further guidance."
+  },
+  {
+    "qid": 6,
+    "question": "Can I bring my spouse on F-2 dependent visa?",
+    "answer": "Yes, as an F-1 student, you may bring your spouse to the United States on an F-2 dependent visa. The F-2 visa is specifically designed for the dependents (spouse and unmarried children under 21) of F-1 visa holders. It is important to ensure that you maintain your F-1 status, as the F-2 status is contingent upon it. Please consult with your Designated School Official (DSO) for guidance on the application process and required documentation."
+  },
+  {
+    "qid": 7,
+    "question": "Do I need health insurance before arriving?",
+    "answer": "While health insurance is not a requirement for obtaining an F-1 visa, many U.S. universities mandate that international students have health insurance coverage. It is advisable to check with your specific institution regarding their health insurance requirements and ensure you have adequate coverage before arriving in the United States. This will help you avoid unexpected medical expenses and ensure compliance with university policies."
+  },
+  {
+    "qid": 8,
+    "question": "Where do I get my SEVIS ID number?",
+    "answer": "Your SEVIS ID number is located on the top right corner of your Form I-20, which is issued by your Designated School Official (DSO) at your U.S. educational institution. This number is unique to you and is used to track your status in the Student and Exchange Visitor Information System (SEVIS). If you have not received your Form I-20, please contact your DSO for assistance."
+  },
+  {
+    "qid": 9,
+    "question": "Can I work immediately after arriving in the US?",
+    "answer": "As an F-1 student, you are permitted to work on-campus immediately upon arrival in the U.S., subject to certain conditions and restrictions. Off-campus employment is not allowed during the first academic year. After completing one full academic year, you may be eligible for off-campus employment through Curricular Practical Training (CPT) or Optional Practical Training (OPT), both of which require prior authorization from your Designated School Official (DSO) and USCIS. Please ensure you comply with all employment regulations to maintain your F-1 status."
+  },
+  {
+    "qid": 10,
+    "question": "What should I do during the first week after arrival?",
+    "answer": "Upon your arrival in the United States as an F-1 student, it is important to report to your Designated School Official (DSO) as soon as possible to confirm your arrival and maintain your SEVIS record. Ensure that you attend the mandatory orientation session at your institution, which will provide essential information about maintaining your student status. Additionally, verify that your I-20 form is accurate and up-to-date, and familiarize yourself with the campus resources available to support your academic and personal needs."
+  },
+  {
+    "qid": 11,
+    "question": "When is the earliest I can apply for CPT?",
+    "answer": "You may apply for Curricular Practical Training (CPT) after completing one full academic year of study in the United States, unless your program requires immediate participation in CPT. It is essential to obtain a recommendation from your Designated School Official (DSO) and ensure that the CPT is integral to your program of study. Please confirm specific eligibility and application procedures with your DSO to ensure compliance with your institution's policies."
+  },
+  {
+    "qid": 12,
+    "question": "Does my internship need to be related to my major?",
+    "answer": "Yes, your internship must be directly related to your major area of study. This requirement applies to both Curricular Practical Training (CPT) and Optional Practical Training (OPT), including the STEM OPT extension. It is essential to obtain authorization from your Designated School Official (DSO) and, if applicable, from USCIS before commencing any off-campus employment. Please ensure that your internship aligns with your academic program to maintain compliance with F-1 visa regulations."
+  },
+  {
+    "qid": 13,
+    "question": "Can I do part-time CPT during fall semester?",
+    "answer": "Yes, you may engage in part-time Curricular Practical Training (CPT) during the fall semester if you have completed one full academic year as an F-1 student and the employment is directly related to your field of study. Part-time CPT is defined as working 20 hours or less per week while school is in session. It is essential to obtain authorization from your Designated School Official (DSO) before commencing any CPT employment. Please ensure that your CPT is an integral part of your curriculum and is documented accordingly."
+  },
+  {
+    "qid": 14,
+    "question": "How long does CPT approval take at most universities?",
+    "answer": "The approval time for Curricular Practical Training (CPT) varies by university, as it is processed internally by the institution's Designated School Official (DSO). Typically, the process can take anywhere from a few days to several weeks, depending on the university's procedures and the completeness of the student's application. It is advisable to consult with your DSO for specific timelines and ensure all required documentation is submitted promptly to avoid delays."
+  },
+  {
+    "qid": 15,
+    "question": "Do I need a job offer before applying for CPT?",
+    "answer": "Yes, you need a job offer before applying for Curricular Practical Training (CPT). The employment must be directly related to your major field of study and integral to your curriculum. Your Designated School Official (DSO) must authorize the CPT in the Student and Exchange Visitor Information System (SEVIS) before you begin working. Please ensure you have the job offer and necessary authorization before starting any employment."
+  },
+  {
+    "qid": 16,
+    "question": "Can I work for multiple employers on CPT simultaneously?",
+    "answer": "Yes, you may work for multiple employers on Curricular Practical Training (CPT) simultaneously, provided that each position is directly related to your field of study and has been authorized by your Designated School Official (DSO). Each employer must be listed on your Form I-20, and you must adhere to any specific conditions set by your institution regarding the number of hours and the nature of the employment. It is essential to ensure that all employment is compliant with the terms of your CPT authorization. Please confirm specific details with your DSO to ensure full compliance."
+  },
+  {
+    "qid": 17,
+    "question": "Does CPT affect my future OPT eligibility?",
+    "answer": "CPT (Curricular Practical Training) does not directly affect your future OPT (Optional Practical Training) eligibility unless you engage in 12 months or more of full-time CPT. If you do, you will not be eligible for OPT at the same educational level. Part-time CPT does not impact your OPT eligibility. It is important to maintain accurate records of your CPT participation and consult with your Designated School Official (DSO) to ensure compliance with these regulations."
+  },
+  {
+    "qid": 18,
+    "question": "What documents do I submit for CPT application?",
+    "answer": "To apply for Curricular Practical Training (CPT), you must first obtain authorization from your Designated School Official (DSO). This involves having your DSO endorse your Form I-20 with the CPT authorization and update your record in the Student and Exchange Visitor Information System (SEVIS). You will need to provide your DSO with details of your proposed employment, including the employer's information and the start and end dates of your employment. Ensure that your employment is directly related to your field of study and that you maintain full-time enrollment status, except during official school breaks."
+  },
+  {
+    "qid": 19,
+    "question": "Can I start working before receiving CPT approval?",
+    "answer": "You may not begin working under Curricular Practical Training (CPT) until you have received formal authorization from your Designated School Official (DSO) and the CPT is noted in your SEVIS record. It is essential to ensure that all necessary approvals are in place before commencing any employment to maintain your F-1 status. Please consult with your DSO to confirm that your CPT authorization is complete and compliant with all regulations."
+  },
+  {
+    "qid": 20,
+    "question": "Is there a limit to total CPT duration?",
+    "answer": "There is no specific limit to the total duration of Curricular Practical Training (CPT) as long as it is authorized by your Designated School Official (DSO) and is integral to your program of study. However, if you engage in 12 months or more of full-time CPT, you will become ineligible for Optional Practical Training (OPT) at the same educational level. It is important to maintain communication with your DSO to ensure compliance with all CPT regulations."
+  },
+  {
+    "qid": 21,
+    "question": "When should I submit my OPT application before graduation?",
+    "answer": "You should submit your OPT application after your Designated School Official (DSO) enters the recommendation for OPT into your SEVIS record. You may apply for post-completion OPT up to 90 days before you complete your degree, but no later than 60 days after you complete your degree. It is important to ensure that your application is submitted within 30 days of the DSO's recommendation entry in SEVIS. Please consult with your DSO to confirm the timing and ensure all documentation is in order."
+  },
+  {
+    "qid": 22,
+    "question": "What's the earliest I can apply for OPT?",
+    "answer": "You may apply for post-completion OPT up to 90 days before you complete your degree, but no later than 60 days after completing your degree. It is essential that your Designated School Official (DSO) enters the recommendation for OPT into your SEVIS record before you apply. Additionally, you must submit your application to USCIS within 30 days of the DSO's recommendation. Please ensure you have maintained your F-1 status and have completed a full academic year before applying."
+  },
+  {
+    "qid": 23,
+    "question": "Do I need a job offer to apply for OPT?",
+    "answer": "You do not need a job offer to apply for Optional Practical Training (OPT). However, the employment you engage in while on OPT must be directly related to your major area of study. It is important to ensure that your Designated School Official (DSO) recommends the OPT by endorsing your Form I-20 and making the appropriate notation in the Student and Exchange Visitor Information System (SEVIS). Please ensure you file Form I-765 with USCIS, accompanied by the required fee and supporting documentation."
+  },
+  {
+    "qid": 24,
+    "question": "How long does USCIS take to process OPT applications?",
+    "answer": "USCIS typically takes approximately 3 to 5 months to process OPT applications. It is important to apply as early as possible within the allowed timeframe to ensure timely receipt of your Employment Authorization Document (EAD). Please ensure that your application is complete and includes all required documentation to avoid delays. For the most current processing times, you may refer to the USCIS website."
+  },
+  {
+    "qid": 25,
+    "question": "Can I travel while my OPT application is pending?",
+    "answer": "Traveling while your OPT application is pending is generally not recommended, as it may complicate your re-entry into the United States. If you must travel, ensure you have a valid F-1 visa, your I-20 endorsed for travel by your Designated School Official (DSO), and evidence of your OPT application, such as the I-797 receipt notice. However, please be aware that re-entry is not guaranteed, and it is advisable to consult with your DSO for personalized guidance based on your specific situation."
+  },
+  {
+    "qid": 26,
+    "question": "What happens if my OPT is denied?",
+    "answer": "If your OPT application is denied, you will not be authorized to work in the United States under OPT. It is important to ensure that you do not engage in any employment without proper authorization, as this could lead to serious consequences, including removal from the country and reentry bars. Your F-1 status remains valid as long as you comply with all other requirements for maintaining student status. It is advisable to consult with your Designated School Official (DSO) for further guidance and to explore any available options."
+  },
+  {
+    "qid": 27,
+    "question": "Can I apply for OPT if I did 12 months of full-time CPT?",
+    "answer": "If you have completed 12 months of full-time Curricular Practical Training (CPT), you are not eligible to apply for Optional Practical Training (OPT) at the same education level. According to USCIS regulations, full-time CPT for 12 months or more eliminates eligibility for OPT. It is advisable to confirm your specific situation with your Designated School Official (DSO) to ensure compliance with all immigration requirements."
+  },
+  {
+    "qid": 28,
+    "question": "What are the required documents for OPT application?",
+    "answer": "To apply for Optional Practical Training (OPT), you must submit Form I-765, Application for Employment Authorization, to USCIS, along with the required fee and supporting documentation as specified in the form instructions. Your Designated School Official (DSO) must recommend OPT by endorsing your Form I-20 and updating your SEVIS record. Additionally, you must include two passport-style photos that are unmounted and unretouched. Ensure you apply within the appropriate timeframe: up to 90 days before completing your degree and no later than 60 days after completion."
+  },
+  {
+    "qid": 29,
+    "question": "Should I use my university address or home address on Form I-765?",
+    "answer": "When completing Form I-765, you should use an address where you can reliably receive mail for the duration of the application process. This can be either your university address or your home address, but it is crucial that you have consistent access to this location to receive any correspondence from USCIS. If you anticipate changing addresses, consider using a stable address, such as a trusted friend or family member's address, with their permission."
+  },
+  {
+    "qid": 30,
+    "question": "Can I do freelance work while on OPT?",
+    "answer": "As an F-1 student on OPT, you may engage in freelance work provided it is directly related to your major area of study. It is essential to ensure that any freelance work meets the requirements of your OPT authorization, which mandates employment to be at least 20 hours per week if part-time or full-time. Please maintain documentation of how your freelance work is related to your field of study and consult with your Designated School Official (DSO) to ensure compliance with all OPT regulations."
+  },
+  {
+    "qid": 31,
+    "question": "Am I eligible for STEM OPT with a Computer Science degree?",
+    "answer": "To be eligible for a STEM OPT extension with a Computer Science degree, you must have received your degree from a program included on the STEM Designated Degree Program List. Additionally, you must be employed by an employer who is enrolled in and using E-Verify, and you must have received an initial grant of post-completion OPT based on your STEM degree. Please ensure you apply for the STEM OPT extension within 60 days after your DSO enters the recommendation into your SEVIS record and up to 90 days before your current OPT authorization expires. For further details, consult the USCIS Optional Practical Training Extension for STEM Students page."
+  },
+  {
+    "qid": 32,
+    "question": "When should I apply for my STEM OPT extension?",
+    "answer": "You should apply for your STEM OPT extension up to 90 days before your current OPT employment authorization expires. It is essential to ensure that your Designated School Official (DSO) has entered the recommendation for the STEM OPT extension into your SEVIS record before you apply. Additionally, you must submit your application to USCIS within 60 days of the DSO's recommendation. Please ensure all documentation is complete and submitted in a timely manner to maintain your employment authorization."
+  },
+  {
+    "qid": 33,
+    "question": "Do I need to be employed to apply for STEM extension?",
+    "answer": "To apply for a STEM OPT extension, you must be employed by an employer who is enrolled in and using E-Verify. This employment must be directly related to your STEM degree. Additionally, you must have received an initial grant of post-completion OPT employment authorization based on your STEM degree. Please ensure that your Designated School Official (DSO) recommends the STEM OPT extension in SEVIS before you apply."
+  },
+  {
+    "qid": 34,
+    "question": "What is Form I-983 and how do I complete it?",
+    "answer": "Form I-983, \"Training Plan for STEM OPT Students,\" is a document that F-1 students must complete with their employer to apply for a STEM OPT extension. The form outlines the student's learning objectives and how the employer will help achieve them. To complete Form I-983, both the student and employer must provide detailed information about the training plan, including the employer's responsibilities, the student's role, and how the training relates to the student's degree. It is essential to ensure accuracy and compliance with the requirements set by the Student and Exchange Visitor Program (SEVP) and the Department of Homeland Security (DHS). For further guidance, please refer to the official USCIS and SEVP resources."
+  },
+  {
+    "qid": 35,
+    "question": "Can I change employers during STEM OPT?",
+    "answer": "Yes, you may change employers during your STEM OPT period, provided that the new employer is enrolled in and uses E-Verify. You must report the change to your Designated School Official (DSO) within 10 days, and your new employer must complete and sign a new Form I-983, Training Plan for STEM OPT Students. It is essential to maintain compliance with all reporting requirements to ensure your continued eligibility for STEM OPT."
+  },
+  {
+    "qid": 36,
+    "question": "What's the unemployment limit during STEM OPT?",
+    "answer": "During the STEM OPT extension period, you are allowed a maximum of 60 days of unemployment. This is in addition to the 90 days of unemployment permitted during the initial 12-month post-completion OPT period, totaling 150 days of allowable unemployment throughout both OPT periods. It is crucial to maintain employment that is directly related to your field of study and to report any changes in employment to your Designated School Official (DSO) to ensure compliance with U.S. immigration regulations. For further details, please refer to the official USCIS guidelines on STEM OPT."
+  },
+  {
+    "qid": 37,
+    "question": "Does my employer need to be E-Verify enrolled?",
+    "answer": "Yes, if you are applying for a STEM OPT extension, your employer must be enrolled in and using E-Verify. This is a requirement for the 24-month extension of your post-completion OPT employment authorization. For further details, please refer to the USCIS Optional Practical Training Extension for STEM Students (STEM OPT) page."
+  },
+  {
+    "qid": 38,
+    "question": "Can I do consulting work on STEM OPT?",
+    "answer": "Yes, you may engage in consulting work while on STEM OPT, provided that the work is directly related to your STEM degree and meets all STEM OPT requirements. Your employer must be enrolled in and using E-Verify, and you must have a valid Form I-983, Training Plan for STEM OPT Students, that outlines how the consulting work aligns with your educational objectives. It is essential to maintain compliance with all reporting requirements and ensure that your employment is properly documented in the Student and Exchange Visitor Information System (SEVIS). Please confirm specific details with your Designated School Official (DSO) to ensure full compliance."
+  },
+  {
+    "qid": 39,
+    "question": "How many times can I extend my STEM OPT?",
+    "answer": "You may extend your STEM OPT only once for a 24-month period following your initial 12-month post-completion OPT, provided you meet the eligibility criteria. This includes having a degree in a STEM field listed on the STEM Designated Degree Program List, being employed by an E-Verify-enrolled employer, and having received an initial grant of post-completion OPT based on your STEM degree. For further details, please refer to the official USCIS guidance on the STEM OPT extension."
+  },
+  {
+    "qid": 40,
+    "question": "What happens if I lose my job during STEM OPT?",
+    "answer": "If you lose your job during your STEM OPT period, you are allowed up to 150 days of unemployment, which includes any unused unemployment days from your initial post-completion OPT period. It is crucial to maintain your F-1 status by finding new qualifying employment within this period. Ensure that your new employer is enrolled in E-Verify and that you report any changes in employment to your Designated School Official (DSO) within 10 days. For further guidance, please consult your DSO or refer to the official USCIS resources."
+  },
+  {
+    "qid": 41,
+    "question": "How many days of unemployment am I allowed on OPT?",
+    "answer": "As an F-1 student on post-completion OPT, you are allowed up to 90 days of unemployment during your authorized OPT period. It is important to maintain employment that is directly related to your field of study and to report any changes in employment to your Designated School Official (DSO) to ensure compliance with immigration regulations. Please refer to official USCIS guidelines for further details and ensure timely reporting to avoid exceeding the unemployment limit."
+  },
+  {
+    "qid": 42,
+    "question": "What should I do immediately after losing my job?",
+    "answer": "If you lose your job while on OPT or STEM-OPT, it is crucial to understand the implications for your immigration status. You have a 90-day unemployment limit during your OPT period, which includes any days you are not employed. It is advisable to seek new employment or consider other options, such as enrolling in a new academic program, to maintain your F-1 status. Please consult with your Designated School Official (DSO) for guidance specific to your situation and to ensure compliance with all regulations."
+  },
+  {
+    "qid": 43,
+    "question": "Does unpaid volunteer work count toward employment?",
+    "answer": "Unpaid volunteer work does not count toward employment for F-1 students on OPT. According to USCIS guidelines, OPT employment must be directly related to the student's major area of study and must be at least 20 hours per week for post-completion OPT. Volunteer work that does not meet these criteria or is not authorized as part of OPT does not fulfill the employment requirement. It is advisable to confirm specific situations with your Designated School Official (DSO) to ensure compliance."
+  },
+  {
+    "qid": 44,
+    "question": "Can I count job searching as employment?",
+    "answer": "Job searching does not count as employment for F-1 students under Optional Practical Training (OPT) regulations. During post-completion OPT, F-1 students must be employed in a position related to their field of study for at least 20 hours per week. It is important to maintain employment to comply with OPT requirements and avoid exceeding the 90-day unemployment limit. Please consult your Designated School Official (DSO) for further guidance on maintaining your status."
+  },
+  {
+    "qid": 45,
+    "question": "How do I report unemployment days to my DSO?",
+    "answer": "To report unemployment days during your OPT or STEM OPT period, you should update your DSO with any changes in your employment status. This includes reporting periods of unemployment. Your DSO will then update your SEVIS record accordingly. It is important to maintain accurate records to ensure compliance with the maximum allowable unemployment days: 90 days for OPT and an additional 60 days for STEM OPT. Please consult your DSO for specific reporting procedures at your institution."
+  },
+  {
+    "qid": 46,
+    "question": "What happens if I exceed 90 days of unemployment?",
+    "answer": "Exceeding 90 days of unemployment during your OPT period can result in the termination of your F-1 status, as maintaining employment is a requirement for OPT. This may lead to the accrual of unlawful presence, which can have serious consequences, including potential removal from the United States and reentry bars. It is crucial to maintain employment or take steps to avoid reaching this limit. For further guidance, please consult your Designated School Official (DSO) or refer to official USCIS resources."
+  },
+  {
+    "qid": 47,
+    "question": "Can I do gig economy work to maintain status?",
+    "answer": "Engaging in gig economy work without proper authorization is not permitted for F-1 students and can lead to serious consequences, including the accrual of unlawful presence and potential removal from the United States. F-1 students are only allowed to work off-campus if they have received prior authorization through programs such as Curricular Practical Training (CPT), Optional Practical Training (OPT), or in cases of severe economic hardship. It is essential to consult with your Designated School Official (DSO) to ensure compliance with all employment regulations."
+  },
+  {
+    "qid": 48,
+    "question": "Should I leave the US if I can't find a job?",
+    "answer": "If you are unable to find employment while on Optional Practical Training (OPT) or STEM OPT, it is important to be aware of the unemployment limits associated with these programs. F-1 students on post-completion OPT are allowed a maximum of 90 days of unemployment, while those on STEM OPT have an additional 60 days, totaling 150 days. Exceeding these limits without securing employment may require you to leave the United States to maintain compliance with your visa status. It is advisable to consult with your Designated School Official (DSO) for guidance on your specific situation and to explore any potential options."
+  },
+  {
+    "qid": 49,
+    "question": "Does STEM OPT have a different unemployment limit?",
+    "answer": "Yes, the STEM OPT extension has a different unemployment limit compared to the initial post-completion OPT. During the 24-month STEM OPT extension, you are allowed a maximum of 60 days of unemployment. This is in addition to the 90 days of unemployment permitted during the initial 12-month post-completion OPT period, totaling 150 days over the entire OPT period. It is crucial to maintain employment within these limits to comply with F-1 status requirements."
+  },
+  {
+    "qid": 50,
+    "question": "Can I switch to a different visa if I'm unemployed?",
+    "answer": "Switching to a different visa while unemployed depends on your current visa status and eligibility for the new visa category. If you are on an F-1 visa and wish to change to another nonimmigrant status, you must file a Form I-539, Application to Extend/Change Nonimmigrant Status, with USCIS. It is crucial to maintain your current status until the change is approved to avoid accruing unlawful presence. Please consult with your Designated School Official (DSO) or refer to official USCIS guidance for specific eligibility requirements and procedures."
+  },
+  {
+    "qid": 51,
+    "question": "Can I travel outside the US while on OPT?",
+    "answer": "Traveling outside the United States while on OPT is possible, but it requires careful consideration of your current status and documentation. If you have an approved OPT and a valid Employment Authorization Document (EAD), you may travel, but you must carry your EAD, a valid F-1 visa, a valid passport, and a letter from your employer confirming your employment. If your OPT application is pending, it is generally advised to avoid travel, as re-entry could be problematic. Always consult with your Designated School Official (DSO) before making travel plans to ensure compliance with all requirements."
+  },
+  {
+    "qid": 52,
+    "question": "What documents do I need to re-enter on OPT?",
+    "answer": "To re-enter the United States while on OPT, you will need to carry the following documents: a valid passport, a valid F-1 visa, your most recent Form I-20 with a travel endorsement from your Designated School Official (DSO) within the last six months, your Employment Authorization Document (EAD), and a letter from your employer verifying your employment or job offer. It is advisable to confirm these requirements with your DSO before traveling, as policies may change."
+  },
+  {
+    "qid": 53,
+    "question": "Do I need a valid F-1 visa stamp to return?",
+    "answer": "To return to the United States as an F-1 student, you must have a valid F-1 visa stamp in your passport, unless you are traveling to Canada, Mexico, or adjacent islands for less than 30 days and meet the requirements for automatic visa revalidation. Additionally, you must have a valid, signed Form I-20 and be enrolled as a full-time student. It is advisable to confirm your specific travel plans with your Designated School Official (DSO) to ensure compliance with all requirements."
+  },
+  {
+    "qid": 54,
+    "question": "Can I travel if my OPT EAD card is pending?",
+    "answer": "Traveling while your OPT Employment Authorization Document (EAD) is pending is generally not recommended. If you leave the United States while your OPT application is pending, you may face challenges re-entering the country, as you will not have the EAD card to demonstrate your work authorization. It is advisable to wait until your OPT is approved and you have received your EAD card before traveling internationally. For the most accurate guidance, please consult with your Designated School Official (DSO) or refer to official USCIS resources."
+  },
+  {
+    "qid": 55,
+    "question": "What if my F-1 visa expired while I was in the US?",
+    "answer": "If your F-1 visa expires while you are in the United States, it does not affect your legal status as long as you maintain your F-1 student status by complying with all requirements, such as full-time enrollment and not engaging in unauthorized employment. The visa is only required for entry into the U.S., so you do not need to renew it unless you plan to travel internationally and return to the U.S. For further guidance, please consult your Designated School Official (DSO) or refer to official USCIS resources."
+  },
+  {
+    "qid": 56,
+    "question": "How do I get my I-20 endorsed for travel?",
+    "answer": "To have your I-20 endorsed for travel, you must contact your Designated School Official (DSO) at your academic institution. The DSO will review your status and, if appropriate, endorse your Form I-20 for travel by signing it. This endorsement is typically valid for one year for F-1 students and six months for those on OPT. Please ensure your travel endorsement is up-to-date before leaving the United States to avoid complications upon re-entry."
+  },
+  {
+    "qid": 57,
+    "question": "Can I travel during the 60-day grace period?",
+    "answer": "Traveling during the 60-day grace period following the completion of your F-1 program is not advisable. If you leave the United States during this period, you may not be allowed to re-enter on your F-1 visa, as the grace period is intended for preparing to depart the U.S., transferring to another school, or changing your status. It is recommended to consult with your Designated School Official (DSO) for guidance specific to your situation."
+  },
+  {
+    "qid": 58,
+    "question": "What happens if I'm denied entry when returning?",
+    "answer": "If you are denied entry when returning to the United States, it is important to understand that this can have significant consequences, including potential removal from the country and reentry bars. Additionally, being denied entry may lead to the accrual of unlawful presence, which can affect your immigration status and future visa applications. It is advisable to consult with your Designated School Official (DSO) or seek legal advice to understand your options and next steps. For more detailed information, please refer to the USCIS Policy Manual and other official resources."
+  },
+  {
+    "qid": 59,
+    "question": "Should I carry my job offer letter when traveling?",
+    "answer": "When traveling, it is advisable to carry your job offer letter, especially if you are on Optional Practical Training (OPT) or Curricular Practical Training (CPT). This document can serve as evidence of your employment authorization and the nature of your work, which is required to be related to your field of study. While not mandatory, having your job offer letter can facilitate discussions with immigration officials regarding your employment status. Always ensure that your employment is authorized and documented in SEVIS by your Designated School Official (DSO)."
+  },
+  {
+    "qid": 60,
+    "question": "Can I travel multiple times while on OPT?",
+    "answer": "While on OPT, you may travel internationally, but it is important to ensure you have the necessary documentation for re-entry into the United States. This includes a valid F-1 visa, an I-20 endorsed for travel by your Designated School Official (DSO) within the last six months, your Employment Authorization Document (EAD), and proof of employment or a job offer. It is advisable to consult with your DSO before traveling to confirm that your documents are in order and to understand any potential risks associated with travel during OPT."
+  },
+  {
+    "qid": 61,
+    "question": "When should my employer file my H-1B petition?",
+    "answer": "Your employer should file your H-1B petition during the designated filing period, which typically begins in early April for the upcoming fiscal year starting October 1. It is important to ensure that the petition is submitted as soon as the filing window opens, as the H-1B cap is often reached quickly. For fiscal year 2026, USCIS has already reached the cap, so planning for the next fiscal year is advisable. Please consult with your employer and legal counsel to ensure timely and accurate submission."
+  },
+  {
+    "qid": 62,
+    "question": "Can I continue working if my STEM OPT expires before H-1B starts?",
+    "answer": "If your STEM OPT expires before your H-1B status begins, you may continue working under the automatic 180-day extension, provided you have timely filed your STEM OPT extension application and it is still pending with USCIS. This extension allows you to maintain employment authorization until USCIS adjudicates your application. However, if your STEM OPT extension is not pending or has been denied, you must cease employment immediately upon the expiration of your current OPT authorization. Please ensure compliance with all USCIS regulations to avoid any adverse immigration consequences."
+  },
+  {
+    "qid": 63,
+    "question": "What is Cap-Gap extension and am I eligible?",
+    "answer": "The Cap-Gap extension is a provision that allows F-1 students with a timely filed H-1B petition and change of status request to extend their F-1 status and, if applicable, their employment authorization until the start date of their H-1B status, typically October 1. To be eligible, your F-1 status and employment authorization must expire before your H-1B status begins. It is important to confirm your eligibility with your Designated School Official (DSO) and refer to the USCIS Cap-Gap Extension page for detailed guidance."
+  },
+  {
+    "qid": 64,
+    "question": "Do I need to leave the US between OPT and H-1B?",
+    "answer": "If you have a timely filed H-1B petition and change of status request, you may be eligible for a cap-gap extension, which allows you to remain in the U.S. and continue working under OPT until your H-1B status begins, typically on October 1. This extension bridges the gap between the end of your OPT and the start of your H-1B status. It is important to confirm your eligibility for the cap-gap extension with your Designated School Official (DSO) and ensure all necessary documentation is in place. If you do not qualify for the cap-gap extension, you may need to leave the U.S. and re-enter once your H-1B status is active."
+  },
+  {
+    "qid": 65,
+    "question": "Can I change employers during H-1B processing?",
+    "answer": "Yes, you can change employers during H-1B processing, but it requires careful attention to compliance. If you wish to change employers after your H-1B petition has been filed but before it is approved, your new employer must file a new H-1B petition on your behalf. This is known as an H-1B transfer, and you must wait for the new petition to be filed before starting work with the new employer. It is advisable to consult with your current employer and a legal advisor to ensure all procedures are correctly followed."
+  },
+  {
+    "qid": 66,
+    "question": "What happens if my H-1B petition is denied?",
+    "answer": "If your H-1B petition is denied, you will not be granted H-1B status, and you must ensure that you maintain your current nonimmigrant status or depart the United States to avoid accruing unlawful presence. If you are on a cap-gap extension, this extension will end, and you must take immediate steps to maintain lawful status. It is advisable to consult with your Designated School Official (DSO) or an immigration attorney to explore your options and ensure compliance with U.S. immigration laws. For further guidance, please refer to the USCIS Policy Manual or contact USCIS directly."
+  },
+  {
+    "qid": 67,
+    "question": "How long is the H-1B cap-gap extension valid?",
+    "answer": "The H-1B cap-gap extension allows F-1 students with a timely filed H-1B petition and change of status request to extend their F-1 status and, if applicable, their employment authorization until the start date of their H-1B status, typically October 1. This extension is designed to bridge the gap between the expiration of the student's F-1 status and the commencement of their H-1B status. It is important to confirm eligibility and ensure that the H-1B petition was filed before the F-1 status expired. For further details, please refer to the USCIS Cap-Gap Extension page."
+  },
+  {
+    "qid": 68,
+    "question": "Can I travel during cap-gap extension period?",
+    "answer": "Traveling internationally during the cap-gap extension period is not advisable. If you leave the United States during this time, you may not be able to re-enter on your F-1 status, as the cap-gap extension is not a separate visa status and does not provide re-entry privileges. It is recommended to remain in the U.S. until your H-1B status becomes active. For further guidance, please consult with your Designated School Official (DSO) or refer to the USCIS Cap-Gap Extension page."
+  },
+  {
+    "qid": 69,
+    "question": "Should I apply for H-1B premium processing?",
+    "answer": "Premium processing for H-1B petitions is an optional service provided by USCIS that allows for expedited processing of your petition, typically within 15 calendar days. This service can be beneficial if you require a quicker decision due to time-sensitive employment needs or other urgent circumstances. However, it is important to consider the additional cost associated with premium processing. For the most accurate and personalized advice, please consult with your employer or immigration attorney to determine if premium processing aligns with your specific situation."
+  },
+  {
+    "qid": 70,
+    "question": "What documents do I need for H-1B visa stamping?",
+    "answer": "For H-1B visa stamping, you will need several key documents. These typically include your valid passport, the original Form I-797 (H-1B approval notice), the H-1B visa application form (DS-160 confirmation page), a visa appointment confirmation, and a recent passport-sized photograph that meets U.S. visa photo requirements. Additionally, you should bring your employment offer letter, proof of your educational qualifications, and any other supporting documents that demonstrate your eligibility for the H-1B visa. It is advisable to check the specific requirements of the U.S. consulate or embassy where you will apply, as they may have additional requirements."
+  },
+  {
+    "qid": 71,
+    "question": "Can I work remotely while on CPT?",
+    "answer": "Yes, you may work remotely while on Curricular Practical Training (CPT), provided that the remote work is directly related to your field of study and has been authorized by your Designated School Official (DSO). It is essential to ensure that your CPT employment is documented in your SEVIS record and that you have received the necessary authorization before commencing any work. Please confirm specific details with your DSO to ensure compliance with all regulations."
+  },
+  {
+    "qid": 72,
+    "question": "Does my employer need to be in the same state as my university?",
+    "answer": "Your employer does not need to be in the same state as your university for employment under Curricular Practical Training (CPT) or Optional Practical Training (OPT). However, the employment must be directly related to your field of study and authorized by your Designated School Official (DSO) and, if applicable, by USCIS. It is important to ensure that all employment complies with the terms of your F-1 visa and that you maintain communication with your DSO regarding your employment status."
+  },
+  {
+    "qid": 73,
+    "question": "Can I work from home on OPT?",
+    "answer": "Yes, you may work from home while on OPT, provided that the employment is directly related to your major area of study and you have received the necessary employment authorization. The U.S. Citizenship and Immigration Services (USCIS) does not specify a requirement for the physical location of your employment, allowing for remote work arrangements. It is important to ensure that all other OPT requirements, such as maintaining valid F-1 status and reporting employment details to your Designated School Official (DSO), are met."
+  },
+  {
+    "qid": 74,
+    "question": "Do I need to notify USCIS if I move to a different state?",
+    "answer": "If you are an F-1 student, you are required to notify your Designated School Official (DSO) within 10 days of moving to a new address. The DSO will then update your address in the Student and Exchange Visitor Information System (SEVIS). It is not necessary to directly notify USCIS of your address change, as the update in SEVIS will fulfill this requirement. Please ensure that your address is current to maintain compliance with immigration regulations."
+  },
+  {
+    "qid": 75,
+    "question": "Can I work remotely from outside the US temporarily?",
+    "answer": "F-1 students are generally required to maintain their status by being physically present in the United States while engaging in authorized employment, such as CPT or OPT. Remote work from outside the U.S. may not be permissible unless specifically authorized by your Designated School Official (DSO) and USCIS under special circumstances. It is crucial to consult with your DSO to ensure compliance with your visa requirements and to verify any potential exceptions."
+  },
+  {
+    "qid": 76,
+    "question": "What address should I use for my EAD card?",
+    "answer": "When applying for an Employment Authorization Document (EAD), you should use an address where you can reliably receive mail for the duration of the application process. This address can be your own, a trusted friend, or a family member's address. It is crucial that the address is valid and that you can promptly receive any correspondence from USCIS, as they will send important documents, including your EAD card, to this location. Please ensure that the address is updated with USCIS if there are any changes during the application process."
+  },
+  {
+    "qid": 77,
+    "question": "Can I have a remote job while on STEM OPT?",
+    "answer": "Yes, you may have a remote job while on STEM OPT, provided that the employment is directly related to your STEM degree and meets all other STEM OPT requirements. Your employer must be enrolled in and using E-Verify, and you must work at least 20 hours per week. It is essential to ensure that your employment is properly reported and documented in the Student and Exchange Visitor Information System (SEVIS) through your Designated School Official (DSO). Please confirm any specific conditions with your DSO or refer to official USCIS guidance for further details."
+  },
+  {
+    "qid": 78,
+    "question": "Do I need to update my DSO about address changes?",
+    "answer": "Yes, you must update your Designated School Official (DSO) within 10 days of any change to your physical address. This requirement ensures that your Student and Exchange Visitor Information System (SEVIS) record remains accurate and up-to-date, which is crucial for maintaining your F-1 status. Please ensure that your address is current to avoid any compliance issues."
+  },
+  {
+    "qid": 79,
+    "question": "Can I live in one state and work remotely in another?",
+    "answer": "Yes, you may live in one state and work remotely in another while on OPT or STEM-OPT, provided that your employment is directly related to your field of study and has been authorized. It is important to ensure that your employer and your Designated School Official (DSO) are aware of your remote work arrangement. Additionally, you must maintain your F-1 status by fulfilling all reporting requirements and ensuring that your SEVIS record accurately reflects your current address and employment details. Please confirm any specific state tax implications with a tax professional."
+  },
+  {
+    "qid": 80,
+    "question": "Does remote work affect my F-1 status?",
+    "answer": "Remote work can affect your F-1 status if it is not properly authorized. F-1 students must ensure that any off-campus employment, including remote work, is related to their field of study and authorized by their Designated School Official (DSO) and USCIS. Unauthorized employment, including remote work without proper authorization, can lead to serious consequences such as termination of your F-1 status and potential removal from the United States. It is crucial to consult with your DSO to ensure compliance with all employment regulations."
+  },
+  {
+    "qid": 81,
+    "question": "Can I work two jobs simultaneously on OPT?",
+    "answer": "Yes, you may work two jobs simultaneously on post-completion OPT, provided that both positions are directly related to your field of study and you maintain the required minimum of 20 hours per week in total. It is important to ensure that each employer is aware of your OPT status and that you report all employment to your Designated School Official (DSO) to maintain compliance with U.S. Citizenship and Immigration Services (USCIS) regulations."
+  },
+  {
+    "qid": 82,
+    "question": "Is freelance consulting allowed on OPT?",
+    "answer": "Freelance consulting is permissible on OPT as long as the work is directly related to your major area of study. You must ensure that you are working at least 20 hours per week if you are on post-completion OPT. It is important to maintain documentation that demonstrates the connection between your freelance work and your field of study, as well as to comply with all reporting requirements to your Designated School Official (DSO)."
+  },
+  {
+    "qid": 83,
+    "question": "Can I start a business while on F-1 status?",
+    "answer": "F-1 students are generally not permitted to start a business while maintaining their student status, as this would be considered unauthorized employment. F-1 students may only engage in employment that is directly related to their field of study and authorized by their Designated School Official (DSO) and USCIS, such as through Curricular Practical Training (CPT) or Optional Practical Training (OPT). If you are considering any form of employment or business activity, it is crucial to consult with your DSO to ensure compliance with immigration regulations."
+  },
+  {
+    "qid": 84,
+    "question": "Do I need to report all my employers to SEVP?",
+    "answer": "Yes, you must report all your employers to the Student and Exchange Visitor Program (SEVP) while on Optional Practical Training (OPT) or STEM OPT. This includes updating your employment information in the Student and Exchange Visitor Information System (SEVIS) through your Designated School Official (DSO). It is crucial to maintain accurate records to ensure compliance with your F-1 visa requirements. Please consult your DSO for guidance on how to report this information correctly."
+  },
+  {
+    "qid": 85,
+    "question": "Can I do part-time contracting on STEM OPT?",
+    "answer": "Yes, you may engage in part-time contracting on STEM OPT, provided that you work at least 20 hours per week. It is essential that your employment is directly related to your STEM degree and that your employer is enrolled in and using E-Verify. Please ensure that all employment is reported to your Designated School Official (DSO) and is compliant with the terms of your STEM OPT extension. For further details, refer to the official USCIS guidelines on STEM OPT."
+  },
+  {
+    "qid": 86,
+    "question": "Is passive income from investments allowed?",
+    "answer": "F-1 students are generally not permitted to engage in employment that is not authorized by their Designated School Official (DSO) and the U.S. Citizenship and Immigration Services (USCIS). However, passive income, such as income from investments, is not considered employment and does not require authorization. It is important to ensure that any financial activities comply with U.S. tax laws and regulations. For specific guidance, please consult with your DSO or a qualified immigration attorney."
+  },
+  {
+    "qid": 87,
+    "question": "Can I be a co-founder of a startup on OPT?",
+    "answer": "As an F-1 student on OPT, you may engage in entrepreneurial activities, including being a co-founder of a startup, provided that the work is directly related to your field of study and you comply with all OPT requirements. You must work at least 20 hours per week if on post-completion OPT and ensure that your role is consistent with the employment authorization granted under OPT. It is advisable to maintain thorough documentation of how your startup activities relate to your degree program and to consult with your Designated School Official (DSO) for guidance."
+  },
+  {
+    "qid": 88,
+    "question": "Does volunteering count as unauthorized employment?",
+    "answer": "Volunteering can be considered unauthorized employment if the activity is typically a paid position and you are performing it without proper authorization. F-1 students must ensure that any volunteer work does not violate their visa status by resembling unpaid employment. It is advisable to consult with your Designated School Official (DSO) to confirm that your volunteer activities comply with immigration regulations. Always refer to official USCIS guidance for the most accurate information."
+  },
+  {
+    "qid": 89,
+    "question": "Can I do paid speaking engagements on OPT?",
+    "answer": "Yes, you may engage in paid speaking engagements while on OPT, provided that the work is directly related to your major area of study. Optional Practical Training (OPT) is temporary employment that must align with your field of study, and you must maintain compliance with the terms of your OPT authorization. Please ensure that any employment, including speaking engagements, is reported to your Designated School Official (DSO) and documented appropriately."
+  },
+  {
+    "qid": 90,
+    "question": "How do I report multiple employers to my DSO?",
+    "answer": "To report multiple employers to your Designated School Official (DSO) while on OPT or STEM OPT, you must update your employment information in the Student and Exchange Visitor Information System (SEVIS) through your DSO. Ensure that each employer is enrolled in and using E-Verify if you are on a STEM OPT extension. It is important to provide your DSO with the necessary details for each employer, including the employer's name, address, and your job title, to maintain compliance with SEVP regulations. Please confirm the specific reporting requirements with your DSO, as they may have additional procedures in place."
+  },
+  {
+    "qid": 91,
+    "question": "What is the 60-day grace period after OPT?",
+    "answer": "The 60-day grace period after the completion of your OPT allows you to prepare for departure from the United States, transfer to another academic program, or change your status. During this time, you are not authorized to work. It is important to use this period to ensure compliance with your visa status and make necessary arrangements for your next steps. Please consult with your Designated School Official (DSO) for further guidance specific to your situation."
+  },
+  {
+    "qid": 92,
+    "question": "Can I travel during my grace period?",
+    "answer": "Traveling during your grace period is generally not advisable. The grace period is intended for you to prepare for departure from the United States, change your status, or begin a new program. If you leave the U.S. during this time, you may not be allowed to re-enter on your F-1 visa. It is recommended to consult with your Designated School Official (DSO) for guidance specific to your situation."
+  },
+  {
+    "qid": 93,
+    "question": "Can I apply for a different F-1 program during grace period?",
+    "answer": "Yes, you can apply for a different F-1 program during the 60-day grace period following the completion of your current program. To do so, you must be accepted into a new program and obtain a new Form I-20 from the institution you plan to attend. It is important to ensure that your SEVIS record is transferred to the new school before the end of the grace period to maintain your F-1 status. Please consult with your current Designated School Official (DSO) for guidance on the transfer process."
+  },
+  {
+    "qid": 94,
+    "question": "What happens if I don't find a job before OPT ends?",
+    "answer": "If you do not find a job before your OPT ends, you must ensure that you do not exceed the 90-day unemployment limit during your post-completion OPT period. Exceeding this limit can result in a violation of your F-1 status. It is important to maintain your student status by not working without authorization and considering options such as transferring to another program or level of study to remain in compliance. For further guidance, please consult your Designated School Official (DSO) or refer to official USCIS resources."
+  },
+  {
+    "qid": 95,
+    "question": "Can I switch to B-2 tourist status?",
+    "answer": "Switching from F-1 to B-2 tourist status is possible, but it requires filing a Form I-539, Application to Extend/Change Nonimmigrant Status, with USCIS. It is important to maintain your current F-1 status until the change is approved to avoid accruing unlawful presence, which can have serious immigration consequences. Please consult with your Designated School Official (DSO) and refer to the USCIS Policy Manual for detailed guidance on the process and implications."
+  },
+  {
+    "qid": 96,
+    "question": "Is it possible to extend my F-1 by enrolling in another program?",
+    "answer": "Yes, it is possible to extend your F-1 status by enrolling in another program at an accredited institution. You must ensure that the new program is full-time and leads to a degree, diploma, or certificate. Additionally, you must maintain compliance with F-1 requirements, such as having sufficient funds for self-support and maintaining a residence abroad. It is advisable to consult with your Designated School Official (DSO) to ensure proper transfer of your SEVIS record and compliance with all regulations."
+  },
+  {
+    "qid": 97,
+    "question": "Can I get married and apply for a green card during grace period?",
+    "answer": "During the F-1 grace period, you may get married and apply for a green card. However, it is crucial to ensure that you maintain lawful status throughout the process. The grace period itself does not provide lawful status, so it is advisable to consult with your Designated School Official (DSO) or an immigration attorney to understand the implications and ensure compliance with U.S. immigration laws."
+  },
+  {
+    "qid": 98,
+    "question": "What should I do with my belongings if leaving the US?",
+    "answer": "If you are planning to leave the United States, it is important to ensure that your belongings are managed appropriately. You may choose to store your belongings in a secure storage facility or arrange for them to be shipped to your home country. It is advisable to make these arrangements well in advance of your departure to avoid any last-minute complications. Additionally, ensure that you maintain compliance with your visa status and consult your Designated School Official (DSO) for any specific guidance related to your departure."
+  },
+  {
+    "qid": 99,
+    "question": "Can I volunteer or do unpaid work during grace period?",
+    "answer": "During the grace period following the completion of your F-1 program, you are not authorized to work, including unpaid or volunteer work, unless you have received specific authorization from USCIS. The grace period is intended for you to prepare for departure from the United States, transfer to another school, or change your status. It is important to maintain compliance with immigration regulations during this time. Please consult with your Designated School Official (DSO) for further guidance."
+  },
+  {
+    "qid": 100,
+    "question": "How do I maintain my status if changing to H-4 dependent visa?",
+    "answer": "To maintain your status when changing to an H-4 dependent visa, you must file Form I-539, Application to Extend/Change Nonimmigrant Status, with USCIS before your current status expires. Ensure you do not engage in unauthorized employment during this transition, as it could lead to serious consequences, including removal from the United States. It is advisable to consult with your Designated School Official (DSO) or refer to the USCIS Policy Manual for detailed guidance on maintaining lawful status during this change."
+  },
+  {
+    "qid": 101,
+    "question": "What should I do if my SEVIS record is terminated by mistake?",
+    "answer": "If your SEVIS record is terminated by mistake, it is crucial to contact your Designated School Official (DSO) immediately to discuss the situation. Your DSO can provide guidance on the next steps, which may include filing a request for data correction with the Student and Exchange Visitor Program (SEVP). It is important to address this issue promptly to avoid potential consequences such as the accrual of unlawful presence. For further information, you may also refer to the USCIS Policy Manual or consult with your DSO for official guidance."
+  },
+  {
+    "qid": 102,
+    "question": "How do I get my I-20 corrected if there's an error?",
+    "answer": "To correct an error on your Form I-20, you should contact your Designated School Official (DSO) at your academic institution. The DSO can update the Student and Exchange Visitor Information System (SEVIS) with the correct information and issue you a new, corrected I-20. It is important to address any discrepancies promptly to ensure your records accurately reflect your status and eligibility. Please ensure you review the corrected I-20 for accuracy once it is reissued."
+  },
+  {
+    "qid": 103,
+    "question": "What if my EAD card has the wrong information?",
+    "answer": "If your Employment Authorization Document (EAD) contains incorrect information, you should promptly contact the U.S. Citizenship and Immigration Services (USCIS) to request a correction. You may need to file Form I-765, Application for Employment Authorization, along with supporting documentation to rectify the error. It is advisable to consult with your Designated School Official (DSO) for guidance and to ensure that your student status and employment authorization remain compliant with immigration regulations. For further details, please refer to the official USCIS website or contact their customer service."
+  },
+  {
+    "qid": 104,
+    "question": "Can I get expedited processing if my EAD is delayed?",
+    "answer": "Expedited processing for an Employment Authorization Document (EAD) is generally not available through standard USCIS procedures. However, if you believe your EAD delay is causing severe financial loss or other urgent circumstances, you may request expedited processing by contacting USCIS and providing evidence of your situation. It is advisable to consult with your Designated School Official (DSO) for guidance and to ensure all necessary documentation is in order. For more information, please refer to the official USCIS guidelines on requesting expedited processing."
+  },
+  {
+    "qid": 105,
+    "question": "What happens if I lose my I-20 while traveling?",
+    "answer": "If you lose your I-20 while traveling, it is important to contact your Designated School Official (DSO) immediately to request a replacement. You will need a valid I-20 to re-enter the United States, as it is a critical document for maintaining your F-1 status. Ensure that you have the replacement I-20 sent to you before attempting to return to the U.S. to avoid any issues at the port of entry. Always keep a copy of your I-20 in a secure location to prevent future loss."
+  },
+  {
+    "qid": 106,
+    "question": "How do I replace a lost EAD card?",
+    "answer": "To replace a lost Employment Authorization Document (EAD), you must file Form I-765, Application for Employment Authorization, with the appropriate filing fee and required documentation, including a copy of your previous EAD, if available. It is important to indicate that you are applying for a replacement card on the form. Please consult the USCIS website or your Designated School Official (DSO) for detailed instructions and ensure you maintain compliance with your current employment authorization status during this process."
+  },
+  {
+    "qid": 107,
+    "question": "What if my passport expires before my program ends?",
+    "answer": "If your passport expires before your program ends, it is important to renew it as soon as possible. While your F-1 status is not directly affected by an expired passport, maintaining a valid passport is a requirement for re-entry into the United States and for certain immigration benefits. Please contact your country's embassy or consulate in the U.S. to initiate the renewal process. Additionally, inform your Designated School Official (DSO) about your passport status to ensure your SEVIS record remains accurate."
+  },
+  {
+    "qid": 108,
+    "question": "Can I get my F-1 visa revalidated without leaving the US?",
+    "answer": "An F-1 visa cannot be revalidated within the United States. If your F-1 visa has expired and you need to travel internationally, you must apply for a new visa at a U.S. consulate or embassy outside the United States. It is important to maintain your student status and ensure your I-20 is valid while in the U.S. For further guidance, please consult your Designated School Official (DSO) or refer to official USCIS resources."
+  },
+  {
+    "qid": 109,
+    "question": "What if USCIS sent my EAD to wrong address?",
+    "answer": "If USCIS sent your Employment Authorization Document (EAD) to the wrong address, you should promptly contact USCIS to report the issue. You can do this by calling the USCIS Contact Center or submitting an inquiry through your USCIS online account. It is important to update your address with USCIS to prevent future issues. Additionally, consider consulting with your Designated School Official (DSO) for further guidance and to ensure your student status remains compliant."
+  },
+  {
+    "qid": 110,
+    "question": "How do I fix a SEVIS data error my school made?",
+    "answer": "To address a SEVIS data error made by your school, you should promptly contact your Designated School Official (DSO). The DSO is responsible for correcting any inaccuracies in the SEVIS system. They will update the necessary information and ensure that your SEVIS record accurately reflects your current status. It is important to address these errors quickly to maintain compliance with your F-1 status."
+  },
+  {
+    "qid": 111,
+    "question": "What if my Form I-94 shows wrong status?",
+    "answer": "If your Form I-94 shows an incorrect status, it is important to address this issue promptly to avoid potential immigration complications. You should contact your Designated School Official (DSO) for guidance and consider reaching out to U.S. Customs and Border Protection (CBP) to request a correction. It is advisable to keep documentation of your current status and any communications regarding the correction process. For further assistance, you may also consult the official USCIS website or the CBP website for instructions on how to correct your I-94."
+  },
+  {
+    "qid": 112,
+    "question": "Can I work while my OPT EAD replacement is pending?",
+    "answer": "If your OPT Employment Authorization Document (EAD) is lost, stolen, or damaged, and you have applied for a replacement, you are not authorized to work while the replacement is pending. It is crucial to wait until you receive the new EAD before resuming employment. Working without a valid EAD can lead to serious consequences, including the potential termination of your F-1 status. Please ensure you maintain compliance with all immigration regulations during this period."
+  },
+  {
+    "qid": 113,
+    "question": "What if my university closes while I'm on F-1?",
+    "answer": "If your university closes while you are on an F-1 visa, it is important to act promptly to maintain your status. You should contact your Designated School Official (DSO) immediately to discuss your options, which may include transferring to another SEVP-certified institution. Ensure that you maintain full-time enrollment and follow any instructions provided by your DSO to avoid falling out of status. For further guidance, refer to official USCIS and SEVP resources."
+  },
+  {
+    "qid": 114,
+    "question": "How do I correct my name spelling across all documents?",
+    "answer": "To correct the spelling of your name across all immigration documents, you should first contact your Designated School Official (DSO) to update your SEVIS record. Once your SEVIS record is corrected, you may need to file Form I-102, Application for Replacement/Initial Nonimmigrant Arrival-Departure Document, with USCIS to correct your Form I-94. Additionally, ensure that your passport and any other official documents reflect the correct spelling, as consistency across all documents is crucial for maintaining your immigration status. Please consult with your DSO or refer to the USCIS website for detailed instructions and any applicable fees."
+  },
+  {
+    "qid": 115,
+    "question": "What if I missed my OPT application deadline?",
+    "answer": "If you missed your OPT application deadline, you may not be eligible to apply for OPT at this time. For post-completion OPT, you must apply no later than 60 days after completing your degree, and your DSO must have entered the recommendation into your SEVIS record within 30 days of your application. It is advisable to consult with your DSO immediately to explore any possible options or next steps."
+  },
+  {
+    "qid": 116,
+    "question": "Can I request USCIS to expedite my STEM OPT extension?",
+    "answer": "USCIS may consider requests to expedite the processing of a STEM OPT extension application under certain circumstances, such as severe financial loss to a company or person, humanitarian reasons, or compelling U.S. government interests. However, such requests are evaluated on a case-by-case basis and must be accompanied by evidence supporting the need for expedited processing. It is advisable to consult with your Designated School Official (DSO) and refer to the official USCIS guidelines for more information on the criteria and process for requesting an expedited review."
+  },
+  {
+    "qid": 117,
+    "question": "What if my employer refuses to complete Form I-983?",
+    "answer": "If your employer refuses to complete Form I-983, you will not be able to participate in the STEM OPT extension, as the form is a mandatory requirement for this process. The Form I-983 is used to outline your training plan and must be completed and signed by both you and your employer. It is advisable to discuss the importance of this form with your employer and seek assistance from your Designated School Official (DSO) to explore possible solutions. For further guidance, please refer to the official USCIS resources or consult with your DSO."
+  },
+  {
+    "qid": 118,
+    "question": "How do I reinstate my F-1 status after violation?",
+    "answer": "To reinstate your F-1 status after a violation, you must file a Form I-539, Application to Extend/Change Nonimmigrant Status, with the U.S. Citizenship and Immigration Services (USCIS). You should include a detailed explanation of the circumstances that led to the violation, evidence of your eligibility for reinstatement, and proof of your continued enrollment in a full-time academic program. It is crucial to consult with your Designated School Official (DSO) for guidance and to ensure that all documentation is complete and accurate before submission. Please refer to the USCIS website for the most current instructions and requirements."
+  },
+  {
+    "qid": 119,
+    "question": "What if I-9 verification fails due to document issues?",
+    "answer": "If your I-9 verification fails due to document issues, it is crucial to address the problem promptly to maintain your employment eligibility. You should review the documents you provided to ensure they meet the requirements outlined by the U.S. Citizenship and Immigration Services (USCIS). If necessary, consult with your employer's human resources department to understand the specific issues and provide any additional documentation required. It is also advisable to contact your Designated School Official (DSO) for guidance on maintaining your status and resolving any potential compliance issues."
+  },
+  {
+    "qid": 120,
+    "question": "Can I appeal if my OPT application is denied?",
+    "answer": "If your OPT application is denied, you may not directly appeal the decision. However, you can file a motion to reopen or reconsider the decision with USCIS if you believe there was an error in the adjudication process. It is advisable to consult with your Designated School Official (DSO) or an immigration attorney to explore your options and ensure compliance with all relevant procedures."
+  },
+  {
+    "qid": 121,
+    "question": "What happens if I fail a class on F-1?",
+    "answer": "Failing a class as an F-1 student may impact your ability to maintain full-time enrollment, which is a requirement for maintaining your F-1 status. It is important to consult with your Designated School Official (DSO) immediately to discuss your situation and explore options such as retaking the class or adjusting your course load. Your DSO can provide guidance on how to remain in compliance with immigration regulations. Failure to maintain full-time status without proper authorization could lead to a violation of your F-1 status."
+  },
+  {
+    "qid": 122,
+    "question": "Can I take a semester off for mental health reasons?",
+    "answer": "Taking a semester off for mental health reasons as an F-1 student requires authorization from your Designated School Official (DSO). You may be eligible for a Reduced Course Load (RCL) due to medical conditions, which must be substantiated by a licensed medical doctor, doctor of osteopathy, or licensed clinical psychologist. This authorization is limited to a total of 12 months per program level and must be approved by your DSO in advance. Please consult with your DSO to ensure compliance with SEVP regulations and to maintain your F-1 status."
+  },
+  {
+    "qid": 123,
+    "question": "How do I change my major while on F-1?",
+    "answer": "To change your major while on an F-1 visa, you must first consult with your Designated School Official (DSO) at your institution. The DSO will update your Student and Exchange Visitor Information System (SEVIS) record to reflect the change in your program of study. It is important to ensure that the new major is consistent with your F-1 status requirements, including maintaining full-time enrollment and making normal progress toward completing your program. Always confirm any changes with your DSO to ensure compliance with immigration regulations."
+  },
+  {
+    "qid": 124,
+    "question": "Can I drop to part-time enrollment due to difficulty?",
+    "answer": "As an F-1 student, you are generally required to maintain full-time enrollment. However, under certain circumstances, such as medical conditions or academic difficulties, you may be eligible to drop to part-time enrollment. This requires prior authorization from your Designated School Official (DSO) and must be documented in your SEVIS record. It is essential to consult with your DSO to ensure compliance with immigration regulations before making any changes to your enrollment status."
+  },
+  {
+    "qid": 125,
+    "question": "What if I need to extend my program completion date?",
+    "answer": "If you need to extend your program completion date, you must request a program extension from your Designated School Official (DSO) before the program end date listed on your Form I-20. The extension is possible if the delay in completion is due to compelling academic or medical reasons, such as changes in major or research topics, or documented illnesses. It is important to note that delays caused by academic probation or suspension are not acceptable reasons for an extension. Please ensure you provide the necessary documentation to your DSO to support your request."
+  },
+  {
+    "qid": 126,
+    "question": "Can I take online classes only while on F-1?",
+    "answer": "As an F-1 student, you are required to maintain full-time enrollment, which typically includes a combination of in-person and online classes. According to SEVP guidelines, you may take only one online class or three online credits per semester as part of your full-time course load. It is important to ensure that your enrollment complies with these requirements to maintain your F-1 status. Please confirm specific details with your Designated School Official (DSO) to ensure compliance with your institution's policies."
+  },
+  {
+    "qid": 127,
+    "question": "What happens if I'm placed on academic probation?",
+    "answer": "If you are placed on academic probation, it is crucial to maintain your F-1 status by continuing to meet the full-time enrollment requirement and working towards improving your academic standing. Academic probation itself does not automatically affect your immigration status, but failure to comply with the terms of your probation or to maintain full-time enrollment could lead to a violation of your F-1 status. It is advisable to consult with your Designated School Official (DSO) to understand the implications and to ensure you remain in compliance with immigration regulations."
+  },
+  {
+    "qid": 128,
+    "question": "Can I transfer schools while on academic suspension?",
+    "answer": "Transferring schools while on academic suspension is generally not permitted under F-1 visa regulations, as maintaining full-time enrollment and good academic standing is a requirement for maintaining F-1 status. If you are on academic suspension, you may not be eligible to transfer until you resolve your academic standing with your current institution. It is advisable to consult with your Designated School Official (DSO) to explore your options and ensure compliance with immigration regulations."
+  },
+  {
+    "qid": 129,
+    "question": "What if I graduate earlier than my I-20 program end date?",
+    "answer": "If you graduate earlier than the program end date listed on your I-20, you must inform your Designated School Official (DSO) immediately. Your DSO will update your Student and Exchange Visitor Information System (SEVIS) record to reflect your new program end date. This is crucial to maintain your F-1 status and ensure compliance with U.S. immigration regulations. Additionally, if you plan to apply for Optional Practical Training (OPT), you must do so within the appropriate timeframe relative to your new graduation date."
+  },
+  {
+    "qid": 130,
+    "question": "Can I take a gap year between Bachelor's and Master's on F-1?",
+    "answer": "Taking a gap year between your Bachelor's and Master's programs while on an F-1 visa is not typically permissible, as F-1 students are required to maintain continuous full-time enrollment in an academic program. If you intend to take a break, you would generally need to leave the United States and reapply for a new F-1 visa for your Master's program. It is advisable to consult with your Designated School Official (DSO) to discuss your specific situation and ensure compliance with immigration regulations."
+  },
+  {
+    "qid": 131,
+    "question": "What if my thesis defense is delayed past my I-20 end date?",
+    "answer": "If your thesis defense is delayed beyond your I-20 end date, you may need to request a program extension from your Designated School Official (DSO) before the current end date. This extension is necessary to maintain your F-1 status and should be based on compelling academic or medical reasons. It is important to act promptly, as failing to extend your I-20 before it expires could result in a loss of lawful status. Please consult with your DSO for guidance on the extension process and required documentation."
+  },
+  {
+    "qid": 132,
+    "question": "Can I audit classes while on F-1?",
+    "answer": "Yes, as an F-1 student, you may audit classes, but it is important to ensure that you maintain your full-time enrollment status as required by your visa. Audited classes do not count towards the full-time enrollment requirement, so you must be enrolled in the minimum number of credit hours needed for full-time status in addition to any audited courses. Please confirm specific requirements with your Designated School Official (DSO) to ensure compliance with your institution's policies and immigration regulations."
+  },
+  {
+    "qid": 133,
+    "question": "What happens if I withdraw from all classes mid-semester?",
+    "answer": "Withdrawing from all classes mid-semester as an F-1 student can have significant implications for your immigration status. If you withdraw without prior authorization from your Designated School Official (DSO), you may fall out of status, which could lead to the termination of your SEVIS record. It is crucial to consult with your DSO before making any decisions to ensure you maintain compliance with F-1 regulations and avoid accruing unlawful presence."
+  },
+  {
+    "qid": 134,
+    "question": "Can I change from full-time to part-time in my final semester?",
+    "answer": "As an F-1 student, you may be eligible to reduce your course load to part-time in your final semester if fewer courses are required to complete your program of study. This must be authorized by your Designated School Official (DSO) and documented in the Student and Exchange Visitor Information System (SEVIS). It is important to ensure that this change is officially approved to maintain your F-1 status. Please consult with your DSO to confirm your eligibility and to complete the necessary procedures."
+  },
+  {
+    "qid": 135,
+    "question": "What if I need to retake classes due to low GPA?",
+    "answer": "If you need to retake classes due to a low GPA, it is important to maintain your full-time enrollment status to comply with F-1 visa requirements. You should consult with your Designated School Official (DSO) to ensure that your course load meets the full-time requirement and to discuss any potential impacts on your I-20 or future employment eligibility, such as CPT or OPT. Maintaining your academic standing is crucial to preserving your F-1 status, and your DSO can provide guidance on how to address academic challenges while remaining compliant with immigration regulations."
+  },
+  {
+    "qid": 136,
+    "question": "Can I take summer classes at a different university?",
+    "answer": "As an F-1 student, you may take summer classes at a different university, provided that the courses are transferable to your degree program at your primary institution. It is important to ensure that you maintain your full-time enrollment status as required by your F-1 visa. Please consult with your Designated School Official (DSO) to confirm that the summer courses align with your academic plan and comply with immigration regulations."
+  },
+  {
+    "qid": 137,
+    "question": "What happens if my program gets discontinued?",
+    "answer": "If your academic program is discontinued, it is crucial to maintain your F-1 status by transferring to another SEVP-certified institution or changing your educational level. You must ensure that your SEVIS record is updated and that you receive a new Form I-20 from your new institution. It is important to consult with your Designated School Official (DSO) to understand the necessary steps and timelines to avoid any negative impact on your immigration status."
+  },
+  {
+    "qid": 138,
+    "question": "Can I maintain F-1 status while doing research only?",
+    "answer": "To maintain F-1 status, you must be enrolled as a full-time student in an academic program at an accredited institution. If your research is part of your academic program and you remain enrolled full-time, you may maintain your F-1 status. It is essential to ensure that your research activities align with your program requirements and that you continue to meet all other F-1 visa conditions. Please confirm specific details with your Designated School Official (DSO) to ensure compliance."
+  },
+  {
+    "qid": 139,
+    "question": "What if I fail my thesis defense?",
+    "answer": "If you fail your thesis defense, it is important to consult with your Designated School Official (DSO) to understand the implications for your F-1 status. Your DSO can provide guidance on maintaining your status and any necessary steps to extend your program if needed. Ensure you remain enrolled and maintain full-time student status to avoid any negative impact on your immigration status. It is crucial to address any academic issues promptly to ensure compliance with F-1 regulations."
+  },
+  {
+    "qid": 140,
+    "question": "Can I switch from PhD to Master's program mid-way?",
+    "answer": "Switching from a PhD to a Master's program is possible, but it requires coordination with your Designated School Official (DSO) to update your SEVIS record and issue a new Form I-20 reflecting the change in your program of study. You must maintain your F-1 status by continuing to meet all enrollment and financial requirements. It is important to note that any change in your program may affect your eligibility for certain types of employment authorization, such as OPT or CPT, so please consult with your DSO for guidance specific to your situation."
+  },
+  {
+    "qid": 141,
+    "question": "Can my spouse work while on F-2 dependent status?",
+    "answer": "Individuals on F-2 dependent status are not permitted to work in the United States. The F-2 visa is intended for dependents of F-1 students, and it does not include employment authorization. If your spouse wishes to work, they would need to obtain a different visa status that allows employment. For further guidance, please consult with your Designated School Official (DSO) or refer to official USCIS resources."
+  },
+  {
+    "qid": 142,
+    "question": "How do I add my newborn baby to my F-1 status?",
+    "answer": "To add your newborn baby to your F-1 status, you will need to apply for an F-2 dependent visa for your child. This process involves obtaining a Form I-20 from your Designated School Official (DSO) for your child, which you will use to apply for the F-2 visa at a U.S. consulate or embassy. Ensure that you have sufficient financial resources to support your dependent, as this will be a requirement during the application process. For detailed guidance, please consult with your DSO or refer to the official USCIS website."
+  },
+  {
+    "qid": 143,
+    "question": "Can my F-2 dependent spouse study full-time in the US?",
+    "answer": "F-2 dependent spouses are permitted to study part-time in the United States, but they are not allowed to enroll in a full-time academic program. If an F-2 dependent wishes to study full-time, they must apply for and obtain an F-1 student visa. It is important to ensure compliance with these regulations to maintain lawful status. For further guidance, please consult with your Designated School Official (DSO) or refer to official USCIS resources."
+  },
+  {
+    "qid": 144,
+    "question": "What happens to my F-2 dependents when I switch to H-1B?",
+    "answer": "When you switch from F-1 to H-1B status, your F-2 dependents must change their status to H-4 to maintain lawful presence in the United States. The H-4 status is specifically for dependents of H-1B visa holders. It is important to file the change of status application for your dependents in a timely manner to ensure continuous lawful status. Please consult with your DSO or refer to official USCIS guidance for detailed procedures and requirements."
+  },
+  {
+    "qid": 145,
+    "question": "Can I get married while on OPT and add my spouse immediately?",
+    "answer": "Yes, you can get married while on OPT. However, adding your spouse to your immigration status as a dependent (F-2 status) requires a separate process. Your spouse will need to apply for an F-2 visa, which involves submitting Form I-20 issued by your DSO, proof of your financial ability to support your spouse, and other required documentation. It is advisable to consult with your DSO for guidance on the necessary steps and documentation."
+  },
+  {
+    "qid": 146,
+    "question": "What if my spouse is also an F-1 student?",
+    "answer": "If your spouse is also an F-1 student, they must independently meet all F-1 visa requirements, including enrollment in a full-time academic program at a SEVP-approved institution. Each F-1 student is responsible for maintaining their own status, which includes adhering to employment restrictions and ensuring their I-20 remains valid. It is important for both you and your spouse to coordinate with your respective Designated School Officials (DSOs) to ensure compliance with all immigration regulations."
+  },
+  {
+    "qid": 147,
+    "question": "Can F-2 children attend public school for free?",
+    "answer": "Yes, F-2 children are permitted to attend public school in the United States from kindergarten through 12th grade without the need for additional tuition fees. This is in accordance with U.S. immigration regulations, which allow dependents of F-1 visa holders to access public education. However, it is important to ensure that the primary F-1 visa holder maintains their status to avoid any impact on the F-2 dependent's ability to remain in the U.S."
+  },
+  {
+    "qid": 148,
+    "question": "How long can my F-2 spouse stay after I complete my program?",
+    "answer": "Your F-2 spouse is allowed to remain in the United States for the same duration as your F-1 status, including any authorized periods of post-completion Optional Practical Training (OPT) or STEM OPT extension. After you complete your program, your F-2 spouse may stay during the 60-day grace period that follows the completion of your studies or OPT. It is important to ensure that your F-2 spouse maintains their status by not engaging in unauthorized activities, such as employment. For specific guidance, please consult your Designated School Official (DSO) or refer to official USCIS resources."
+  },
+  {
+    "qid": 149,
+    "question": "Can my parents visit me on tourist visa while I'm on F-1?",
+    "answer": "Yes, your parents can visit you in the United States on a tourist visa (B-2 visa) while you are on an F-1 student visa. They must apply for the B-2 visa at a U.S. embassy or consulate in their home country, demonstrating their intent to visit temporarily and return home after their visit. It is important for them to provide evidence of ties to their home country, such as employment, property, or family, to support their application."
+  },
+  {
+    "qid": 150,
+    "question": "What happens to F-2 dependents if I lose my F-1 status?",
+    "answer": "If you lose your F-1 status, your F-2 dependents will also lose their status, as their eligibility to remain in the United States is directly tied to your F-1 status. This could result in the accrual of unlawful presence for both you and your dependents, which may have serious immigration consequences. It is crucial to consult with your Designated School Official (DSO) immediately to explore any possible remedies or reinstatement options. For further guidance, please refer to the USCIS Policy Manual and consult with your DSO."
+  },
+  {
+    "qid": 151,
+    "question": "Can I add F-2 dependents to my STEM OPT?",
+    "answer": "Yes, you can add F-2 dependents to your STEM OPT status. F-2 dependents are the spouse and unmarried children under 21 years of age of an F-1 student. They can accompany you in the United States while you are on STEM OPT, but they are not authorized to work. It is important to ensure that their status is maintained and that they have valid I-20 forms issued by your Designated School Official (DSO)."
+  },
+  {
+    "qid": 152,
+    "question": "What if I'm divorcing while on F-1 with F-2 spouse?",
+    "answer": "If you are divorcing while on an F-1 visa with an F-2 spouse, it is important to understand that the F-2 visa is dependent on the F-1 visa holder's status. Once the divorce is finalized, your spouse's F-2 status will no longer be valid, and they must either change to another visa status or depart the United States. It is advisable to consult with your Designated School Official (DSO) and possibly an immigration attorney to explore available options and ensure compliance with U.S. immigration regulations."
+  },
+  {
+    "qid": 153,
+    "question": "Can F-2 dependents travel outside US independently?",
+    "answer": "Yes, F-2 dependents are permitted to travel outside the United States independently of the F-1 visa holder. However, it is important for F-2 dependents to ensure that they have a valid passport and F-2 visa for re-entry into the United States. Additionally, they should carry a copy of the F-1 visa holder's Form I-20 and any other relevant documentation to facilitate their return. It is advisable to confirm travel plans with the Designated School Official (DSO) to ensure compliance with current regulations."
+  },
+  {
+    "qid": 154,
+    "question": "Do F-2 dependents need separate health insurance?",
+    "answer": "F-2 dependents are not required by U.S. immigration regulations to have separate health insurance. However, many universities and educational institutions may have their own requirements for health insurance coverage for F-2 dependents. It is advisable to check with your university's international student office or health services to ensure compliance with any institutional policies."
+  },
+  {
+    "qid": 155,
+    "question": "Can my child age out of F-2 status?",
+    "answer": "Yes, a child can age out of F-2 status. F-2 status is available to the dependents of F-1 students, and it is typically valid until the child reaches the age of 21. Once a child turns 21, they are no longer eligible for F-2 status and must change to another nonimmigrant status to remain in the United States legally. It is advisable to plan ahead and consult with a Designated School Official (DSO) or an immigration attorney to explore available options before the child reaches this age limit."
+  },
+  {
+    "qid": 156,
+    "question": "Can F-2 spouse get driver's license?",
+    "answer": "An F-2 spouse may be eligible to obtain a driver's license in the United States, but the requirements can vary by state. Generally, the F-2 spouse will need to provide proof of identity, legal presence in the U.S., and residency in the state where they are applying. It is advisable to check with the local Department of Motor Vehicles (DMV) for specific documentation requirements and procedures."
+  },
+  {
+    "qid": 157,
+    "question": "What if F-2 dependent receives unauthorized employment income?",
+    "answer": "If an F-2 dependent receives unauthorized employment income, it constitutes a violation of their nonimmigrant status. This can lead to serious consequences, including removal from the United States and potential reentry bars. It is crucial to maintain lawful status and avoid any unauthorized employment. For further guidance, it is advisable to consult with a Designated School Official (DSO) or refer to official USCIS resources."
+  },
+  {
+    "qid": 158,
+    "question": "Can F-2 dependent volunteer at organizations?",
+    "answer": "F-2 dependents are not permitted to engage in employment in the United States, including volunteer work that would typically be a paid position. However, they may participate in volunteer activities that are genuinely unpaid and do not displace a U.S. worker. It is advisable to consult with a Designated School Official (DSO) or refer to official USCIS guidance to ensure compliance with immigration regulations."
+  },
+  {
+    "qid": 159,
+    "question": "How do I prove financial support for F-2 dependents?",
+    "answer": "To prove financial support for F-2 dependents, you must demonstrate that you have sufficient funds to cover the living expenses of your dependents while they are in the United States. This typically involves providing bank statements, affidavits of support, or financial guarantee letters that clearly show the availability of funds. It is important to ensure that these documents are current and reflect the financial ability to support both yourself and your dependents throughout your stay. Please consult with your Designated School Official (DSO) for specific documentation requirements and guidance."
+  },
+  {
+    "qid": 160,
+    "question": "Can F-2 dependents apply for Social Security Number?",
+    "answer": "F-2 dependents are not eligible to apply for a Social Security Number (SSN) because they do not have authorization from the Department of Homeland Security (DHS) to work in the United States. Only individuals with work authorization, such as F-1 students with approved employment, can apply for an SSN. For further details, please refer to the Social Security Administration's guidelines on eligibility."
+  },
+  {
+    "qid": 161,
+    "question": "Do I need to file US taxes as an F-1 student?",
+    "answer": "As an F-1 student in the United States, you are required to file U.S. taxes, even if you did not earn any income. You must file Form 8843, which is a statement for exempt individuals and individuals with a medical condition. If you have earned income, you may also need to file additional forms such as Form 1040NR or Form 1040NR-EZ. It is advisable to consult the IRS website or a tax professional for detailed guidance on your specific tax obligations."
+  },
+  {
+    "qid": 162,
+    "question": "What is the 5-year rule for F-1 tax purposes?",
+    "answer": "The \"5-year rule\" for F-1 tax purposes refers to the period during which F-1 students are considered nonresident aliens for tax purposes. Generally, F-1 students are exempt from counting days of presence in the U.S. for the substantial presence test for the first five calendar years they are in F-1 status. After this period, they may be considered resident aliens for tax purposes if they meet the substantial presence test. It is advisable to consult with a tax professional or the IRS for specific guidance on individual tax situations."
+  },
+  {
+    "qid": 163,
+    "question": "Can I claim tax treaty benefits as an F-1 student?",
+    "answer": "As an F-1 student, you may be eligible to claim tax treaty benefits, depending on the specific tax treaty between your home country and the United States. Tax treaties can provide exemptions or reduced tax rates on certain types of income, such as scholarships or wages. It is important to review the specific provisions of the tax treaty applicable to your country and consult with a tax professional or your university's international office for guidance. Please ensure you maintain compliance with both U.S. tax laws and the terms of your F-1 visa."
+  },
+  {
+    "qid": 164,
+    "question": "Do I pay Social Security and Medicare taxes on OPT?",
+    "answer": "As an F-1 student on Optional Practical Training (OPT), you are generally exempt from paying Social Security and Medicare taxes (FICA) for a period of up to five years, provided you maintain your nonresident alien status for tax purposes. This exemption is based on the Internal Revenue Service (IRS) guidelines for nonresident aliens. It is advisable to confirm your tax status with a tax professional or the IRS to ensure compliance with all applicable tax regulations."
+  },
+  {
+    "qid": 165,
+    "question": "How do I get a Social Security Number for tax purposes?",
+    "answer": "To obtain a Social Security Number (SSN) for tax purposes, you must have authorization to work in the United States. As an F-1 student, you can apply for an SSN if you have secured on-campus employment, or if you have been authorized for Curricular Practical Training (CPT) or Optional Practical Training (OPT). You will need to present your employment authorization documents, such as your Form I-20 endorsed for employment, and a letter from your employer, along with your passport and visa, to the Social Security Administration. For detailed instructions, please refer to the Social Security Administration's official website."
+  },
+  {
+    "qid": 166,
+    "question": "What if my scholarship exceeds tuition costs?",
+    "answer": "If your scholarship exceeds tuition costs, the excess amount may be used for other educational expenses such as fees, books, and supplies. However, it is important to ensure that any funds received do not violate the terms of your F-1 visa, which requires you to have sufficient funds for self-support during your course of study. Please consult with your Designated School Official (DSO) to confirm that your scholarship arrangement complies with your visa requirements."
+  },
+  {
+    "qid": 167,
+    "question": "Can I claim dependents on my US tax return?",
+    "answer": "As an F-1 student, you are generally considered a nonresident alien for tax purposes and are not eligible to claim dependents on your U.S. tax return. Nonresident aliens typically file Form 1040-NR, which does not allow for dependent exemptions. For specific tax advice, it is recommended to consult the IRS guidelines or a tax professional familiar with international student tax obligations."
+  },
+  {
+    "qid": 168,
+    "question": "Do I file state taxes separately from federal?",
+    "answer": "Yes, you must file state taxes separately from federal taxes. Each state has its own tax regulations and filing requirements, which may differ from federal tax laws. It is important to check the specific tax obligations for the state in which you reside or work. For detailed guidance, please consult the tax authority of your respective state or a qualified tax advisor."
+  },
+  {
+    "qid": 169,
+    "question": "What happens if I don't file taxes?",
+    "answer": "Failing to file taxes as an F-1 student can have significant consequences. While F-1 students are generally required to file tax returns, even if they have no income, not doing so may affect future immigration benefits, such as applying for a change of status or a visa renewal. It is important to comply with tax filing requirements to maintain good standing with U.S. immigration authorities. For specific guidance, please consult the IRS or a tax professional familiar with nonresident tax obligations."
+  },
+  {
+    "qid": 170,
+    "question": "Can I open a bank account without SSN?",
+    "answer": "Yes, you can open a bank account in the United States without a Social Security Number (SSN). Many banks allow international students to open accounts using alternative forms of identification, such as a passport, visa, and proof of enrollment at a U.S. educational institution. It is advisable to contact the bank directly to confirm their specific requirements and ensure you have the necessary documentation."
+  },
+  {
+    "qid": 171,
+    "question": "Am I eligible for tax refund as an F-1 student?",
+    "answer": "As an F-1 student, you may be eligible for a tax refund depending on your individual circumstances, such as your income and tax treaty benefits between the U.S. and your home country. Generally, F-1 students are considered nonresident aliens for tax purposes and must file Form 8843, and possibly Form 1040NR or 1040NR-EZ, to report their income. It is advisable to consult the IRS guidelines or a tax professional to ensure compliance with U.S. tax laws and to determine your eligibility for a refund."
+  },
+  {
+    "qid": 172,
+    "question": "Do I pay taxes on income from my home country?",
+    "answer": "As an F-1 student, your tax obligations in the United States depend on your residency status for tax purposes, which is determined by the substantial presence test. Generally, nonresident aliens are taxed only on their U.S.-source income. Income from your home country is typically not subject to U.S. taxes unless you meet the criteria for being considered a resident alien for tax purposes. It is advisable to consult the IRS guidelines or a tax professional for specific advice regarding your situation."
+  },
+  {
+    "qid": 173,
+    "question": "Can I contribute to retirement accounts (401k/IRA) on OPT?",
+    "answer": "As an F-1 student on OPT, you may contribute to retirement accounts such as a 401(k) or IRA if your employment offers these benefits and you meet the eligibility criteria set by the financial institution or employer. It is important to ensure that your employment is directly related to your field of study, as required by OPT regulations. For specific tax implications and retirement account rules, consulting a financial advisor or tax professional is advisable. Please confirm any employment benefits with your employer and ensure compliance with all OPT requirements."
+  },
+  {
+    "qid": 174,
+    "question": "What is Form 8843 and who must file it?",
+    "answer": "Form 8843 is a statement required by the Internal Revenue Service (IRS) for certain nonresident aliens, including F-1 students, to explain their presence in the United States. All F-1 students, regardless of whether they earned income, must file Form 8843 to maintain compliance with U.S. tax regulations. This form is used to declare the number of days spent in the U.S. and to claim exemption from the substantial presence test, which determines tax residency status. It is important to file this form annually, even if no income was earned."
+  },
+  {
+    "qid": 175,
+    "question": "Can I get tax preparation help as an international student?",
+    "answer": "As an international student in the United States, you are eligible to receive tax preparation assistance. Many universities offer resources or workshops to help international students understand their tax obligations. Additionally, you may seek assistance from tax professionals who are familiar with nonresident tax filing requirements. It is important to ensure that any tax preparation service you use is knowledgeable about the specific tax rules applicable to international students."
+  },
+  {
+    "qid": 176,
+    "question": "Do I pay taxes on CPT income differently than OPT?",
+    "answer": "As an F-1 student, the taxation of your income from Curricular Practical Training (CPT) and Optional Practical Training (OPT) is generally subject to the same rules. Both CPT and OPT income are typically subject to federal and state income taxes. However, F-1 students are usually exempt from Social Security and Medicare taxes for the first five years they are in the United States, provided they maintain their nonresident alien status for tax purposes. It is advisable to consult with a tax professional or your university's international student office for specific guidance on your tax obligations."
+  },
+  {
+    "qid": 177,
+    "question": "What if I worked in multiple states during the year?",
+    "answer": "If you worked in multiple states during the year while on F-1 status, it is important to ensure that your employment was authorized and related to your field of study, as required by USCIS regulations. You must also comply with each state's tax filing requirements, as state tax obligations can vary. It is advisable to consult with a tax professional to ensure compliance with both federal and state tax laws. Additionally, maintain accurate records of your employment and authorization documents, such as your I-20 and Employment Authorization Document (EAD), to demonstrate compliance if needed."
+  },
+  {
+    "qid": 178,
+    "question": "Can I claim education credits on my tax return?",
+    "answer": "As an F-1 student, you may be eligible to claim education credits on your tax return if you meet certain criteria set by the Internal Revenue Service (IRS). Generally, these credits are available to U.S. citizens and resident aliens, so you would need to determine your tax residency status. It is advisable to consult the IRS guidelines or a tax professional to understand your eligibility for education credits, as this falls outside the scope of USCIS regulations."
+  },
+  {
+    "qid": 179,
+    "question": "Do I report TA/RA assistantship income on taxes?",
+    "answer": "Yes, you are required to report income from a Teaching Assistantship (TA) or Research Assistantship (RA) on your taxes. As an F-1 student, any income earned in the United States, including stipends or wages from on-campus employment such as TA or RA positions, is subject to U.S. tax laws. It is advisable to consult the IRS guidelines or a tax professional to ensure compliance with all tax reporting requirements."
+  },
+  {
+    "qid": 180,
+    "question": "What is FICA refund and how do I claim it?",
+    "answer": "A FICA refund refers to the reimbursement of Social Security and Medicare taxes that were incorrectly withheld from nonresident aliens, such as F-1 students, who are exempt from these taxes under certain conditions. To claim a FICA refund, you should file Form 843, \"Claim for Refund and Request for Abatement,\" with the IRS, along with supporting documentation such as your Form W-2, a copy of your visa, and a statement from your employer confirming your nonresident status. It is advisable to consult the IRS guidelines or your tax advisor for detailed instructions and ensure compliance with all filing requirements."
+  },
+  {
+    "qid": 181,
+    "question": "Can I apply for green card while on OPT?",
+    "answer": "Yes, you can apply for a green card while on OPT, but it is important to understand that OPT is a temporary employment authorization for F-1 students. Applying for a green card involves a separate process, typically through employment-based sponsorship or family sponsorship, and it may affect your nonimmigrant intent under the F-1 status. It is advisable to consult with an immigration attorney or your Designated School Official (DSO) to understand the implications and ensure compliance with U.S. immigration regulations."
+  },
+  {
+    "qid": 182,
+    "question": "What is the difference between H-1B and green card?",
+    "answer": "The H-1B visa is a nonimmigrant visa that allows U.S. companies to employ foreign workers in specialty occupations that require theoretical or technical expertise. It is typically valid for up to three years, with the possibility of extension. In contrast, a green card, or Permanent Resident Card, grants an individual the right to live and work permanently in the United States. Unlike the H-1B visa, a green card does not require employer sponsorship and provides a pathway to U.S. citizenship. For more detailed information, please refer to the official USCIS website."
+  },
+  {
+    "qid": 183,
+    "question": "Can I start a business after my OPT ends?",
+    "answer": "After your OPT ends, you may start a business if you have obtained a new immigration status that permits self-employment, such as an H-1B visa or another work-authorized status. It is important to ensure that your new status allows for entrepreneurial activities. If you remain in the U.S. without a valid work authorization, you would be in violation of immigration laws, which could have serious consequences. Please consult with your Designated School Official (DSO) or an immigration attorney to explore your options and ensure compliance with U.S. immigration regulations."
+  },
+  {
+    "qid": 184,
+    "question": "What happens if I don't get selected in H-1B lottery?",
+    "answer": "If you are not selected in the H-1B lottery, you will not be able to transition to H-1B status for that fiscal year. If you are currently on F-1 status and your Optional Practical Training (OPT) or STEM OPT is expiring, you may need to explore other visa options or consider returning to your home country. It is important to maintain your lawful status in the U.S. to avoid accruing unlawful presence. Please consult with your Designated School Official (DSO) or refer to the USCIS website for further guidance on maintaining your status and exploring alternative options."
+  },
+  {
+    "qid": 185,
+    "question": "Can I return to the US after my F-1 status ends?",
+    "answer": "Once your F-1 status ends, you must depart the United States within the grace period, typically 60 days, unless you have taken steps to extend your stay, such as applying for OPT, a change of status, or another visa category. If you wish to return to the U.S. after your F-1 status has ended, you will need to obtain a new visa that aligns with your intended purpose of stay, such as a tourist visa or a new student visa. It is important to ensure that you do not accrue unlawful presence, as this can affect your ability to reenter the U.S. in the future. For specific guidance, please consult your Designated School Official (DSO) or refer to the USCIS Policy Manual."
+  },
+  {
+    "qid": 186,
+    "question": "Should I get my degrees evaluated for green card purposes?",
+    "answer": "For green card purposes, it is often necessary to have your foreign degrees evaluated to determine their U.S. equivalency. This evaluation is typically required to establish your educational qualifications for employment-based immigration categories. It is advisable to consult with an immigration attorney or refer to the specific requirements of the green card category you are applying under to ensure compliance with USCIS guidelines."
+  },
+  {
+    "qid": 187,
+    "question": "What is EB-2 vs EB-3 green card category?",
+    "answer": "The EB-2 and EB-3 categories are employment-based immigrant visa classifications for obtaining a green card in the United States. The EB-2 category is for individuals with advanced degrees or exceptional ability in their field, often requiring a job offer and a labor certification. The EB-3 category is for skilled workers, professionals, and other workers, typically requiring a job offer and labor certification as well, but with less stringent requirements compared to EB-2. Both categories are subject to annual numerical limits, and processing times can vary based on demand and country of origin."
+  },
+  {
+    "qid": 188,
+    "question": "Can I self-petition for green card (EB-1A)?",
+    "answer": "Yes, you can self-petition for a green card under the EB-1A category if you can demonstrate extraordinary ability in your field. The EB-1A category requires evidence of sustained national or international acclaim and that your achievements have been recognized in your field. You must provide documentation that meets at least three of the ten criteria set by USCIS, or provide evidence of a one-time achievement such as a major internationally recognized award. It is advisable to review the specific requirements on the USCIS website or consult with an immigration attorney to ensure your eligibility."
+  },
+  {
+    "qid": 189,
+    "question": "How long does the green card process take?",
+    "answer": "The green card process duration can vary significantly based on several factors, including the applicant's category, country of origin, and the specific circumstances of their case. Generally, the process can take anywhere from several months to several years. For employment-based green cards, the process involves multiple steps, including labor certification, filing of Form I-140, and adjustment of status or consular processing. It is advisable to consult the USCIS website or your immigration attorney for the most current processing times and specific guidance related to your situation."
+  },
+  {
+    "qid": 190,
+    "question": "Can I maintain H-1B while green card is pending?",
+    "answer": "Yes, you can maintain H-1B status while your green card application is pending. The H-1B visa is a dual intent visa, which allows you to pursue permanent residency (a green card) without affecting your nonimmigrant status. It is important to ensure that you maintain your H-1B status by adhering to all employment and status requirements while your green card application is being processed. For specific guidance, please consult the USCIS Policy Manual or your immigration attorney."
+  },
+  {
+    "qid": 191,
+    "question": "What is the National Interest Waiver (NIW)?",
+    "answer": "The National Interest Waiver (NIW) is a provision under the U.S. immigration law that allows certain foreign nationals to apply for a green card without the need for a job offer or labor certification if they can demonstrate that their work is in the national interest of the United States. Typically, this applies to individuals with exceptional abilities or those whose employment in the U.S. would greatly benefit the nation. Applicants must provide evidence that their work has substantial merit and national importance, and that they are well-positioned to advance their proposed endeavor. It is advisable to consult the official USCIS guidelines or a legal expert for detailed eligibility criteria and application procedures."
+  },
+  {
+    "qid": 192,
+    "question": "Can I buy a house while on F-1/OPT?",
+    "answer": "As an F-1 student or an individual on OPT, you are generally allowed to purchase a house in the United States. However, it is important to ensure that any financial transactions, such as obtaining a mortgage, comply with U.S. laws and do not violate your visa status. It is advisable to consult with a financial advisor or legal expert to understand the implications and requirements of purchasing property while on a nonimmigrant visa. Please ensure that your primary focus remains on maintaining your F-1 or OPT status and compliance with all related regulations."
+  },
+  {
+    "qid": 193,
+    "question": "Should I pursue PhD for green card advantages?",
+    "answer": "Pursuing a PhD may offer certain advantages for obtaining a green card, particularly if you qualify for employment-based immigration categories such as the EB-2 (Advanced Degree) or EB-1 (Extraordinary Ability or Outstanding Professors and Researchers). These categories often require a high level of expertise and recognition in your field. However, the decision to pursue a PhD should be based on your academic and professional goals, as well as a thorough understanding of the immigration process. It is advisable to consult with an immigration attorney or your Designated School Official (DSO) for personalized guidance."
+  },
+  {
+    "qid": 194,
+    "question": "What happens to my green card application if I lose my job?",
+    "answer": "If you lose your job while your green card application is pending, it may impact your application depending on the stage of the process and the type of employment-based green card you are applying for. If your green card application is based on employment, losing your job could lead to the withdrawal of the employer's sponsorship, potentially affecting your eligibility. It is advisable to consult with an immigration attorney or your employer to explore options such as finding a new employer willing to sponsor your application. Additionally, maintaining lawful status in the U.S. is crucial to avoid accruing unlawful presence, which could have serious immigration consequences."
+  },
+  {
+    "qid": 195,
+    "question": "Can I work for a startup on H-1B?",
+    "answer": "Yes, you can work for a startup on an H-1B visa, provided that the startup is a legitimate employer and can meet all the requirements set by the U.S. Citizenship and Immigration Services (USCIS). The startup must demonstrate the ability to pay the prevailing wage for the position and establish that a valid employer-employee relationship exists. Additionally, the position must qualify as a specialty occupation, requiring the application of a body of highly specialized knowledge and at least a bachelor's degree or its equivalent in the specific field. Please ensure that all necessary documentation is in order and consult with your employer to confirm compliance with H-1B regulations."
+  },
+  {
+    "qid": 196,
+    "question": "What is the H-1B Amendment and when is it needed?",
+    "answer": "An H-1B Amendment is required when there is a material change in the terms and conditions of employment for an H-1B worker. This includes changes such as a significant alteration in job duties, work location, or salary. Employers must file an amended H-1B petition with U.S. Citizenship and Immigration Services (USCIS) to reflect these changes and ensure continued compliance with H-1B regulations. It is advisable to consult with your employer or legal advisor to determine if an amendment is necessary in your specific situation."
+  },
+  {
+    "qid": 197,
+    "question": "Can I do consulting work on H-1B?",
+    "answer": "Yes, you can perform consulting work on an H-1B visa, provided that the work is directly related to your field of expertise and is performed for the employer who sponsored your H-1B petition. The terms and conditions of your employment, including job duties and location, must align with the details specified in your H-1B petition. Any significant changes to your employment, such as working for a different employer or in a different capacity, would require filing an amended H-1B petition with USCIS. Please ensure compliance with all H-1B regulations and consult with your employer or immigration attorney for specific guidance."
+  },
+  {
+    "qid": 198,
+    "question": "What is the difference between premium processing and regular?",
+    "answer": "Premium processing is an expedited service offered by USCIS for certain employment-based visa petitions, allowing applicants to receive a decision within 15 calendar days for an additional fee. Regular processing, on the other hand, does not have a guaranteed timeframe and can take several months depending on the type of application and current USCIS workload. Premium processing is available for specific visa categories, such as H-1B, and is not applicable to all immigration benefits. It is important to verify eligibility for premium processing and consider the associated costs before opting for this service."
+  },
+  {
+    "qid": 199,
+    "question": "Can I volunteer while waiting for work authorization?",
+    "answer": "As an F-1 student, you may volunteer while waiting for work authorization, provided the volunteer work is genuinely unpaid and does not violate any labor laws. It is important to ensure that the volunteer position is not one that would normally be a paid position, as this could be considered unauthorized employment. For further guidance, please consult your Designated School Official (DSO) or refer to official USCIS resources."
+  },
+  {
+    "qid": 200,
+    "question": "What documentation should I keep for future immigration applications?",
+    "answer": "For future immigration applications, it is important to maintain comprehensive documentation, including copies of your I-20 forms, employment authorization documents (EAD), and any correspondence with USCIS. Additionally, keep records of your academic transcripts, proof of enrollment, and any employment-related documents such as offer letters and pay stubs. These documents will support your compliance with visa requirements and facilitate any future applications or status changes. Always ensure that your records are up-to-date and securely stored."
+  }
+]

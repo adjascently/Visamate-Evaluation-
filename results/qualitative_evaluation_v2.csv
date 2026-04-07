@@ -1,0 +1,61 @@
+qid,model,factual_accuracy,completeness,citation_precision,clarity,safety,relevance,actionability,brief_reasoning
+1,VisaMate,4,4,3,4,5,5,4,The answer is mostly accurate but lacks specific regulatory citations and some required documents.
+1,GPT4o,5,5,5,4,5,4,5,"The answer is comprehensive and accurate, but could be slightly more concise."
+1,Claude,5,5,5,4,5,4,5,"The answer accurately covers all required documents and provides clear next steps, though it could be slightly more concise."
+5,VisaMate,5,5,3,4,5,5,5,"The answer accurately addresses the question and provides clear next steps, but lacks specific regulatory citations."
+5,GPT4o,5,5,3,4,5,5,5,The answer is accurate and actionable but lacks specific citations to regulations.
+5,Claude,5,5,3,4,5,5,5,"The answer is mostly accurate and actionable, but lacks specific citations to regulations."
+12,VisaMate,5,5,3,4,5,5,5,The answer is accurate and actionable but lacks specific regulatory citations.
+12,GPT4o,1,1,1,4,5,1,1,"The answer incorrectly states that internships do not need to be related to the major, contradicting USCIS regulations."
+12,Claude,1,1,1,4,3,3,3,"The answer incorrectly states that internships do not need to be related to the major, contradicting USCIS regulations."
+18,VisaMate,5,5,5,4,5,4,5,The answer accurately outlines the CPT application process and necessary documentation while remaining clear and actionable.
+18,GPT4o,5,5,5,4,5,4,5,The answer accurately outlines the necessary documents for CPT and emphasizes the importance of checking with the school's international office.
+18,Claude,5,5,5,4,5,4,5,"The answer accurately outlines the required documents and considerations for a CPT application, with minor room for improved clarity."
+22,VisaMate,5,5,3,4,5,5,5,The answer is accurate and actionable but lacks specific regulatory citations.
+22,GPT4o,5,5,3,4,5,5,5,The answer is accurate and actionable but lacks specific regulatory citations.
+22,Claude,5,5,5,4,5,5,5,"The answer is accurate, comprehensive, and provides clear next steps for the applicant."
+28,VisaMate,5,5,5,4,5,4,5,"The answer accurately covers the required documents and procedures for OPT application, with minor clarity issues."
+28,GPT4o,5,5,5,4,5,4,5,"The answer accurately lists required documents and provides clear next steps, though it could be slightly more concise."
+28,Claude,5,5,5,4,5,4,5,"The answer accurately covers all required documents and provides clear next steps, though it could be slightly more concise."
+35,VisaMate,5,5,5,4,5,4,5,"The answer accurately covers the requirements for changing employers during STEM OPT, though it could be slightly clearer."
+35,GPT4o,5,5,5,4,5,4,5,"The answer accurately covers the requirements and procedures for changing employers during STEM OPT, with minor clarity issues."
+35,Claude,5,5,5,4,5,4,5,"The answer accurately covers the requirements and procedures for changing employers during STEM OPT, with minor clarity issues."
+42,VisaMate,5,5,3,4,5,5,5,The answer is accurate and actionable but lacks specific regulatory citations.
+42,GPT4o,3,3,1,4,3,4,4,"While the answer provides useful general advice, it lacks specific immigration-related guidance and citations relevant to F-1 visa holders."
+42,Claude,3,3,1,4,3,4,4,"While the answer provides practical advice, it lacks specific immigration compliance details and citations relevant to F-1 visa holders."
+48,VisaMate,5,5,3,4,5,5,5,"The answer accurately addresses the unemployment limits and advises consulting a DSO, but lacks specific regulatory citations."
+48,GPT4o,3,3,1,4,4,5,3,"While the answer provides relevant considerations, it lacks specific regulatory guidance and citations related to F-1 status."
+48,Claude,3,3,1,4,4,4,3,"While the answer provides useful considerations, it lacks specific regulatory references and compliance details related to F-1 status."
+55,VisaMate,5,5,3,4,5,5,5,"The answer is accurate and actionable, but could benefit from more specific citations to regulations."
+55,GPT4o,5,5,5,4,5,4,5,The answer accurately addresses the question and provides comprehensive guidance while maintaining clarity and safety.
+55,Claude,5,5,5,4,5,4,5,The answer accurately addresses the implications of an expired F-1 visa while providing clear next steps and necessary precautions.
+60,VisaMate,5,5,5,4,5,5,5,The answer accurately covers all necessary documentation and emphasizes consulting the DSO for travel safety.
+60,GPT4o,5,5,5,4,5,4,5,"The answer is accurate, comprehensive, and provides clear guidance, though slightly wordy in parts."
+60,Claude,5,5,5,4,5,5,5,The answer accurately covers all necessary travel requirements and considerations for students on OPT.
+75,VisaMate,5,5,3,4,5,5,5,The answer accurately addresses the requirements for F-1 students but lacks specific regulatory citations.
+75,GPT4o,3,4,1,4,4,5,4,The answer is mostly accurate but lacks specific references to F-1 regulations and documentation requirements.
+75,Claude,5,5,3,4,5,5,5,"The answer is mostly accurate and actionable, but lacks specific citations to immigration regulations."
+78,VisaMate,5,5,3,4,5,5,5,The answer is accurate and actionable but lacks specific regulatory citations.
+78,GPT4o,5,5,3,4,5,5,5,The answer is accurate and actionable but lacks specific regulatory citations.
+78,Claude,5,5,3,4,5,5,5,"The answer is accurate and actionable, but lacks specific regulatory citations."
+95,VisaMate,5,5,5,4,5,4,5,The answer accurately outlines the process and necessary precautions for changing status from F-1 to B-2.
+95,GPT4o,5,5,5,4,5,4,5,"The answer provides accurate, comprehensive, and actionable steps for changing to B-2 status, with minor clarity issues."
+95,Claude,5,5,5,4,5,4,5,The answer accurately addresses the question and provides comprehensive guidance while maintaining clarity and safety.
+98,VisaMate,5,5,3,4,5,5,5,"The answer is accurate and actionable, but lacks specific regulatory citations."
+98,GPT4o,5,5,1,4,5,5,5,The answer provides practical steps for managing belongings but lacks specific regulatory citations.
+98,Claude,5,5,3,4,5,5,5,"The answer is comprehensive and actionable, but lacks specific regulatory citations."
+105,VisaMate,5,5,5,4,5,4,5,"The answer accurately addresses the steps to take if an I-20 is lost while traveling, though it could be slightly clearer."
+105,GPT4o,5,5,5,4,5,4,5,"The answer provides accurate, comprehensive, and actionable steps for handling a lost I-20 while traveling."
+105,Claude,5,5,5,4,5,4,5,"The answer provides accurate, comprehensive steps and precautions for handling a lost I-20 while traveling."
+110,VisaMate,5,5,3,5,5,5,5,"The answer is accurate, clear, and actionable, but lacks specific regulatory citations."
+110,GPT4o,5,5,5,4,5,5,5,"The answer provides accurate, comprehensive, and actionable steps for addressing a SEVIS data error."
+110,Claude,5,5,5,4,5,4,5,"The answer provides accurate, comprehensive, and actionable steps for addressing SEVIS data errors."
+125,VisaMate,5,5,5,4,5,5,5,The answer accurately addresses the process for extending a program completion date and provides clear next steps.
+125,GPT4o,5,5,3,4,5,5,5,The answer is comprehensive and actionable but lacks specific citations to USCIS regulations.
+125,Claude,5,5,5,4,5,4,5,"The answer is comprehensive, accurate, and provides clear steps for requesting an extension."
+130,VisaMate,5,5,5,4,5,5,5,The answer accurately reflects F-1 visa regulations and provides clear next steps for the student.
+130,GPT4o,1,1,1,4,1,5,1,"The answer incorrectly states that a gap year is permissible under F-1 status, contradicting USCIS regulations."
+130,Claude,1,3,1,4,3,5,3,"The answer incorrectly states that a gap year is permissible under F-1 status, contradicting USCIS regulations."
+145,VisaMate,5,5,5,4,5,5,5,The answer accurately addresses the marriage and dependent visa process while providing clear next steps.
+145,GPT4o,5,5,4,4,5,5,5,"The answer is accurate and provides comprehensive guidance, though it could benefit from more specific citations."
+145,Claude,5,5,5,4,5,4,5,The answer accurately addresses the marriage and dependent status while providing clear next steps and considerations.

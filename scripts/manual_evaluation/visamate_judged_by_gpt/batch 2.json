@@ -1,0 +1,323 @@
+[
+    {
+      "qid": 41,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Matches the gold answer fully with no additional claims."
+    },
+    {
+      "qid": 42,
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.8,
+      "semantic_similarity": 0.7,
+      "explanation": "Correct about 90-day limit but adds suggestions about enrolling in a new program, which is not part of the gold answer."
+    },
+    {
+      "qid": 43,
+      "label": "incorrect",
+      "hallucination_score": 0.6,
+      "correctness_score": 0.4,
+      "semantic_similarity": 0.2,
+      "explanation": "Gold says unpaid volunteer work counts; model incorrectly says it does not count, contradicting regulations."
+    },
+    {
+      "qid": 44,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Accurately states job searching does not count as employment."
+    },
+    {
+      "qid": 45,
+      "label": "partially_correct",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.6,
+      "explanation": "Correct that DSO updates SEVIS but incorrectly says students must report unemployment, which is not required by USCIS."
+    },
+    {
+      "qid": 46,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correctly explains that exceeding 90 unemployment days ends F-1 status."
+    },
+    {
+      "qid": 47,
+      "label": "partially_correct",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.6,
+      "explanation": "Correct that unauthorized gig work is not allowed, but incorrectly states no gig work is ever allowed, ignoring the allowed case when work is related to the major and authorized under OPT."
+    },
+    {
+      "qid": 48,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Accurately reflects unemployment limits and required actions."
+    },
+    {
+      "qid": 49,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Matches gold answer exactly."
+    },
+    {
+      "qid": 50,
+      "label": "partially_correct",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.7,
+      "explanation": "Correct that you can change status via I-539, but adds unnecessary risk statements not in gold."
+    },
+    {
+      "qid": 51,
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.8,
+      "semantic_similarity": 0.8,
+      "explanation": "Mostly correct but omits that reentry requires proof of employment; suggests job letter only, not employment evidence."
+    },
+    {
+      "qid": 52,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Fully matches the gold requirements."
+    },
+    {
+      "qid": 53,
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.8,
+      "semantic_similarity": 0.7,
+      "explanation": "Correct on needing a valid visa; adds full-time enrollment requirement which is irrelevant during OPT."
+    },
+    {
+      "qid": 54,
+      "label": "partially_correct",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.7,
+      "explanation": "Correct that travel is risky but incorrectly states you should not travel until EAD is approved; gold says travel is allowed but risky."
+    },
+    {
+      "qid": 55,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Fully aligned with the gold answer."
+    },
+    {
+      "qid": 56,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correctly states DSO signs I-20 and includes six-month validity for OPT travel signatures."
+    },
+    {
+      "qid": 57,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Accurately states that reentry is not allowed during grace period."
+    },
+    {
+      "qid": 58,
+      "label": "partially_correct",
+      "hallucination_score": 0.4,
+      "correctness_score": 0.6,
+      "semantic_similarity": 0.5,
+      "explanation": "Correct that denial has serious consequences but introduces unlawful presence and removal, which is not in the gold answer."
+    },
+    {
+      "qid": 59,
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.8,
+      "semantic_similarity": 0.8,
+      "explanation": "Correct that carrying job letter is advisable; adds CPT context unnecessary but not harmful."
+    },
+    {
+      "qid": 60,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Matches gold answer fully—multiple travels allowed with proper documents."
+    },
+    {
+      "qid": 61,
+      "label": "partially_correct",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.7,
+      "explanation": "Correct filing window, but adds fabricated statement about FY 2026 cap already being reached."
+    },
+    {
+      "qid": 62,
+      "label": "incorrect",
+      "hallucination_score": 0.7,
+      "correctness_score": 0.3,
+      "semantic_similarity": 0.2,
+      "explanation": "Gold describes cap-gap; model incorrectly mentions 180-day STEM-pending extension which is unrelated to H-1B transition."
+    },
+    {
+      "qid": 63,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Accurately describes cap-gap eligibility and purpose."
+    },
+    {
+      "qid": 64,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "Correctly states cap-gap covers staying in the U.S.; slight extra info but not contradictory."
+    },
+    {
+      "qid": 65,
+      "label": "partially_correct",
+      "hallucination_score": 0.3,
+      "correctness_score": 0.7,
+      "semantic_similarity": 0.7,
+      "explanation": "Correct that transfer requires a new filing, but incorrectly claims you must wait to start work—AC21 allows portability after filing."
+    },
+    {
+      "qid": 66,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 0.9,
+      "explanation": "Fully consistent with gold; explains consequences accurately."
+    },
+    {
+      "qid": 67,
+      "label": "partially_correct",
+      "hallucination_score": 0.2,
+      "correctness_score": 0.8,
+      "semantic_similarity": 0.7,
+      "explanation": "Correct timeframe but doesn’t state that cap-gap ends immediately if petition is rejected."
+    },
+    {
+      "qid": 68,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correctly states travel abandons change-of-status request."
+    },
+    {
+      "qid": 69,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Accurately describes optional nature of premium processing."
+    },
+    {
+      "qid": 70,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Matches gold requirements."
+    },
+    {
+      "qid": 71,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Correctly states remote CPT is allowed if requirements are met."
+    },
+    {
+      "qid": 72,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Matches gold—no requirement for same state."
+    },
+    {
+      "qid": 73,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Remote OPT is allowed if job meets requirements."
+    },
+    {
+      "qid": 74,
+      "label": "incorrect",
+      "hallucination_score": 0.6,
+      "correctness_score": 0.4,
+      "semantic_similarity": 0.4,
+      "explanation": "Gold says students must report addresses to USCIS; model incorrectly says notifying DSO alone is sufficient."
+    },
+    {
+      "qid": 75,
+      "label": "incorrect",
+      "hallucination_score": 0.6,
+      "correctness_score": 0.4,
+      "semantic_similarity": 0.3,
+      "explanation": "Gold says USCIS doesn't regulate remote work abroad; model incorrectly says physical presence in U.S. is required."
+    },
+    {
+      "qid": 76,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Accurately states EAD can be mailed to any reliable address."
+    },
+    {
+      "qid": 77,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Fully matches STEM OPT remote work rules."
+    },
+    {
+      "qid": 78,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Matches DHS requirement for address reporting within 10 days."
+    },
+    {
+      "qid": 79,
+      "label": "correct",
+      "hallucination_score": 0.0,
+      "correctness_score": 1.0,
+      "semantic_similarity": 1.0,
+      "explanation": "Aligned with gold; living in one state and working remotely in another is permitted."
+    },
+    {
+      "qid": 80,
+      "label": "incorrect",
+      "hallucination_score": 0.6,
+      "correctness_score": 0.4,
+      "semantic_similarity": 0.3,
+      "explanation": "Gold says remote work is fine if authorized; model claims remote work can terminate status unless specially authorized, which is false."
+    }
+  ]
+  
